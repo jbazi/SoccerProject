@@ -1,0 +1,113 @@
+﻿.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+    -moz-animation: spin2 .7s infinite linear;
+    -o-animation: spin2 .7s infinite linear;
+    animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    from { -moz-transform: scale(1) rotate(0deg);
+            -ms-transform: scale(1) rotate(0deg);
+            -o-transform: scale(1) rotate(0deg);
+            -webkit-transform: scale(1) rotate(0deg);
+            transform: scale(1) rotate(0deg);}
+    to { -moz-transform: scale(1) rotate(360deg);
+          -ms-transform: scale(1) rotate(360deg);
+          -o-transform: scale(1) rotate(360deg);
+          -webkit-transform: scale(1) rotate(360deg);
+          transform: scale(1) rotate(360deg);}
+}
+
+
+
+@-moz-keyframes spin {
+    from { -moz-transform: scale(1) rotate(0deg);
+            -ms-transform: scale(1) rotate(0deg);
+            -o-transform: scale(1) rotate(0deg);
+            -webkit-transform: scale(1) rotate(0deg);
+            transform: scale(1) rotate(0deg);}
+    to { -moz-transform: scale(1) rotate(360deg);
+          -ms-transform: scale(1) rotate(360deg);
+          -o-transform: scale(1) rotate(360deg);
+          -webkit-transform: scale(1) rotate(360deg);
+          transform: scale(1) rotate(360deg);}
+}
+
+@-ms-keyframes spin {
+    from { -moz-transform: scale(1) rotate(0deg);
+            -ms-transform: scale(1) rotate(0deg);
+            -o-transform: scale(1) rotate(0deg);
+            -webkit-transform: scale(1) rotate(0deg);
+            transform: scale(1) rotate(0deg);}
+    to { -moz-transform: scale(1) rotate(360deg);
+          -ms-transform: scale(1) rotate(360deg);
+          -o-transform: scale(1) rotate(360deg);
+          -webkit-transform: scale(1) rotate(360deg);
+          transform: scale(1) rotate(360deg);}
+}
+
+@keyframes spin {
+    from { -moz-transform: scale(1) rotate(0deg);
+            -ms-transform: scale(1) rotate(0deg);
+            -o-transform: scale(1) rotate(0deg);
+            -webkit-transform: scale(1) rotate(0deg);
+            transform: scale(1) rotate(0deg);}
+    to { -moz-transform: scale(1) rotate(360deg);
+          -ms-transform: scale(1) rotate(360deg);
+          -o-transform: scale(1) rotate(360deg);
+          -webkit-transform: scale(1) rotate(360deg);
+          transform: scale(1) rotate(360deg);}
+}
+
+.jumbotron h1 {
+    color:chocolate;
+}
+
+#epl p{
+    display:none;
+}
+
+#epl:hover{
+    visibility:visible;
+}
+
+#teamsID p {
+    display:none;
+}
+
+#teamsID:hover p{
+    visibility:visible;
+    opacity:1;
+}
+
+#teamsID{
+    padding:0px 50px 0px 50px;
+    margin:50px;
+}
+
+.col-md-3{
+    margin-bottom:20px;
+}
+
+#teamsID:hover .arsenalID{
+    display:inline;
+  opacity: 1;
+}

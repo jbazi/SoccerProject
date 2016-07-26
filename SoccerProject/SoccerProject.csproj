@@ -1,0 +1,667 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FA409F86-47F8-427F-AFCB-30C4C9CB9496}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SoccerProject</RootNamespace>
+    <AssemblyName>SoccerProject</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AboutMe.aspx" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bundesliga.jpg" />
+    <Content Include="Content\DataTables\css\autoFill.bootstrap.css" />
+    <Content Include="Content\DataTables\css\autoFill.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\autoFill.dataTables.css" />
+    <Content Include="Content\DataTables\css\autoFill.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\autoFill.foundation.css" />
+    <Content Include="Content\DataTables\css\autoFill.foundation.min.css" />
+    <Content Include="Content\DataTables\css\autoFill.jqueryui.css" />
+    <Content Include="Content\DataTables\css\autoFill.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\buttons.bootstrap.css" />
+    <Content Include="Content\DataTables\css\buttons.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\buttons.bootstrap4.css" />
+    <Content Include="Content\DataTables\css\buttons.bootstrap4.min.css" />
+    <Content Include="Content\DataTables\css\buttons.dataTables.css" />
+    <Content Include="Content\DataTables\css\buttons.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\buttons.foundation.css" />
+    <Content Include="Content\DataTables\css\buttons.foundation.min.css" />
+    <Content Include="Content\DataTables\css\buttons.jqueryui.css" />
+    <Content Include="Content\DataTables\css\buttons.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\colReorder.bootstrap.css" />
+    <Content Include="Content\DataTables\css\colReorder.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\colReorder.dataTables.css" />
+    <Content Include="Content\DataTables\css\colReorder.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\colReorder.foundation.css" />
+    <Content Include="Content\DataTables\css\colReorder.foundation.min.css" />
+    <Content Include="Content\DataTables\css\colReorder.jqueryui.css" />
+    <Content Include="Content\DataTables\css\colReorder.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.bootstrap.css" />
+    <Content Include="Content\DataTables\css\dataTables.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.bootstrap4.css" />
+    <Content Include="Content\DataTables\css\dataTables.bootstrap4.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.foundation.css" />
+    <Content Include="Content\DataTables\css\dataTables.foundation.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.jqueryui.css" />
+    <Content Include="Content\DataTables\css\dataTables.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.material.css" />
+    <Content Include="Content\DataTables\css\dataTables.material.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.semanticui.css" />
+    <Content Include="Content\DataTables\css\dataTables.semanticui.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.uikit.css" />
+    <Content Include="Content\DataTables\css\dataTables.uikit.min.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.bootstrap.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.dataTables.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.foundation.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.foundation.min.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.jqueryui.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.bootstrap.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.dataTables.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.foundation.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.foundation.min.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.jqueryui.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\jquery.dataTables.css" />
+    <Content Include="Content\DataTables\css\jquery.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\jquery.dataTables_themeroller.css" />
+    <Content Include="Content\DataTables\css\keyTable.bootstrap.css" />
+    <Content Include="Content\DataTables\css\keyTable.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\keyTable.dataTables.css" />
+    <Content Include="Content\DataTables\css\keyTable.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\keyTable.foundation.css" />
+    <Content Include="Content\DataTables\css\keyTable.foundation.min.css" />
+    <Content Include="Content\DataTables\css\keyTable.jqueryui.css" />
+    <Content Include="Content\DataTables\css\keyTable.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\responsive.bootstrap.css" />
+    <Content Include="Content\DataTables\css\responsive.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\responsive.dataTables.css" />
+    <Content Include="Content\DataTables\css\responsive.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\responsive.foundation.css" />
+    <Content Include="Content\DataTables\css\responsive.foundation.min.css" />
+    <Content Include="Content\DataTables\css\responsive.jqueryui.css" />
+    <Content Include="Content\DataTables\css\responsive.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\rowReorder.bootstrap.css" />
+    <Content Include="Content\DataTables\css\rowReorder.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\rowReorder.dataTables.css" />
+    <Content Include="Content\DataTables\css\rowReorder.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\rowReorder.foundation.css" />
+    <Content Include="Content\DataTables\css\rowReorder.foundation.min.css" />
+    <Content Include="Content\DataTables\css\rowReorder.jqueryui.css" />
+    <Content Include="Content\DataTables\css\rowReorder.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\scroller.bootstrap.css" />
+    <Content Include="Content\DataTables\css\scroller.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\scroller.dataTables.css" />
+    <Content Include="Content\DataTables\css\scroller.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\scroller.foundation.css" />
+    <Content Include="Content\DataTables\css\scroller.foundation.min.css" />
+    <Content Include="Content\DataTables\css\scroller.jqueryui.css" />
+    <Content Include="Content\DataTables\css\scroller.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\select.bootstrap.css" />
+    <Content Include="Content\DataTables\css\select.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\select.dataTables.css" />
+    <Content Include="Content\DataTables\css\select.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\select.foundation.css" />
+    <Content Include="Content\DataTables\css\select.foundation.min.css" />
+    <Content Include="Content\DataTables\css\select.jqueryui.css" />
+    <Content Include="Content\DataTables\css\select.jqueryui.min.css" />
+    <Content Include="Content\DataTables\images\details_close.png" />
+    <Content Include="Content\DataTables\images\details_open.png" />
+    <Content Include="Content\DataTables\images\sort_asc.png" />
+    <Content Include="Content\DataTables\images\sort_asc_disabled.png" />
+    <Content Include="Content\DataTables\images\sort_both.png" />
+    <Content Include="Content\DataTables\images\sort_desc.png" />
+    <Content Include="Content\DataTables\images\sort_desc_disabled.png" />
+    <Content Include="Content\DataTables\swf\flashExport.swf" />
+    <Content Include="Content\epl.jpg" />
+    <Content Include="Content\laliga.jpg" />
+    <Content Include="Content\ligue1.jpg" />
+    <Content Include="Content\main.css" />
+    <Content Include="Content\TeamImages\EPL\Arsenal.jpg" />
+    <Content Include="Content\TeamImages\EPL\Bournemouth.jpg" />
+    <Content Include="Content\TeamImages\EPL\Burnley.jpg" />
+    <Content Include="Content\TeamImages\EPL\chelsea.jpg" />
+    <Content Include="Content\TeamImages\EPL\crystal_palace.jpg" />
+    <Content Include="Content\TeamImages\EPL\Everton.jpg" />
+    <Content Include="Content\TeamImages\EPL\Hull_City.jpg" />
+    <Content Include="Content\TeamImages\EPL\Leicester.jpg" />
+    <Content Include="Content\TeamImages\EPL\liverpool.jpg" />
+    <Content Include="Content\TeamImages\EPL\mancity.jpg" />
+    <Content Include="Content\TeamImages\EPL\ManU.jpg" />
+    <Content Include="Content\TeamImages\EPL\Middlesbrough.jpg" />
+    <Content Include="Content\TeamImages\EPL\southampton.jpg" />
+    <Content Include="Content\TeamImages\EPL\stokeCity.jpg" />
+    <Content Include="Content\TeamImages\EPL\sunderland.jpg" />
+    <Content Include="Content\TeamImages\EPL\swanseaCity.jpg" />
+    <Content Include="Content\TeamImages\EPL\Tottenham.jpg" />
+    <Content Include="Content\TeamImages\EPL\watford.jpg" />
+    <Content Include="Content\TeamImages\EPL\westBrom.jpg" />
+    <Content Include="Content\TeamImages\EPL\westHam.jpg" />
+    <Content Include="Content\TeamImages\LaLiga\Alaves.jpg" />
+    <Content Include="Content\TeamImages\LaLiga\atleticoBilbao.jpg" />
+    <Content Include="Content\TeamImages\LaLiga\atleticoMadrid.jpg" />
+    <Content Include="Content\TeamImages\LaLiga\barcelona.jpg" />
+    <Content Include="Content\TeamImages\LaLiga\celtaVigo.jpg" />
+    <Content Include="Content\TeamImages\LaLiga\deportivoLaCoruna.jpg" />
+    <Content Include="Content\TeamImages\LaLiga\eibar.jpg" />
+    <Content Include="Content\TeamImages\LaLiga\espanyol.jpg" />
+    <Content Include="Content\TeamImages\LaLiga\grananda.jpg" />
+    <Content Include="Content\TeamImages\LaLiga\lasPalmas.jpg" />
+    <Content Include="Content\TeamImages\LaLiga\leganes.jpg" />
+    <Content Include="Content\TeamImages\LaLiga\malaga.jpg" />
+    <Content Include="Content\TeamImages\LaLiga\osasuna.jpg" />
+    <Content Include="Content\TeamImages\LaLiga\realBetis.jpg" />
+    <Content Include="Content\TeamImages\LaLiga\realMadrid.jpg" />
+    <Content Include="Content\TeamImages\LaLiga\realSociedad.jpg" />
+    <Content Include="Content\TeamImages\LaLiga\sevilla.jpg" />
+    <Content Include="Content\TeamImages\LaLiga\sportingGijon.jpg" />
+    <Content Include="Content\TeamImages\LaLiga\valencia.jpg" />
+    <Content Include="Content\TeamImages\LaLiga\villareal.jpg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Home.aspx" />
+    <Content Include="LaLigaHome.aspx" />
+    <Content Include="Leagues\Bundesliga.aspx" />
+    <Content Include="Leagues\LaLiga.aspx" />
+    <Content Include="Leagues\LigueOne.aspx" />
+    <Content Include="Leagues\PremierLeague.aspx" />
+    <Content Include="MasterPages\Main.Master" />
+    <Content Include="MasterPages\League.Master" />
+    <Content Include="MasterPages\IndependentPages.Master" />
+    <Content Include="MasterPages\Teams.Master" />
+    <Content Include="packages.config" />
+    <Content Include="Content\DataTables\css\mixins.scss" />
+    <Content Include="Content\DataTables\css\common.scss" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="PremierLeagueHome.aspx" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\DataTables\autoFill.bootstrap.js" />
+    <Content Include="Scripts\DataTables\autoFill.bootstrap.min.js" />
+    <Content Include="Scripts\DataTables\autoFill.foundation.js" />
+    <Content Include="Scripts\DataTables\autoFill.foundation.min.js" />
+    <Content Include="Scripts\DataTables\autoFill.jqueryui.js" />
+    <Content Include="Scripts\DataTables\autoFill.jqueryui.min.js" />
+    <Content Include="Scripts\DataTables\buttons.bootstrap.js" />
+    <Content Include="Scripts\DataTables\buttons.bootstrap.min.js" />
+    <Content Include="Scripts\DataTables\buttons.bootstrap4.js" />
+    <Content Include="Scripts\DataTables\buttons.bootstrap4.min.js" />
+    <Content Include="Scripts\DataTables\buttons.colVis.js" />
+    <Content Include="Scripts\DataTables\buttons.colVis.min.js" />
+    <Content Include="Scripts\DataTables\buttons.flash.js" />
+    <Content Include="Scripts\DataTables\buttons.flash.min.js" />
+    <Content Include="Scripts\DataTables\buttons.foundation.js" />
+    <Content Include="Scripts\DataTables\buttons.foundation.min.js" />
+    <Content Include="Scripts\DataTables\buttons.html5.js" />
+    <Content Include="Scripts\DataTables\buttons.html5.min.js" />
+    <Content Include="Scripts\DataTables\buttons.jqueryui.js" />
+    <Content Include="Scripts\DataTables\buttons.jqueryui.min.js" />
+    <Content Include="Scripts\DataTables\buttons.print.js" />
+    <Content Include="Scripts\DataTables\buttons.print.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.autoFill.js" />
+    <Content Include="Scripts\DataTables\dataTables.autoFill.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.bootstrap.js" />
+    <Content Include="Scripts\DataTables\dataTables.bootstrap.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.bootstrap4.js" />
+    <Content Include="Scripts\DataTables\dataTables.bootstrap4.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.buttons.js" />
+    <Content Include="Scripts\DataTables\dataTables.buttons.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.colReorder.js" />
+    <Content Include="Scripts\DataTables\dataTables.colReorder.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.fixedColumns.js" />
+    <Content Include="Scripts\DataTables\dataTables.fixedColumns.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.fixedHeader.js" />
+    <Content Include="Scripts\DataTables\dataTables.fixedHeader.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.foundation.js" />
+    <Content Include="Scripts\DataTables\dataTables.foundation.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.jqueryui.js" />
+    <Content Include="Scripts\DataTables\dataTables.jqueryui.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.keyTable.js" />
+    <Content Include="Scripts\DataTables\dataTables.keyTable.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.material.js" />
+    <Content Include="Scripts\DataTables\dataTables.material.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.responsive.js" />
+    <Content Include="Scripts\DataTables\dataTables.responsive.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.rowReorder.js" />
+    <Content Include="Scripts\DataTables\dataTables.rowReorder.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.scroller.js" />
+    <Content Include="Scripts\DataTables\dataTables.scroller.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.select.js" />
+    <Content Include="Scripts\DataTables\dataTables.select.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.semanticui.js" />
+    <Content Include="Scripts\DataTables\dataTables.semanticui.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.uikit.js" />
+    <Content Include="Scripts\DataTables\dataTables.uikit.min.js" />
+    <Content Include="Scripts\DataTables\jquery.dataTables.js" />
+    <Content Include="Scripts\DataTables\jquery.dataTables.min.js" />
+    <Content Include="Scripts\DataTables\responsive.bootstrap.js" />
+    <Content Include="Scripts\DataTables\responsive.bootstrap.min.js" />
+    <Content Include="Scripts\DataTables\responsive.foundation.js" />
+    <Content Include="Scripts\DataTables\responsive.foundation.min.js" />
+    <Content Include="Scripts\DataTables\responsive.jqueryui.js" />
+    <Content Include="Scripts\DataTables\responsive.jqueryui.min.js" />
+    <None Include="Scripts\jquery-3.1.0.intellisense.js" />
+    <Content Include="Scripts\jquery-3.1.0.js" />
+    <Content Include="Scripts\jquery-3.1.0.min.js" />
+    <Content Include="Scripts\jquery-3.1.0.slim.js" />
+    <Content Include="Scripts\jquery-3.1.0.slim.min.js" />
+    <Content Include="Scripts\League_Scripts\bundesliga.js" />
+    <Content Include="Scripts\League_Scripts\laLiga.js" />
+    <Content Include="Scripts\League_Scripts\ligueOne.js" />
+    <Content Include="Scripts\League_Scripts\premierLeague.js" />
+    <Content Include="Scripts\season.js" />
+    <Content Include="Scripts\Team_Scripts\LaLiga\alaves.js" />
+    <Content Include="Scripts\Team_Scripts\LaLiga\barcelona.js" />
+    <Content Include="Scripts\Team_Scripts\Premier_League\Arsenal.js" />
+    <Content Include="Scripts\Team_Scripts\Premier_League\Bournemouth.js" />
+    <Content Include="Scripts\Team_Scripts\Premier_League\Burnely.js" />
+    <Content Include="Scripts\Team_Scripts\Premier_League\Chelsea.js" />
+    <Content Include="Scripts\Team_Scripts\Premier_League\Crystal_Palace.js" />
+    <Content Include="Scripts\Team_Scripts\Premier_League\Everton.js" />
+    <Content Include="Scripts\Team_Scripts\Premier_League\Hull_City.js" />
+    <Content Include="Scripts\Team_Scripts\Premier_League\Leicester.js" />
+    <Content Include="Scripts\Team_Scripts\Premier_League\Liverpool.js" />
+    <Content Include="Scripts\Team_Scripts\Premier_League\ManCity.js" />
+    <Content Include="Scripts\Team_Scripts\Premier_League\ManUnited.js" />
+    <Content Include="Scripts\Team_Scripts\Premier_League\Middlesbrough.js" />
+    <Content Include="Scripts\Team_Scripts\Premier_League\Southampton.js" />
+    <Content Include="Scripts\Team_Scripts\Premier_League\StokeCity.js" />
+    <Content Include="Scripts\Team_Scripts\Premier_League\Sunderland.js" />
+    <Content Include="Scripts\Team_Scripts\Premier_League\SwanseaCity.js" />
+    <Content Include="Scripts\Team_Scripts\Premier_League\Tottenham.js" />
+    <Content Include="Scripts\Team_Scripts\Premier_League\Watford.js" />
+    <Content Include="Scripts\Team_Scripts\Premier_League\WestBrom.js" />
+    <Content Include="Scripts\Team_Scripts\Premier_League\WestHam.js" />
+    <Content Include="Seasons.aspx" />
+    <Content Include="svgTest.aspx" />
+    <Content Include="Teams\La_Liga_Teams\Alaves.aspx" />
+    <Content Include="Teams\La_Liga_Teams\Barcelona.aspx" />
+    <Content Include="Teams\Premier_League_Teams\Arsenal.aspx" />
+    <Content Include="Teams\Premier_League_Teams\Bournemouth.aspx" />
+    <Content Include="Teams\Premier_League_Teams\Burnley.aspx" />
+    <Content Include="Teams\Premier_League_Teams\Chelsea.aspx" />
+    <Content Include="Teams\Premier_League_Teams\CrystalPalace.aspx" />
+    <Content Include="Teams\Premier_League_Teams\Everton.aspx" />
+    <Content Include="Teams\Premier_League_Teams\HullCity.aspx" />
+    <Content Include="Teams\Premier_League_Teams\LeicesterCity.aspx" />
+    <Content Include="Teams\Premier_League_Teams\Liverpool.aspx" />
+    <Content Include="Teams\Premier_League_Teams\ManCity.aspx" />
+    <Content Include="Teams\Premier_League_Teams\ManUnited.aspx" />
+    <Content Include="Teams\Premier_League_Teams\Middlesbrough.aspx" />
+    <Content Include="Teams\Premier_League_Teams\Southampton.aspx" />
+    <Content Include="Teams\Premier_League_Teams\Stoke_City.aspx" />
+    <Content Include="Teams\Premier_League_Teams\Sunderland.aspx" />
+    <Content Include="Teams\Premier_League_Teams\SwanseaCity.aspx" />
+    <Content Include="Teams\Premier_League_Teams\Tottenham.aspx" />
+    <Content Include="Teams\Premier_League_Teams\Watford.aspx" />
+    <Content Include="Teams\Premier_League_Teams\WestBrom.aspx" />
+    <Content Include="Teams\Premier_League_Teams\WestHam.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutMe.aspx.cs">
+      <DependentUpon>AboutMe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutMe.aspx.designer.cs">
+      <DependentUpon>AboutMe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LaLigaHome.aspx.cs">
+      <DependentUpon>LaLigaHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LaLigaHome.aspx.designer.cs">
+      <DependentUpon>LaLigaHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Leagues\Bundesliga.aspx.cs">
+      <DependentUpon>Bundesliga.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Leagues\Bundesliga.aspx.designer.cs">
+      <DependentUpon>Bundesliga.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Leagues\LaLiga.aspx.cs">
+      <DependentUpon>LaLiga.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Leagues\LaLiga.aspx.designer.cs">
+      <DependentUpon>LaLiga.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Leagues\LigueOne.aspx.cs">
+      <DependentUpon>LigueOne.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Leagues\LigueOne.aspx.designer.cs">
+      <DependentUpon>LigueOne.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Leagues\PremierLeague.aspx.cs">
+      <DependentUpon>PremierLeague.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Leagues\PremierLeague.aspx.designer.cs">
+      <DependentUpon>PremierLeague.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\IndependentPages.Master.cs">
+      <DependentUpon>IndependentPages.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\IndependentPages.Master.designer.cs">
+      <DependentUpon>IndependentPages.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\League.Master.cs">
+      <DependentUpon>League.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\League.Master.designer.cs">
+      <DependentUpon>League.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Teams.Master.cs">
+      <DependentUpon>Teams.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Teams.Master.designer.cs">
+      <DependentUpon>Teams.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PremierLeagueHome.aspx.cs">
+      <DependentUpon>PremierLeagueHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PremierLeagueHome.aspx.designer.cs">
+      <DependentUpon>PremierLeagueHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Seasons.aspx.cs">
+      <DependentUpon>Seasons.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Seasons.aspx.designer.cs">
+      <DependentUpon>Seasons.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="svgTest.aspx.cs">
+      <DependentUpon>svgTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="svgTest.aspx.designer.cs">
+      <DependentUpon>svgTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\Alaves.aspx.cs">
+      <DependentUpon>Alaves.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\Alaves.aspx.designer.cs">
+      <DependentUpon>Alaves.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\Barcelona.aspx.cs">
+      <DependentUpon>Barcelona.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\Barcelona.aspx.designer.cs">
+      <DependentUpon>Barcelona.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Arsenal.aspx.cs">
+      <DependentUpon>Arsenal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Arsenal.aspx.designer.cs">
+      <DependentUpon>Arsenal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Bournemouth.aspx.cs">
+      <DependentUpon>Bournemouth.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Bournemouth.aspx.designer.cs">
+      <DependentUpon>Bournemouth.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Burnley.aspx.cs">
+      <DependentUpon>Burnley.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Burnley.aspx.designer.cs">
+      <DependentUpon>Burnley.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Chelsea.aspx.cs">
+      <DependentUpon>Chelsea.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Chelsea.aspx.designer.cs">
+      <DependentUpon>Chelsea.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\CrystalPalace.aspx.cs">
+      <DependentUpon>CrystalPalace.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\CrystalPalace.aspx.designer.cs">
+      <DependentUpon>CrystalPalace.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Everton.aspx.cs">
+      <DependentUpon>Everton.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Everton.aspx.designer.cs">
+      <DependentUpon>Everton.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\HullCity.aspx.cs">
+      <DependentUpon>HullCity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\HullCity.aspx.designer.cs">
+      <DependentUpon>HullCity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\LeicesterCity.aspx.cs">
+      <DependentUpon>LeicesterCity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\LeicesterCity.aspx.designer.cs">
+      <DependentUpon>LeicesterCity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Liverpool.aspx.cs">
+      <DependentUpon>Liverpool.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Liverpool.aspx.designer.cs">
+      <DependentUpon>Liverpool.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\ManCity.aspx.cs">
+      <DependentUpon>ManCity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\ManCity.aspx.designer.cs">
+      <DependentUpon>ManCity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\ManUnited.aspx.cs">
+      <DependentUpon>ManUnited.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\ManUnited.aspx.designer.cs">
+      <DependentUpon>ManUnited.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Middlesbrough.aspx.cs">
+      <DependentUpon>Middlesbrough.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Middlesbrough.aspx.designer.cs">
+      <DependentUpon>Middlesbrough.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Southampton.aspx.cs">
+      <DependentUpon>Southampton.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Southampton.aspx.designer.cs">
+      <DependentUpon>Southampton.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Stoke_City.aspx.cs">
+      <DependentUpon>Stoke_City.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Stoke_City.aspx.designer.cs">
+      <DependentUpon>Stoke_City.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Sunderland.aspx.cs">
+      <DependentUpon>Sunderland.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Sunderland.aspx.designer.cs">
+      <DependentUpon>Sunderland.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\SwanseaCity.aspx.cs">
+      <DependentUpon>SwanseaCity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\SwanseaCity.aspx.designer.cs">
+      <DependentUpon>SwanseaCity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Tottenham.aspx.cs">
+      <DependentUpon>Tottenham.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Tottenham.aspx.designer.cs">
+      <DependentUpon>Tottenham.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Watford.aspx.cs">
+      <DependentUpon>Watford.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\Watford.aspx.designer.cs">
+      <DependentUpon>Watford.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\WestBrom.aspx.cs">
+      <DependentUpon>WestBrom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\WestBrom.aspx.designer.cs">
+      <DependentUpon>WestBrom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\WestHam.aspx.cs">
+      <DependentUpon>WestHam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Premier_League_Teams\WestHam.aspx.designer.cs">
+      <DependentUpon>WestHam.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\jquery-3.1.0.slim.min.map" />
+    <Content Include="Scripts\jquery-3.1.0.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scripts\Team_Scripts\Bundesliga\" />
+    <Folder Include="Scripts\Team_Scripts\Ligue_One\" />
+    <Folder Include="Teams\Bundesliga_Teams\" />
+    <Folder Include="Teams\LigueOne_Teams\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55563</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:8080/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

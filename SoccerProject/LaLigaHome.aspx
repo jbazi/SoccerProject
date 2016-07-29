@@ -30,7 +30,7 @@
 
         <div class="col-md-3">
             <a href="Teams/La_Liga_Teams/Alaves.aspx" target="_blank" onclick="return windowpop(this.href, 600, 600)">
-                <img src="Content/TeamImages/LaLiga/Alaves.jpg" width="100" height="100"  title="Click to see Deportivo Alaves players." />
+                <img src="Content/TeamImages/LaLiga/Alaves.jpg" width="100" height="100"  title="Click to see Deportivo Alavés players." />
             </a>
             <br />
         </div>
@@ -89,7 +89,6 @@
         </div>
 
         <!--__________________________________________________________________________________________________ -->
-
         <!--Third Row Span -->
         <!--__________________________________________________________________________________________________ -->
 
@@ -125,7 +124,6 @@
 
         <!--Fourth Row Span -->
         <!--__________________________________________________________________________________________________ -->
-
 
         <div class="col-md-3">
             <a href="Teams/Premier_League_Teams/Southampton.aspx" target="_blank" onclick="return windowpop(this.href, 600, 600)">
@@ -167,7 +165,6 @@
                 <img src="Content/TeamImages/LaLiga/sevilla.jpg" width="100" height="100" title="Click to see Sevilla players."/>
             </a>
             <br />
-
         </div>
 
         <div class="col-md-3">
@@ -177,7 +174,6 @@
             <br />
             <br />
         </div>
-
 
         <div class="col-md-3">
             <a href="Teams/Premier_League_Teams/WestBrom.aspx" target="_blank" onclick="return windowpop(this.href, 600, 600)">

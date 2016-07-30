@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -314,7 +315,23 @@
     <Content Include="Scripts\League_Scripts\premierLeague.js" />
     <Content Include="Scripts\season.js" />
     <Content Include="Scripts\Team_Scripts\LaLiga\alaves.js" />
+    <Content Include="Scripts\Team_Scripts\LaLiga\atleticoBilbao.js" />
+    <Content Include="Scripts\Team_Scripts\LaLiga\atleticoDeMadrid.js" />
     <Content Include="Scripts\Team_Scripts\LaLiga\barcelona.js" />
+    <Content Include="Scripts\Team_Scripts\LaLiga\celtaVigo.js" />
+    <Content Include="Scripts\Team_Scripts\LaLiga\deportivoLaCoruna.js" />
+    <Content Include="Scripts\Team_Scripts\LaLiga\espanyol.js" />
+    <Content Include="Scripts\Team_Scripts\LaLiga\granada.js" />
+    <Content Include="Scripts\Team_Scripts\LaLiga\lasPalmas.js" />
+    <Content Include="Scripts\Team_Scripts\LaLiga\malaga.js" />
+    <Content Include="Scripts\Team_Scripts\LaLiga\realBetis.js" />
+    <Content Include="Scripts\Team_Scripts\LaLiga\realMadrid.js" />
+    <Content Include="Scripts\Team_Scripts\LaLiga\realSociedad.js" />
+    <Content Include="Scripts\Team_Scripts\LaLiga\sdEibar.js" />
+    <Content Include="Scripts\Team_Scripts\LaLiga\sevilla.js" />
+    <Content Include="Scripts\Team_Scripts\LaLiga\sportingGijon.js" />
+    <Content Include="Scripts\Team_Scripts\LaLiga\valencia.js" />
+    <Content Include="Scripts\Team_Scripts\LaLiga\villarreal.js" />
     <Content Include="Scripts\Team_Scripts\Premier_League\Arsenal.js" />
     <Content Include="Scripts\Team_Scripts\Premier_League\Bournemouth.js" />
     <Content Include="Scripts\Team_Scripts\Premier_League\Burnely.js" />
@@ -338,7 +355,23 @@
     <Content Include="Seasons.aspx" />
     <Content Include="svgTest.aspx" />
     <Content Include="Teams\La_Liga_Teams\Alaves.aspx" />
+    <Content Include="Teams\La_Liga_Teams\AtleticoBilbao.aspx" />
+    <Content Include="Teams\La_Liga_Teams\AtleticoDeMadrid.aspx" />
     <Content Include="Teams\La_Liga_Teams\Barcelona.aspx" />
+    <Content Include="Teams\La_Liga_Teams\CeltaVigo.aspx" />
+    <Content Include="Teams\La_Liga_Teams\DeportivoLaCoruna.aspx" />
+    <Content Include="Teams\La_Liga_Teams\Espanyol.aspx" />
+    <Content Include="Teams\La_Liga_Teams\Granada.aspx" />
+    <Content Include="Teams\La_Liga_Teams\LasPalmas.aspx" />
+    <Content Include="Teams\La_Liga_Teams\Malaga.aspx" />
+    <Content Include="Teams\La_Liga_Teams\RealBetis.aspx" />
+    <Content Include="Teams\La_Liga_Teams\RealMadrid.aspx" />
+    <Content Include="Teams\La_Liga_Teams\RealSociedad.aspx" />
+    <Content Include="Teams\La_Liga_Teams\SdEibar.aspx" />
+    <Content Include="Teams\La_Liga_Teams\Sevilla.aspx" />
+    <Content Include="Teams\La_Liga_Teams\SportingGijon.aspx" />
+    <Content Include="Teams\La_Liga_Teams\Valencia.aspx" />
+    <Content Include="Teams\La_Liga_Teams\Villarreal.aspx" />
     <Content Include="Teams\Premier_League_Teams\Arsenal.aspx" />
     <Content Include="Teams\Premier_League_Teams\Bournemouth.aspx" />
     <Content Include="Teams\Premier_League_Teams\Burnley.aspx" />
@@ -468,12 +501,124 @@
     <Compile Include="Teams\La_Liga_Teams\Alaves.aspx.designer.cs">
       <DependentUpon>Alaves.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Teams\La_Liga_Teams\AtleticoBilbao.aspx.cs">
+      <DependentUpon>AtleticoBilbao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\AtleticoBilbao.aspx.designer.cs">
+      <DependentUpon>AtleticoBilbao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\AtleticoDeMadrid.aspx.cs">
+      <DependentUpon>AtleticoDeMadrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\AtleticoDeMadrid.aspx.designer.cs">
+      <DependentUpon>AtleticoDeMadrid.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Teams\La_Liga_Teams\Barcelona.aspx.cs">
       <DependentUpon>Barcelona.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Teams\La_Liga_Teams\Barcelona.aspx.designer.cs">
       <DependentUpon>Barcelona.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\CeltaVigo.aspx.cs">
+      <DependentUpon>CeltaVigo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\CeltaVigo.aspx.designer.cs">
+      <DependentUpon>CeltaVigo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\DeportivoLaCoruna.aspx.cs">
+      <DependentUpon>DeportivoLaCoruna.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\DeportivoLaCoruna.aspx.designer.cs">
+      <DependentUpon>DeportivoLaCoruna.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\Espanyol.aspx.cs">
+      <DependentUpon>Espanyol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\Espanyol.aspx.designer.cs">
+      <DependentUpon>Espanyol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\Granada.aspx.cs">
+      <DependentUpon>Granada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\Granada.aspx.designer.cs">
+      <DependentUpon>Granada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\LasPalmas.aspx.cs">
+      <DependentUpon>LasPalmas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\LasPalmas.aspx.designer.cs">
+      <DependentUpon>LasPalmas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\Malaga.aspx.cs">
+      <DependentUpon>Malaga.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\Malaga.aspx.designer.cs">
+      <DependentUpon>Malaga.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\RealBetis.aspx.cs">
+      <DependentUpon>RealBetis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\RealBetis.aspx.designer.cs">
+      <DependentUpon>RealBetis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\RealMadrid.aspx.cs">
+      <DependentUpon>RealMadrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\RealMadrid.aspx.designer.cs">
+      <DependentUpon>RealMadrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\RealSociedad.aspx.cs">
+      <DependentUpon>RealSociedad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\RealSociedad.aspx.designer.cs">
+      <DependentUpon>RealSociedad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\SdEibar.aspx.cs">
+      <DependentUpon>SdEibar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\SdEibar.aspx.designer.cs">
+      <DependentUpon>SdEibar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\Sevilla.aspx.cs">
+      <DependentUpon>Sevilla.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\Sevilla.aspx.designer.cs">
+      <DependentUpon>Sevilla.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\SportingGijon.aspx.cs">
+      <DependentUpon>SportingGijon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\SportingGijon.aspx.designer.cs">
+      <DependentUpon>SportingGijon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\Valencia.aspx.cs">
+      <DependentUpon>Valencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\Valencia.aspx.designer.cs">
+      <DependentUpon>Valencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\Villarreal.aspx.cs">
+      <DependentUpon>Villarreal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\La_Liga_Teams\Villarreal.aspx.designer.cs">
+      <DependentUpon>Villarreal.aspx</DependentUpon>
     </Compile>
     <Compile Include="Teams\Premier_League_Teams\Arsenal.aspx.cs">
       <DependentUpon>Arsenal.aspx</DependentUpon>

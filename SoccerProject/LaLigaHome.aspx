@@ -55,6 +55,7 @@
             </a>
             <br />
         </div>
+
         <!--__________________________________________________________________________________________________ -->
 
         <!--Second Row Span -->
@@ -171,7 +172,6 @@
             <a href="Teams/La_Liga_Teams/SportingGijon.aspx" target="_blank" onclick="return windowpop(this.href, 600, 600)" >
                 <img src="Content/TeamImages/LaLiga/sportingGijon.jpg" width="100" height="100" title="Click to see Sporting Gijon players." />
             </a>
-            <br />
             <br />
         </div>
 

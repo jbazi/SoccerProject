@@ -99,7 +99,7 @@
             </a>
             <br />
         </div>
-
+        
         <div class="col-md-3">
             <a href="Teams/La_Liga_Teams/LasPalmas.aspx" target="_blank" onclick="return windowpop(this.href, 600, 600)">
                 <img src="Content/TeamImages/LaLiga/lasPalmas.jpg" width="100" height="100" title="Click to see Las Palmas players."/>
@@ -122,8 +122,9 @@
         </div>
 
         <!--__________________________________________________________________________________________________ -->
-
+        
         <!--Fourth Row Span -->
+        
         <!--__________________________________________________________________________________________________ -->
 
         <div class="col-md-3">
@@ -159,7 +160,6 @@
         <!--Fifth Row Span -->
 
         <!--__________________________________________________________________________________________________ -->
-
 
         <div class="col-md-3">
             <a href="Teams/La_Liga_Teams/Sevilla.aspx" target="_blank" onclick="return windowpop(this.href, 600, 600)">

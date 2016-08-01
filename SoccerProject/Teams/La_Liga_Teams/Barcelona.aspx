@@ -6,7 +6,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
         <div class="jumbotron">
-            <h1>Deportivo Alavés Players</h1>
+            <h1>Barcelona Players</h1>
             <p>2016 - 2017 Season Squad</p>
         </div>
     </div>

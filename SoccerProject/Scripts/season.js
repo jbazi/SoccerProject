@@ -1,5 +1,12 @@
 ﻿$(document).ready(function () {
     $("#myTable").dataTable({
+        "fnRowCallback": function( nRow, aData, iDisplayIndex, iDisplayIndexFull ) {
+            // Bold the grade for all 'A' grade browsers
+            if (aData[426] === "Premier League 2016/17")
+            {
+                $('td:eq(426)', nRow).html('<a href="../PremierLeagueHome.aspx">Premier League 2016/17</a>');
+            }
+        },
         'bProcessing': true,
         'bAutoWidth': true,
         'iDisplayLength': 10,
@@ -34,17 +41,42 @@ function renderData(result) {
             blID    = Bundesliga 2016/17
             lgoneID = Ligue 1 2016/17
         */
-        var euroID = 424, plID = 426, lalgID=436, blID=430, lgoneID = 434;
-        if (this.id == euroID || this.id == plID || this.id == lalgID || this.id == blID || this.id == lgoneID) {
+        var plID = 426, lalgID=436, blID=430, lgoneID = 434;
+        if (this.id == plID || this.id == lalgID || this.id == blID || this.id == lgoneID) {
             DataArray.push([this.caption, this.numberOfTeams, this.numberOfGames]);
+
+            
+            
+
+            
+            
         }
+        if (this.id === plID) {
+            //$("#myTable,thead").attr('title', 'Navigate to Premier League Home page');
+            $("#myTable, th").wrapInner('<a href="#' + '" />');
+            $("#myTable").on('click hover', function (event) {
+                event.preventDefault();
+                window.location.href = "../PremierLeagueHome.aspx";
+                
+            })
+        }
+
+
+        if (this.id === lalgID) {
+            $("#myTable, th").wrapInner('<a href="#' + '" />');
+            $("#myTable").on('click hover', function (event) {
+                event.preventDefault();
+                window.location.href = "../LaLigaHome.aspx";
+                
+            })
+        }
+            
     });
 
     $('#myTable').dataTable().fnAddData(DataArray);
     $('#myTable').dataTable().fnAdjustColumnSizing();
-}
 
-function clicks() {
 
 }
+
 

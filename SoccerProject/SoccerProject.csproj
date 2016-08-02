@@ -175,9 +175,7 @@
     <Content Include="Content\epl.jpg" />
     <Content Include="Content\laliga.jpg" />
     <Content Include="Content\ligue1.jpg" />
-    <Content Include="Content\loading.gif" />
     <Content Include="Content\main.css" />
-    <Content Include="Content\soccerLoad.gif" />
     <Content Include="Content\TeamImages\EPL\Arsenal.jpg" />
     <Content Include="Content\TeamImages\EPL\Bournemouth.jpg" />
     <Content Include="Content\TeamImages\EPL\Burnley.jpg" />

@@ -15,7 +15,7 @@
         "oLanguage": { "sEmptyTable": "No teams were found with the API provided" },
         "sDom": '<"H"lf<"clear-right"p>>rt<"F"ip>',
     });
-
+    
     getData();
 
 });
@@ -43,32 +43,17 @@ function renderData(result) {
         */
         var plID = 426, lalgID=436, blID=430, lgoneID = 434;
         if (this.id == plID || this.id == lalgID || this.id == blID || this.id == lgoneID) {
-            DataArray.push([this.caption, this.numberOfTeams, this.numberOfGames]);
+            var link;
+            if (this.id == plID) {
+                link = "<a href='../PremierLeagueHome.aspx'  + target=_blank + title='Navigate to Premier League Home'>" + this.caption + "</a>";
+            }
+            else if (this.id == lalgID) {
+                link = "<a href='../LaLigaHome.aspx' target=_blank + title='Navigate to La Liga Home'>" + this.caption + "</a>";
 
-            
-            
-
-            
-            
-        }
-        if (this.id === plID) {
-            //$("#myTable,thead").attr('title', 'Navigate to Premier League Home page');
-            $("#myTable, th").wrapInner('<a href="#' + '" />');
-            $("#myTable").on('click hover', function (event) {
-                event.preventDefault();
-                window.location.href = "../PremierLeagueHome.aspx";
-                
-            })
-        }
-
-
-        if (this.id === lalgID) {
-            $("#myTable, th").wrapInner('<a href="#' + '" />');
-            $("#myTable").on('click hover', function (event) {
-                event.preventDefault();
-                window.location.href = "../LaLigaHome.aspx";
-                
-            })
+            }
+            else
+                link = this.caption;
+            DataArray.push([link, this.numberOfTeams, this.numberOfGames]);
         }
             
     });

@@ -1,17 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/IndependentPages.Master" AutoEventWireup="true" CodeBehind="PremierLeagueHome.aspx.cs" Inherits="SoccerProject.PremierLeagueHome" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <script>
-        function windowpop(url, width, height) {
-            var leftPosition, topPosition;
-            //Allow for borders.
-            leftPosition = (window.screen.width / 2) - ((width / 2) + 10);
-            //Allow for title and status bars.
-            topPosition = (window.screen.height / 2) - ((height / 2) + 50);
-            //Open the window.
-            window.open(url, "Window2", "status=no,height=" + height + ",width=" + width + ",resizable=yes,left=" + leftPosition + ",top=" + topPosition + ",screenX=" + leftPosition + ",screenY=" + topPosition + ",toolbar=no,menubar=no,scrollbars=no,location=no,directories=no");
-        }
-    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">

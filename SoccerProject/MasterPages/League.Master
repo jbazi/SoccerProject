@@ -12,6 +12,11 @@
     <link href="../Content/DataTables/css/jquery.dataTables.min.css" rel="stylesheet" />
     <link href="../Content/bootstrap.min.css" rel="stylesheet" />
     <link href="../Content/main.css" rel="stylesheet" />
+    <script>
+        $(window).load(function () {
+            $(".loader").fadeOut("slow");
+        })
+    </script>
 </head>
 
 <body>

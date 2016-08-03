@@ -1,28 +1,16 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Teams.master.cs" Inherits="SoccerProject.MasterPages.Teams" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="User.master.cs" Inherits="SoccerProject.MasterPages.User" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head id="Head1" runat="server">
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
-    <link href="../Content/DataTables/css/jquery.dataTables.min.css" rel="stylesheet" />
     <link href="../Content/bootstrap.min.css" rel="stylesheet" />
     <link href="../Content/main.css" rel="stylesheet" />
     <script>
-        function windowpop(url, width, height) {
-            var leftPosition, topPosition;
-            //Allow for borders.
-            leftPosition = (window.screen.width / 2) - ((width / 2) + 10);
-            //Allow for title and status bars.
-            topPosition = (window.screen.height / 2) - ((height / 2) + 50);
-            //Open the window.
-            window.open(url, "Window2", "status=no,height=" + height + ",width=" + width + ",resizable=yes,left=" + leftPosition + ",top=" + topPosition + ",screenX=" + leftPosition + ",screenY=" + topPosition + ",toolbar=no,menubar=no,scrollbars=no,location=no,directories=no");
-        }
-
         $(window).load(function () {
             $(".loader").fadeOut("slow");
         })
@@ -41,7 +29,7 @@
                 </button>
                 <a class="navbar-brand" href="../Home.aspx">Brand</a>
             </div>
-            
+
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="../Home.aspx">Home </a></li>
@@ -71,39 +59,16 @@
             </div>
         </div>
     </nav>
+
+     
+
+    
     <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
-        </div>
-    </form>
-    <div style="overflow-x: auto;">
-        <table id='myTable' class="table table-hover">
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Position</th>
-                    <th>Jersey Number</th>
-                    <th>Nationality</th>
-                    <th>Signed Until</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td colspan='2'>
-                        <button class="btn btn-lg btn-warning"><span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span>Loading...</button>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
     </div>
-    <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; shemas_world 2016</p>
-                </div>
-            </div>
-            <!-- /.row -->
-        </footer>
+    </form>
 </body>
 </html>

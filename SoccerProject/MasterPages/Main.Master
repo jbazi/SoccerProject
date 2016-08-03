@@ -19,6 +19,7 @@
     </script>
 </head>
 <body>
+    <div class="loader"></div>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -54,6 +55,7 @@
                         </ul>
                     </li>
                     <li><a href="../AboutMe.aspx">About</a></li>
+                    <li id="UserSignInOut"> <a href="../UserAuthentication/RegisterUser.aspx"> Sign In </a></li>
                 </ul>
 
             </div>

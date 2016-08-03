@@ -122,3 +122,32 @@
     background: url('ajax-loader.gif') 50% 50% no-repeat;
     background-color:#2b3e50;
 }
+
+#registerTable {
+    border:3px; 
+    border-style:outset;
+    border-color:#ff6a00; 
+    width: 50%;
+    margin:1em auto;  
+    padding:10px 15px;
+    font-size: 14px;
+
+}
+
+.txtBox{
+    background-color:#2b3e50;
+    opacity:0.6;
+    color:#ff6a00;
+    font-weight: 900;
+}
+
+.btnSignUp{
+    background-color:#1aaa21;
+    color:white;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

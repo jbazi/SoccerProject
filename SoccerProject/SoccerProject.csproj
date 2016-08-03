@@ -305,6 +305,7 @@
     <Content Include="Scripts\DataTables\responsive.foundation.min.js" />
     <Content Include="Scripts\DataTables\responsive.jqueryui.js" />
     <Content Include="Scripts\DataTables\responsive.jqueryui.min.js" />
+    <Content Include="MasterPages\User.Master" />
     <None Include="Scripts\jquery-3.1.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.1.0.js" />
     <Content Include="Scripts\jquery-3.1.0.min.js" />
@@ -393,6 +394,7 @@
     <Content Include="Teams\Premier_League_Teams\Watford.aspx" />
     <Content Include="Teams\Premier_League_Teams\WestBrom.aspx" />
     <Content Include="Teams\Premier_League_Teams\WestHam.aspx" />
+    <Content Include="UserAuthentication\RegisterUser.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -472,6 +474,13 @@
     </Compile>
     <Compile Include="MasterPages\Teams.Master.designer.cs">
       <DependentUpon>Teams.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\User.Master.cs">
+      <DependentUpon>User.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\User.Master.designer.cs">
+      <DependentUpon>User.Master</DependentUpon>
     </Compile>
     <Compile Include="PremierLeagueHome.aspx.cs">
       <DependentUpon>PremierLeagueHome.aspx</DependentUpon>
@@ -760,6 +769,13 @@
     </Compile>
     <Compile Include="Teams\Premier_League_Teams\WestHam.aspx.designer.cs">
       <DependentUpon>WestHam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserAuthentication\RegisterUser.aspx.cs">
+      <DependentUpon>RegisterUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserAuthentication\RegisterUser.aspx.designer.cs">
+      <DependentUpon>RegisterUser.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

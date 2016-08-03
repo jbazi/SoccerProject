@@ -1,11 +1,10 @@
-C:\My_2016_Portfolio\SoccerProject\SoccerProject\bin\SoccerProject.dll
-C:\My_2016_Portfolio\SoccerProject\SoccerProject\bin\SoccerProject.pdb
-C:\My_2016_Portfolio\SoccerProject\SoccerProject\obj\Debug\SoccerProject.dll
-C:\My_2016_Portfolio\SoccerProject\SoccerProject\obj\Debug\SoccerProject.pdb
-C:\My_2016_Portfolio\SoccerProject\SoccerProject\obj\Debug\SoccerProject.csprojResolveAssemblyReference.cache
 C:\Users\bazit\OneDrive\Documents\Visual Studio 2015\Projects\SoccerProject\SoccerProject\bin\SoccerProject.dll.config
 C:\Users\bazit\OneDrive\Documents\Visual Studio 2015\Projects\SoccerProject\SoccerProject\bin\SoccerProject.dll
 C:\Users\bazit\OneDrive\Documents\Visual Studio 2015\Projects\SoccerProject\SoccerProject\bin\SoccerProject.pdb
 C:\Users\bazit\OneDrive\Documents\Visual Studio 2015\Projects\SoccerProject\SoccerProject\obj\Debug\SoccerProject.csprojResolveAssemblyReference.cache
 C:\Users\bazit\OneDrive\Documents\Visual Studio 2015\Projects\SoccerProject\SoccerProject\obj\Debug\SoccerProject.dll
 C:\Users\bazit\OneDrive\Documents\Visual Studio 2015\Projects\SoccerProject\SoccerProject\obj\Debug\SoccerProject.pdb
+C:\My_2016_Portfolio\SoccerProject\SoccerProject\bin\SoccerProject.dll
+C:\My_2016_Portfolio\SoccerProject\SoccerProject\bin\SoccerProject.pdb
+C:\My_2016_Portfolio\SoccerProject\SoccerProject\obj\Debug\SoccerProject.dll
+C:\My_2016_Portfolio\SoccerProject\SoccerProject\obj\Debug\SoccerProject.pdb

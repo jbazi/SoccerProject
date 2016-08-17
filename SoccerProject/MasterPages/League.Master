@@ -13,7 +13,7 @@
     <link href="../Content/bootstrap.min.css" rel="stylesheet" />
     <link href="../Content/main.css" rel="stylesheet" />
     <script>
-        $(window).load(function () {
+        $(window).on('load', function () {
             $(".loader").fadeOut("slow");
         })
     </script>
@@ -78,6 +78,7 @@
             <th>W</th>
             <th>D</th>
             <th>L</th>
+            <th>G</th>
             <th>GA</th>
             <th>GD</th>
             <th>Pts</th>

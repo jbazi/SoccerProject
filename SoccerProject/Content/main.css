@@ -77,7 +77,7 @@
           transform: scale(1) rotate(360deg);}
 }
 
-.jumbotron h1 {
+.jumbotron h1,p {
     color:chocolate;
 }
 
@@ -99,8 +99,8 @@
 }
 
 #teamsID{
-    padding:0px 50px 0px 50px;
-    margin:50px;
+    /**/padding: 0px 50px 50px 50px;
+    margin:0px 50px 50px 50px;
 }
 
 .col-md-3{
@@ -120,7 +120,7 @@
     height: 100%;
     z-index: 9999;
     background: url('ajax-loader.gif') 50% 50% no-repeat;
-    background-color:#2b3e50;
+    background-color:#fff;
 }
 
 #registerTable {
@@ -150,4 +150,12 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+#laLigaBanner{
+    background:url(Banner_Images/laLigaBanner.jpg) no-repeat content-box;
+}
+
+#eplBanner{
+    background:url(Banner_Images/EPL_Banner.jpg) no-repeat;
 }

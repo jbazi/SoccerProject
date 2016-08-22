@@ -32,6 +32,7 @@ function renderData(result) {
                         this.wins,
                         this.draws,
                         this.losses,
+                        this.goals,
                         this.goalsAgainst,
                         this.goalDifference,
                         this.points

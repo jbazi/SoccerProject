@@ -14,10 +14,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
-        <div class="jumbotron">
+        <div id="laLigaBanner" class="jumbotron">
             <h1>La Liga</h1>
             <p>Spanish 2016 - 2017 Season</p>
-
             <p>Click on your favorite club below, to see the list of players.</p>
         </div>
     </div>

@@ -8,3 +8,4 @@ C:\My_2016_Portfolio\SoccerProject\SoccerProject\bin\SoccerProject.dll
 C:\My_2016_Portfolio\SoccerProject\SoccerProject\bin\SoccerProject.pdb
 C:\My_2016_Portfolio\SoccerProject\SoccerProject\obj\Debug\SoccerProject.dll
 C:\My_2016_Portfolio\SoccerProject\SoccerProject\obj\Debug\SoccerProject.pdb
+C:\My_2016_Portfolio\SoccerProject\SoccerProject\obj\Debug\SoccerProject.csprojResolveAssemblyReference.cache

@@ -5,11 +5,11 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
-        <div class="jumbotron">
+        <div id="eplBanner" class="jumbotron">
             <h1>Premier League</h1>
             <p>England 2016 - 2017 Season</p>
-
-            <p>Click on your favorite club below, to see the list of players.</p>
+            <br />
+            <br />
         </div>
     </div>
 

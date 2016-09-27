@@ -9,11 +9,10 @@
     <p>2016 - 2017 Season</p>
   </div>
         </div>
-
     <div>
 
         <div class="banner-info">
-                    <h3> Welcome to </h3> <h1>Sasa Scores </h1>
+                    <h3> Welcome to </h3> <h1 data-animate="fadeInDown">Sasa Scores </h1>
             </div>
         <div class="row">
             <div id="epl" class="col-sm-3 col-xs-6">

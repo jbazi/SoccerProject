@@ -56,9 +56,9 @@
 }
 
 #brandName {
-    font-family: 'Bungee Shade', cursive;
-    color:white;
-    text-align: center;
+    font-family: 'Bungee Shade', cursive !important;
+    color:white !important;
+    text-align: center !important;
 }
 
 .jumbotron {

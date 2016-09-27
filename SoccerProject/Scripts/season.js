@@ -45,17 +45,16 @@ function renderData(result) {
         if (this.id == plID || this.id == lalgID || this.id == blID || this.id == lgoneID) {
             var link;
             if (this.id == plID) {
-                link = "<a href='../PremierLeagueHome.aspx'  + target=_blank + title='Navigate to Premier League Home'>" + this.caption + "</a>";
+                link = "<a id='plLeagueAnchor' style='color:white;' href='../PremierLeagueHome.aspx'  + target=_blank + title='Navigate to Premier League Home'>" + this.caption + "</a>";
             }
             else if (this.id == lalgID) {
-                link = "<a href='../LaLigaHome.aspx' target=_blank + title='Navigate to La Liga Home'>" + this.caption + "</a>";
+                link = "<a id='laLigaAnchor' style='color:white;' href='../LaLigaHome.aspx' target=_blank + title='Navigate to La Liga Home'>" + this.caption + "</a>";
 
             }
             else
                 link = this.caption;
             DataArray.push([link, this.numberOfTeams, this.numberOfGames]);
-        }
-            
+        }    
     });
 
     $('#myTable').dataTable().fnAddData(DataArray);

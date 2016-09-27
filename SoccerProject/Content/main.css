@@ -1,4 +1,77 @@
-﻿.glyphicon-refresh-animate {
+﻿html {
+    background: url('Banner_Images/banner.jpg') no-repeat 0px 0px;
+    background-size: cover;
+    width: 100%;
+    min-height: 900px;
+}
+
+.banner {
+    background: url('Banner_Images/banner.jpg') no-repeat 0px 0px;
+    background-size: cover;
+    width: 100%;
+    min-height: 900px;
+}
+
+.banner-info p {
+    color: #fff;
+    margin: 0 0 3em;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.start a {
+    font-size: 13px;
+    color: #fff;
+    padding: 20px 50px;
+    border: 1px solid #494D1A;
+    font-family: 'Montserrat', sans-serif;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+    -o-transition: .5s all;
+    background: #47A508;
+}
+
+    .start a:hover {
+        text-decoration: none;
+        color: #494D1A;
+        border: 1px solid #fff;
+    }
+
+.banner-info > h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 46px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.banner-info > h1 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 86px;
+    color: white;
+    text-align: center;
+}
+
+#brandName {
+    font-family: 'Bungee Shade', cursive;
+    color:white;
+    text-align: center;
+}
+
+.jumbotron {
+    opacity: 0.5 !important;
+}
+
+    .jumbotron > h1, p {
+        font-family: 'Lobster', cursive !important;
+        color: white !important;
+        text-align: center !important;
+    }
+
+.glyphicon-refresh-animate {
     -animation: spin .7s infinite linear;
     -webkit-animation: spin2 .7s infinite linear;
     -moz-animation: spin2 .7s infinite linear;
@@ -14,6 +87,7 @@
         -o-transform: rotate(0deg);
         transform: rotate(0deg);
     }
+
     to {
         -webkit-transform: rotate(360deg);
         -moz-transform: rotate(360deg);
@@ -24,92 +98,121 @@
 }
 
 @keyframes spin {
-    from { -moz-transform: scale(1) rotate(0deg);
-            -ms-transform: scale(1) rotate(0deg);
-            -o-transform: scale(1) rotate(0deg);
-            -webkit-transform: scale(1) rotate(0deg);
-            transform: scale(1) rotate(0deg);}
-    to { -moz-transform: scale(1) rotate(360deg);
-          -ms-transform: scale(1) rotate(360deg);
-          -o-transform: scale(1) rotate(360deg);
-          -webkit-transform: scale(1) rotate(360deg);
-          transform: scale(1) rotate(360deg);}
+    from {
+        -moz-transform: scale(1) rotate(0deg);
+        -ms-transform: scale(1) rotate(0deg);
+        -o-transform: scale(1) rotate(0deg);
+        -webkit-transform: scale(1) rotate(0deg);
+        transform: scale(1) rotate(0deg);
+    }
+
+    to {
+        -moz-transform: scale(1) rotate(360deg);
+        -ms-transform: scale(1) rotate(360deg);
+        -o-transform: scale(1) rotate(360deg);
+        -webkit-transform: scale(1) rotate(360deg);
+        transform: scale(1) rotate(360deg);
+    }
 }
 
 
 
 @-moz-keyframes spin {
-    from { -moz-transform: scale(1) rotate(0deg);
-            -ms-transform: scale(1) rotate(0deg);
-            -o-transform: scale(1) rotate(0deg);
-            -webkit-transform: scale(1) rotate(0deg);
-            transform: scale(1) rotate(0deg);}
-    to { -moz-transform: scale(1) rotate(360deg);
-          -ms-transform: scale(1) rotate(360deg);
-          -o-transform: scale(1) rotate(360deg);
-          -webkit-transform: scale(1) rotate(360deg);
-          transform: scale(1) rotate(360deg);}
+    from {
+        -moz-transform: scale(1) rotate(0deg);
+        -ms-transform: scale(1) rotate(0deg);
+        -o-transform: scale(1) rotate(0deg);
+        -webkit-transform: scale(1) rotate(0deg);
+        transform: scale(1) rotate(0deg);
+    }
+
+    to {
+        -moz-transform: scale(1) rotate(360deg);
+        -ms-transform: scale(1) rotate(360deg);
+        -o-transform: scale(1) rotate(360deg);
+        -webkit-transform: scale(1) rotate(360deg);
+        transform: scale(1) rotate(360deg);
+    }
 }
 
 @-ms-keyframes spin {
-    from { -moz-transform: scale(1) rotate(0deg);
-            -ms-transform: scale(1) rotate(0deg);
-            -o-transform: scale(1) rotate(0deg);
-            -webkit-transform: scale(1) rotate(0deg);
-            transform: scale(1) rotate(0deg);}
-    to { -moz-transform: scale(1) rotate(360deg);
-          -ms-transform: scale(1) rotate(360deg);
-          -o-transform: scale(1) rotate(360deg);
-          -webkit-transform: scale(1) rotate(360deg);
-          transform: scale(1) rotate(360deg);}
+    from {
+        -moz-transform: scale(1) rotate(0deg);
+        -ms-transform: scale(1) rotate(0deg);
+        -o-transform: scale(1) rotate(0deg);
+        -webkit-transform: scale(1) rotate(0deg);
+        transform: scale(1) rotate(0deg);
+    }
+
+    to {
+        -moz-transform: scale(1) rotate(360deg);
+        -ms-transform: scale(1) rotate(360deg);
+        -o-transform: scale(1) rotate(360deg);
+        -webkit-transform: scale(1) rotate(360deg);
+        transform: scale(1) rotate(360deg);
+    }
 }
 
 @keyframes spin {
-    from { -moz-transform: scale(1) rotate(0deg);
-            -ms-transform: scale(1) rotate(0deg);
-            -o-transform: scale(1) rotate(0deg);
-            -webkit-transform: scale(1) rotate(0deg);
-            transform: scale(1) rotate(0deg);}
-    to { -moz-transform: scale(1) rotate(360deg);
-          -ms-transform: scale(1) rotate(360deg);
-          -o-transform: scale(1) rotate(360deg);
-          -webkit-transform: scale(1) rotate(360deg);
-          transform: scale(1) rotate(360deg);}
+    from {
+        -moz-transform: scale(1) rotate(0deg);
+        -ms-transform: scale(1) rotate(0deg);
+        -o-transform: scale(1) rotate(0deg);
+        -webkit-transform: scale(1) rotate(0deg);
+        transform: scale(1) rotate(0deg);
+    }
+
+    to {
+        -moz-transform: scale(1) rotate(360deg);
+        -ms-transform: scale(1) rotate(360deg);
+        -o-transform: scale(1) rotate(360deg);
+        -webkit-transform: scale(1) rotate(360deg);
+        transform: scale(1) rotate(360deg);
+    }
 }
 
-.jumbotron h1,p {
-    color:chocolate;
+.jumbotron h1, p {
+    color: chocolate;
 }
 
-#epl p{
-    display:none;
+#epl p {
+    display: none;
 }
 
-#epl:hover{
-    visibility:visible;
+#epl:hover {
+    visibility: visible;
 }
 
-#teamsID p {
-    display:none;
-}
-
-#teamsID:hover p{
-    visibility:visible;
-    opacity:1;
+img > title {
+    color: darkseagreen;
 }
 
 #teamsID{
-    /**/padding: 0px 50px 50px 50px;
-    margin:0px 50px 50px 50px;
+    margin-left:80px;
+    
 }
 
-.col-md-3{
-    margin-bottom:20px;
+#teamsID p {
+    display: none;
 }
 
-#teamsID:hover .arsenalID{
-    display:inline;
-  opacity: 1;
+#teamsID:hover p {
+    visibility: visible;
+    opacity: 1;
+}
+
+#teamsID {
+    /**/ padding: 0px 50px 50px 50px;
+    margin: 0px 50px 50px 50px;
+}
+
+.col-md-3 {
+    margin-bottom: 20px;
+}
+
+#teamsID:hover .arsenalID {
+    display: inline;
+    opacity: 1;
 }
 
 .loader {
@@ -120,30 +223,29 @@
     height: 100%;
     z-index: 9999;
     background: url('ajax-loader.gif') 50% 50% no-repeat;
-    background-color:#fff;
+    background-color: #fff;
 }
 
 #registerTable {
-    border:3px; 
-    border-style:outset;
-    border-color:#ff6a00; 
+    border: 3px;
+    border-style: outset;
+    border-color: #ff6a00;
     width: 50%;
-    margin:1em auto;  
-    padding:10px 15px;
+    margin: 1em auto;
+    padding: 10px 15px;
     font-size: 14px;
-
 }
 
-.txtBox{
-    background-color:#2b3e50;
-    opacity:0.6;
-    color:#ff6a00;
+.txtBox {
+    background-color: #2b3e50;
+    opacity: 0.6;
+    color: #ff6a00;
     font-weight: 900;
 }
 
-.btnSignUp{
-    background-color:#1aaa21;
-    color:white;
+.btnSignUp {
+    background-color: #1aaa21;
+    color: white;
     padding: 5px 15px;
     text-align: center;
     display: inline-block;
@@ -152,10 +254,12 @@
     cursor: pointer;
 }
 
-#laLigaBanner{
-    background:url(Banner_Images/laLigaBanner.jpg) no-repeat content-box;
+tr:hover {
+    background-color: yellowgreen !important;
 }
 
-#eplBanner{
-    background:url(Banner_Images/EPL_Banner.jpg) no-repeat;
+
+footer{
+    margin-bottom: 50px;
+    
 }

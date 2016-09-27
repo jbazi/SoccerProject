@@ -60,6 +60,9 @@
   <ItemGroup>
     <Content Include="AboutMe.aspx" />
     <Content Include="Content\ajax-loader.gif" />
+    <Content Include="Content\Banner_Images\banner.jpg" />
+    <Content Include="Content\Banner_Images\EPL_Banner.jpg" />
+    <Content Include="Content\Banner_Images\laLigaBanner.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -176,6 +179,7 @@
     <Content Include="Content\laliga.jpg" />
     <Content Include="Content\ligue1.jpg" />
     <Content Include="Content\main.css" />
+    <Content Include="Content\myUITheme.css" />
     <Content Include="Content\TeamImages\EPL\Arsenal.jpg" />
     <Content Include="Content\TeamImages\EPL\Bournemouth.jpg" />
     <Content Include="Content\TeamImages\EPL\Burnley.jpg" />
@@ -216,6 +220,7 @@
     <Content Include="Content\TeamImages\LaLiga\sportingGijon.jpg" />
     <Content Include="Content\TeamImages\LaLiga\valencia.jpg" />
     <Content Include="Content\TeamImages\LaLiga\villareal.jpg" />
+    <Content Include="Fixtures\Premier_League.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Home.aspx" />
     <Content Include="LaLigaHome.aspx" />
@@ -306,7 +311,9 @@
     <Content Include="Scripts\DataTables\responsive.jqueryui.js" />
     <Content Include="Scripts\DataTables\responsive.jqueryui.min.js" />
     <Content Include="MasterPages\User.Master" />
+    <Content Include="MasterPages\Fixtures.Master" />
     <None Include="Scripts\jquery-3.1.0.intellisense.js" />
+    <Content Include="Scripts\Fixtures\premier_League.js" />
     <Content Include="Scripts\jquery-3.1.0.js" />
     <Content Include="Scripts\jquery-3.1.0.min.js" />
     <Content Include="Scripts\jquery-3.1.0.slim.js" />
@@ -405,6 +412,13 @@
     <Compile Include="AboutMe.aspx.designer.cs">
       <DependentUpon>AboutMe.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Fixtures\Premier_League.aspx.cs">
+      <DependentUpon>Premier_League.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fixtures\Premier_League.aspx.designer.cs">
+      <DependentUpon>Premier_League.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -446,6 +460,13 @@
     </Compile>
     <Compile Include="Leagues\PremierLeague.aspx.designer.cs">
       <DependentUpon>PremierLeague.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Fixtures.Master.cs">
+      <DependentUpon>Fixtures.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Fixtures.Master.designer.cs">
+      <DependentUpon>Fixtures.Master</DependentUpon>
     </Compile>
     <Compile Include="MasterPages\IndependentPages.Master.cs">
       <DependentUpon>IndependentPages.Master</DependentUpon>
@@ -781,6 +802,9 @@
   <ItemGroup>
     <Content Include="Scripts\jquery-3.1.0.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.0.min.map" />
+    <Content Include="Scripts\jquery-3.1.0.min.js.map">
+      <DependentUpon>jquery-3.1.0.js</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

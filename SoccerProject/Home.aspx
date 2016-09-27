@@ -11,43 +11,35 @@
         </div>
 
     <div>
-        <div class="row">
 
-            <div class="col-lg-12">
-                <h3 class="page-header">Related Projects</h3>
+        <div class="banner-info">
+                    <h3> Welcome to </h3> <h1>Sasa Scores </h1>
             </div>
-
+        <div class="row">
             <div id="epl" class="col-sm-3 col-xs-6">
                 <a href="PremierLeagueHome.aspx">
-                    <img class="img-responsive portfolio-item" src="Content/epl.jpg" width="150" height="150" title=" English League (Premier League)" />
+                    <img class="img-responsive portfolio-item" src="Content/epl.jpg" width="200" height="200" title=" English League (Premier League)" />
                 </a>
             </div>
 
             <div id="laliga" class="col-sm-3 col-xs-6">
                 <a href="Leagues/LaLiga.aspx">
-                    <img class="img-responsive portfolio-item" src="Content/laliga.jpg" width="150" height="150" title=" Spanish League (La Liga)" />
+                    <img class="img-responsive portfolio-item" src="Content/laliga.jpg" width="200" height="200" title=" Spanish League (La Liga)" />
                 </a>
             </div>
 
             <div id="bundesliga" class="col-sm-3 col-xs-6">
                 <a href="Leagues/Bundesliga.aspx">
-                    <img class="img-responsive portfolio-item" src="Content/bundesliga.jpg" width="150" height="150" title="German League (Bundesliga)" />
+                    <img class="img-responsive portfolio-item" src="Content/bundesliga.jpg" width="200" height="200" title="German League (Bundesliga)" />
                 </a>
             </div>
 
             <div id="ligue1" class="col-sm-3 col-xs-6">
                 <a href="Leagues/LigueOne.aspx">
-                    <img class="img-responsive portfolio-item" src="Content/ligue1.jpg" width="150" height="150" title="French League (Ligue 1)" />
+                    <img class="img-responsive portfolio-item" src="Content/ligue1.jpg" width="200" height="200" title="French League (Ligue 1)" />
                 </a>
             </div>
 
         </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Footer -->
-        
-
     </div>
 </asp:Content>

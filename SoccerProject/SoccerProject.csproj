@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AboutMe.aspx" />
+    <Content Include="BundesligaHome.aspx" />
     <Content Include="Content\ajax-loader.gif" />
     <Content Include="Content\Banner_Images\banner.jpg" />
     <Content Include="Content\Banner_Images\EPL_Banner.jpg" />
@@ -180,6 +181,24 @@
     <Content Include="Content\ligue1.jpg" />
     <Content Include="Content\main.css" />
     <Content Include="Content\myUITheme.css" />
+    <Content Include="Content\TeamImages\Bundesliga\augsburgFC.jpg" />
+    <Content Include="Content\TeamImages\Bundesliga\bayerLeverkusen.jpg" />
+    <Content Include="Content\TeamImages\Bundesliga\bayernMunichFC.jpg" />
+    <Content Include="Content\TeamImages\Bundesliga\borussiaDortmund.jpg" />
+    <Content Include="Content\TeamImages\Bundesliga\borussiaMonchengladbach.jpg" />
+    <Content Include="Content\TeamImages\Bundesliga\cologneFC.jpg" />
+    <Content Include="Content\TeamImages\Bundesliga\eintrachtFrankfurt.jpg" />
+    <Content Include="Content\TeamImages\Bundesliga\FC_Ingolstadt04.jpg" />
+    <Content Include="Content\TeamImages\Bundesliga\FC_Schalke.jpg" />
+    <Content Include="Content\TeamImages\Bundesliga\hamburgFC.jpg" />
+    <Content Include="Content\TeamImages\Bundesliga\herthBerlinFC.jpg" />
+    <Content Include="Content\TeamImages\Bundesliga\hoffenheim.jpg" />
+    <Content Include="Content\TeamImages\Bundesliga\mainzFC.jpg" />
+    <Content Include="Content\TeamImages\Bundesliga\rbLeipzigFC.jpg" />
+    <Content Include="Content\TeamImages\Bundesliga\scFreiburg.jpg" />
+    <Content Include="Content\TeamImages\Bundesliga\svDarmstadt98.jpg" />
+    <Content Include="Content\TeamImages\Bundesliga\werderBremen.jpg" />
+    <Content Include="Content\TeamImages\Bundesliga\wolfsburgFC.jpg" />
     <Content Include="Content\TeamImages\EPL\Arsenal.jpg" />
     <Content Include="Content\TeamImages\EPL\Bournemouth.jpg" />
     <Content Include="Content\TeamImages\EPL\Burnley.jpg" />
@@ -220,6 +239,26 @@
     <Content Include="Content\TeamImages\LaLiga\sportingGijon.jpg" />
     <Content Include="Content\TeamImages\LaLiga\valencia.jpg" />
     <Content Include="Content\TeamImages\LaLiga\villareal.jpg" />
+    <Content Include="Content\TeamImages\LigueOne\angersFC.jpg" />
+    <Content Include="Content\TeamImages\LigueOne\bastiaFC.jpg" />
+    <Content Include="Content\TeamImages\LigueOne\bordeauxFC.jpg" />
+    <Content Include="Content\TeamImages\LigueOne\caenFC.jpg" />
+    <Content Include="Content\TeamImages\LigueOne\dijonFC.jpg" />
+    <Content Include="Content\TeamImages\LigueOne\guingampFC.jpg" />
+    <Content Include="Content\TeamImages\LigueOne\lilleFC.jpg" />
+    <Content Include="Content\TeamImages\LigueOne\lorientFC.jpg" />
+    <Content Include="Content\TeamImages\LigueOne\metzFC.jpg" />
+    <Content Include="Content\TeamImages\LigueOne\monacoFC.jpg" />
+    <Content Include="Content\TeamImages\LigueOne\montpellierFC.jpg" />
+    <Content Include="Content\TeamImages\LigueOne\nancyFC.jpg" />
+    <Content Include="Content\TeamImages\LigueOne\nantesFC.jpg" />
+    <Content Include="Content\TeamImages\LigueOne\niceFC.jpg" />
+    <Content Include="Content\TeamImages\LigueOne\olympiqueLyonFC.jpg" />
+    <Content Include="Content\TeamImages\LigueOne\olympiqueMarseilleFC.jpg" />
+    <Content Include="Content\TeamImages\LigueOne\PSG_FC.jpg" />
+    <Content Include="Content\TeamImages\LigueOne\Rennes.jpg" />
+    <Content Include="Content\TeamImages\LigueOne\st_EtienneFC.jpg" />
+    <Content Include="Content\TeamImages\LigueOne\toulouseFC.jpg" />
     <Content Include="Fixtures\Premier_League.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Home.aspx" />
@@ -228,6 +267,7 @@
     <Content Include="Leagues\LaLiga.aspx" />
     <Content Include="Leagues\LigueOne.aspx" />
     <Content Include="Leagues\PremierLeague.aspx" />
+    <Content Include="LigueOneHome.aspx" />
     <Content Include="MasterPages\Main.Master" />
     <Content Include="MasterPages\League.Master" />
     <Content Include="MasterPages\IndependentPages.Master" />
@@ -412,6 +452,13 @@
     <Compile Include="AboutMe.aspx.designer.cs">
       <DependentUpon>AboutMe.aspx</DependentUpon>
     </Compile>
+    <Compile Include="BundesligaHome.aspx.cs">
+      <DependentUpon>BundesligaHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BundesligaHome.aspx.designer.cs">
+      <DependentUpon>BundesligaHome.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Fixtures\Premier_League.aspx.cs">
       <DependentUpon>Premier_League.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -460,6 +507,13 @@
     </Compile>
     <Compile Include="Leagues\PremierLeague.aspx.designer.cs">
       <DependentUpon>PremierLeague.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LigueOneHome.aspx.cs">
+      <DependentUpon>LigueOneHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LigueOneHome.aspx.designer.cs">
+      <DependentUpon>LigueOneHome.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPages\Fixtures.Master.cs">
       <DependentUpon>Fixtures.Master</DependentUpon>

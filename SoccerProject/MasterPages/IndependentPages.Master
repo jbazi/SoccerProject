@@ -61,8 +61,8 @@
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="../PremierLeagueHome.aspx">Premier League Teams</a></></li>
                                 <li><a href="../LaLigaHome.aspx">La Liga Teams</a></></li>
-                                <li><a href="../Leagues/Bundesliga.aspx">BundesLiga Teams</a></li>
-                                <li><a href="../Leagues/LigueOne.aspx">Ligue One Teams</a></li>
+                                <li><a href="../BundesligaHome.aspx">BundesLiga Teams</a></li>
+                            <li><a href="../LigueOneHome.aspx">Ligue One Teams</a></li>
                             </ul>
                         </li>
                         <li><a href="../AboutMe.aspx">About</a></li>

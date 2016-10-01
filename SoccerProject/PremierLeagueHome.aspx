@@ -1,7 +1,34 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/IndependentPages.Master" AutoEventWireup="true" CodeBehind="PremierLeagueHome.aspx.cs" Inherits="SoccerProject.PremierLeagueHome" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
+  <link rel="stylesheet" href="/resources/demos/style.css"/>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>
+    $m=jQuery.noConflict();
+</script>
+    $("ul.css-tabs").tabs("div.css-panes > div", {effect: 'ajax'});
+    <script>
+        $m('#tabs a').click(function () {
+            var page = this.hash.substr(1);
+            $.get(page + ".aspx", function () {
+                $('#content').html(html);
+
+            });
+
+        });
+    </script>
+
+    <style>
+        ul{margin:0px;padding:0px;overflow:hidden;}
+        li{float:left;list-style:none;padding:10px;background-color:#333;border:1px solid #ccc;}
+        li a{color:white;font-family:Arial;text-decoration:none;}
+        #content_wrapper{width:400px; height:300px; background-color:#ccc; margin:0px; padding:6px;overflow:hidden;}
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
@@ -21,14 +48,36 @@
 
         <div class="col-md-3">
             <a href="Teams/Premier_League_Teams/Arsenal.aspx" target="_blank" onclick="return windowpop(this.href, 600, 600)">
-                <img src="Content/TeamImages/EPL/Arsenal.jpg" width="100" height="100"  title="Click to see Arsenal players." />
+                <img src="Content/TeamImages/EPL/Arsenal.jpg" width="100" height="100" title="Click to see Arsenal players." />
             </a>
             <br />
+            
+            
+                <ul id="tabs">
+                    <li><a href="#tabs-1">Default</a></li>
+                    <li><a href="Teams/Premier_League_Teams/ManUnited.aspx">Players</a></li>
+                </ul>
+            <div id="content_wrapper">
+                <div id="content"></div>
+            </div>
+               
         </div>
 
+        <!-- tabs -->
+<ul class="css-tabs">
+  <li><a href="Teams/Premier_League_Teams/ManUnited.aspx">Tab 1</a></li>
+  <li><a href="Teams/Premier_League_Teams/ManCity.aspx">Tab 2</a></li>
+  <li><a href="ajax3.htm">An ultra long third tab</a></li>
+</ul>
+ 
+<!-- single pane. it is always visible -->
+<div class="css-panes">
+  <div style="display:block"></div>
+</div>
+
         <div class="col-md-3">
-            <a href="Teams/Premier_League_Teams/Bournemouth.aspx" target="_blank" onclick="return windowpop(this.href, 600, 600)" >
-                <img src="Content/TeamImages/EPL/Bournemouth.jpg" width="100" height="100" title="Click to see Bournemouth players."/>
+            <a href="Teams/Premier_League_Teams/Bournemouth.aspx" target="_blank" onclick="return windowpop(this.href, 600, 600)">
+                <img src="Content/TeamImages/EPL/Bournemouth.jpg" width="100" height="100" title="Click to see Bournemouth players." />
             </a>
             <br />
         </div>
@@ -54,7 +103,7 @@
         <!--__________________________________________________________________________________________________ -->
 
         <div class="col-md-3">
-            <a href="Teams/Premier_League_Teams/CrystalPalace.aspx" target="_blank" onclick="return windowpop(this.href, 600, 600)" >
+            <a href="Teams/Premier_League_Teams/CrystalPalace.aspx" target="_blank" onclick="return windowpop(this.href, 600, 600)">
                 <img src="Content/TeamImages/EPL/crystal_palace.jpg" width="100" height="100" title="Click to see Crystal Palace players." />
             </a>
             <br />
@@ -62,21 +111,21 @@
 
         <div class="col-md-3">
             <a href="Teams/Premier_League_Teams/Everton.aspx" target="_blank" onclick="return windowpop(this.href, 600, 600)">
-                <img src="Content/TeamImages/EPL/Everton.jpg" width="100" height="100" title="Click to see Everton players."/>
+                <img src="Content/TeamImages/EPL/Everton.jpg" width="100" height="100" title="Click to see Everton players." />
             </a>
             <br />
         </div>
 
         <div class="col-md-3">
             <a href="Teams/Premier_League_Teams/HullCity.aspx" target="_blank" onclick="return windowpop(this.href, 600, 600)">
-                <img src="Content/TeamImages/EPL/Hull_City.jpg" width="100" height="100" title="Click to see Hull City players."/>
+                <img src="Content/TeamImages/EPL/Hull_City.jpg" width="100" height="100" title="Click to see Hull City players." />
             </a>
             <br />
         </div>
 
         <div class="col-md-3">
             <a href="Teams/Premier_League_Teams/LeicesterCity.aspx" target="_blank" onclick="return windowpop(this.href, 600, 600)">
-                <img src="Content/TeamImages/EPL/Leicester.jpg" width="100" height="100" title="Click to see Leicester City players."/>
+                <img src="Content/TeamImages/EPL/Leicester.jpg" width="100" height="100" title="Click to see Leicester City players." />
             </a>
             <br />
         </div>
@@ -91,14 +140,14 @@
 
         <div class="col-md-3">
             <a href="Teams/Premier_League_Teams/Liverpool.aspx" target="_blank" onclick="return windowpop(this.href, 600, 600)">
-                <img src="Content/TeamImages/EPL/liverpool.jpg" width="100" height="100" title="Click to see Liverpool players."/>
+                <img src="Content/TeamImages/EPL/liverpool.jpg" width="100" height="100" title="Click to see Liverpool players." />
             </a>
             <br />
         </div>
 
         <div class="col-md-3">
             <a href="Teams/Premier_League_Teams/ManCity.aspx" target="_blank" onclick="return windowpop(this.href, 600, 600)">
-                <img src="Content/TeamImages/EPL/mancity.jpg" width="100" height="100" title="Click to see Manchester City players."/>
+                <img src="Content/TeamImages/EPL/mancity.jpg" width="100" height="100" title="Click to see Manchester City players." />
             </a>
             <br />
         </div>
@@ -142,7 +191,7 @@
 
         <div class="col-md-3">
             <a href="Teams/Premier_League_Teams/Sunderland.aspx" target="_blank" onclick="return windowpop(this.href, 600, 600)">
-                <img src="Content/TeamImages/EPL/sunderland.jpg" width="100" height="100" title="Click to see Sunderland players."/>
+                <img src="Content/TeamImages/EPL/sunderland.jpg" width="100" height="100" title="Click to see Sunderland players." />
             </a>
             <br />
         </div>
@@ -163,14 +212,14 @@
 
         <div class="col-md-3">
             <a href="Teams/Premier_League_Teams/Tottenham.aspx" target="_blank" onclick="return windowpop(this.href, 600, 600)">
-                <img src="Content/TeamImages/EPL/Tottenham.jpg" width="100" height="100" title="Click to see Tottenham players."/>
+                <img src="Content/TeamImages/EPL/Tottenham.jpg" width="100" height="100" title="Click to see Tottenham players." />
             </a>
             <br />
 
         </div>
 
         <div class="col-md-3">
-            <a href="Teams/Premier_League_Teams/Watford.aspx" target="_blank" onclick="return windowpop(this.href, 600, 600)" >
+            <a href="Teams/Premier_League_Teams/Watford.aspx" target="_blank" onclick="return windowpop(this.href, 600, 600)">
                 <img src="Content/TeamImages/EPL/watford.jpg" width="100" height="100" title="Click to see Watford players." />
             </a>
             <br />

@@ -39,7 +39,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="GetRssFeed, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GetRssFeed.0.9.3\lib\GetRssFeed.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="RestSharp, Version=104.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.104.0\lib\net4\RestSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -177,6 +185,7 @@
     <Content Include="Content\DataTables\images\sort_desc_disabled.png" />
     <Content Include="Content\DataTables\swf\flashExport.swf" />
     <Content Include="Content\epl.jpg" />
+    <Content Include="Teams\Premier_League_Teams\Content\feedEk.css" />
     <Content Include="Content\laliga.jpg" />
     <Content Include="Content\ligue1.jpg" />
     <Content Include="Content\main.css" />
@@ -268,6 +277,7 @@
     <Content Include="Leagues\LigueOne.aspx" />
     <Content Include="Leagues\PremierLeague.aspx" />
     <Content Include="LigueOneHome.aspx" />
+    <Content Include="Teams\manU_RssFeed.html" />
     <Content Include="MasterPages\Main.Master" />
     <Content Include="MasterPages\League.Master" />
     <Content Include="MasterPages\IndependentPages.Master" />
@@ -284,6 +294,7 @@
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="PremierLeagueHome.aspx" />
+    <Content Include="Teams\rssFeed.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\DataTables\autoFill.bootstrap.js" />
@@ -353,7 +364,43 @@
     <Content Include="MasterPages\User.Master" />
     <Content Include="MasterPages\Fixtures.Master" />
     <None Include="Scripts\jquery-3.1.0.intellisense.js" />
+    <Content Include="Teams\Scripts\feedEk.js" />
     <Content Include="Scripts\Fixtures\premier_League.js" />
+    <Content Include="Scripts\flot\excanvas.js" />
+    <Content Include="Scripts\flot\excanvas.min.js" />
+    <Content Include="Scripts\flot\jquery.colorhelpers.js" />
+    <Content Include="Scripts\flot\jquery.colorhelpers.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.canvas.js" />
+    <Content Include="Scripts\flot\jquery.flot.canvas.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.categories.js" />
+    <Content Include="Scripts\flot\jquery.flot.categories.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.crosshair.js" />
+    <Content Include="Scripts\flot\jquery.flot.crosshair.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.errorbars.js" />
+    <Content Include="Scripts\flot\jquery.flot.errorbars.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.fillbetween.js" />
+    <Content Include="Scripts\flot\jquery.flot.fillbetween.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.image.js" />
+    <Content Include="Scripts\flot\jquery.flot.image.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.js" />
+    <Content Include="Scripts\flot\jquery.flot.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.navigate.js" />
+    <Content Include="Scripts\flot\jquery.flot.navigate.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.pie.js" />
+    <Content Include="Scripts\flot\jquery.flot.pie.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.resize.js" />
+    <Content Include="Scripts\flot\jquery.flot.resize.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.selection.js" />
+    <Content Include="Scripts\flot\jquery.flot.selection.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.stack.js" />
+    <Content Include="Scripts\flot\jquery.flot.stack.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.symbol.js" />
+    <Content Include="Scripts\flot\jquery.flot.symbol.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.threshold.js" />
+    <Content Include="Scripts\flot\jquery.flot.threshold.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.time.js" />
+    <Content Include="Scripts\flot\jquery.flot.time.min.js" />
+    <Content Include="Scripts\jFeed.js" />
     <Content Include="Scripts\jquery-3.1.0.js" />
     <Content Include="Scripts\jquery-3.1.0.min.js" />
     <Content Include="Scripts\jquery-3.1.0.slim.js" />
@@ -362,6 +409,10 @@
     <Content Include="Scripts\League_Scripts\laLiga.js" />
     <Content Include="Scripts\League_Scripts\ligueOne.js" />
     <Content Include="Scripts\League_Scripts\premierLeague.js" />
+    <Content Include="Scripts\moment-with-locales.js" />
+    <Content Include="Scripts\moment-with-locales.min.js" />
+    <Content Include="Scripts\moment.js" />
+    <Content Include="Scripts\moment.min.js" />
     <Content Include="Scripts\season.js" />
     <Content Include="Scripts\Team_Scripts\LaLiga\alaves.js" />
     <Content Include="Scripts\Team_Scripts\LaLiga\atleticoBilbao.js" />
@@ -565,6 +616,13 @@
       <DependentUpon>PremierLeagueHome.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Teams\rssFeed.aspx.cs">
+      <DependentUpon>rssFeed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\rssFeed.aspx.designer.cs">
+      <DependentUpon>rssFeed.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Seasons.aspx.cs">
       <DependentUpon>Seasons.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

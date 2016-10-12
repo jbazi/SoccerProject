@@ -7,6 +7,9 @@ C:\Users\bazit\OneDrive\Documents\Visual Studio 2015\Projects\SoccerProject\Socc
 C:\My_2016_Portfolio\SoccerProject\SoccerProject\bin\SoccerProject.dll.config
 C:\My_2016_Portfolio\SoccerProject\SoccerProject\bin\SoccerProject.dll
 C:\My_2016_Portfolio\SoccerProject\SoccerProject\bin\SoccerProject.pdb
-C:\My_2016_Portfolio\SoccerProject\SoccerProject\obj\Debug\SoccerProject.csprojResolveAssemblyReference.cache
+C:\My_2016_Portfolio\SoccerProject\SoccerProject\bin\GetRssFeed.dll
+C:\My_2016_Portfolio\SoccerProject\SoccerProject\bin\RestSharp.dll
+C:\My_2016_Portfolio\SoccerProject\SoccerProject\bin\RestSharp.xml
 C:\My_2016_Portfolio\SoccerProject\SoccerProject\obj\Debug\SoccerProject.dll
 C:\My_2016_Portfolio\SoccerProject\SoccerProject\obj\Debug\SoccerProject.pdb
+C:\My_2016_Portfolio\SoccerProject\SoccerProject\obj\Debug\SoccerProject.csprojResolveAssemblyReference.cache

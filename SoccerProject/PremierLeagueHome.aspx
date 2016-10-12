@@ -8,27 +8,7 @@
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script>
-    $m=jQuery.noConflict();
-</script>
-    $("ul.css-tabs").tabs("div.css-panes > div", {effect: 'ajax'});
-    <script>
-        $m('#tabs a').click(function () {
-            var page = this.hash.substr(1);
-            $.get(page + ".aspx", function () {
-                $('#content').html(html);
-
-            });
-
-        });
-    </script>
-
-    <style>
-        ul{margin:0px;padding:0px;overflow:hidden;}
-        li{float:left;list-style:none;padding:10px;background-color:#333;border:1px solid #ccc;}
-        li a{color:white;font-family:Arial;text-decoration:none;}
-        #content_wrapper{width:400px; height:300px; background-color:#ccc; margin:0px; padding:6px;overflow:hidden;}
-    </style>
+    
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
@@ -51,29 +31,7 @@
                 <img src="Content/TeamImages/EPL/Arsenal.jpg" width="100" height="100" title="Click to see Arsenal players." />
             </a>
             <br />
-            
-            
-                <ul id="tabs">
-                    <li><a href="#tabs-1">Default</a></li>
-                    <li><a href="Teams/Premier_League_Teams/ManUnited.aspx">Players</a></li>
-                </ul>
-            <div id="content_wrapper">
-                <div id="content"></div>
-            </div>
-               
         </div>
-
-        <!-- tabs -->
-<ul class="css-tabs">
-  <li><a href="Teams/Premier_League_Teams/ManUnited.aspx">Tab 1</a></li>
-  <li><a href="Teams/Premier_League_Teams/ManCity.aspx">Tab 2</a></li>
-  <li><a href="ajax3.htm">An ultra long third tab</a></li>
-</ul>
- 
-<!-- single pane. it is always visible -->
-<div class="css-panes">
-  <div style="display:block"></div>
-</div>
 
         <div class="col-md-3">
             <a href="Teams/Premier_League_Teams/Bournemouth.aspx" target="_blank" onclick="return windowpop(this.href, 600, 600)">

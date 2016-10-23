@@ -1,5 +1,5 @@
-﻿$(document).ready(function () {
-    //$("iframe").attr("src", "http://www.skysports.com/manchester-united");
+﻿/// <reference path="C:\My_2016_Portfolio\SoccerProject\SoccerProject\Leagues/PremierLeague.aspx" />
+$(document).ready(function () {
     $("#manU_Feed").attr("src", "../manU_RssFeed.html");
     $("#myTable").dataTable({
         'bProcessing': true,
@@ -12,22 +12,18 @@
     });
 
     $("#teamStanding_tbl").dataTable({
-        'bProcessing': true,
-        'bAutoWidth': true,
-        'iDisplayLength': 5,
-        'bJQueryUI': true,
+        'bFilter': false,
+        "bPaginate": false,
         "aaData": [],
-        "oLanguage": { "sEmptyTable": "No teams were found with the API provided" },
-        "sDom": '<"H"lf<"clear-right"p>>rt<"F"ip>',
     });
 
-    
-
+    getPieChartStats();
     getPlayerData();
     getTeamLeagueStandingData();
-    getPieChartStats();
 
-   
+    $("#fullLeague_btn").on('click', function () {
+        window.location = "..Leagues/PremierLeague.aspx";
+    });
     
 });
 /*
@@ -37,8 +33,6 @@
 */
 function renderTeamPlayerData(result) {
     var DataArray = [];
-    var imgList = "";
-    var text;
 
     $.each(result.players, function () {
         DataArray.push([this.name,
@@ -82,39 +76,20 @@ function renderTeamLeagueStandingData(result) {
             DataArray.push([this.position,
                         this.teamName,
                         this.playedGames,
-                        this.wins,
-                        this.losses,
-                        this.draws,
                         this.points
             ]);
         }
         
     });
 
-    function nextProject(name) {
-        return DataArray[($.inArray(name, DataArray) + 1) % DataArray.length];
-    }
-
-    function prevProject(name) {
-        return DataArray[($.inArray(name, DataArray) - 1 + DataArray.length) % DataArray.length];
-    }
-
-    /*
-    var next = p[($.inArray(start, p) + 1) % p.length];
-var prev = p[($.inArray(start, p) - 1 + p.length) % p.length];
-        function nextProject(num) { 
-        return p[($.inArray(num, p) + 1) % p.length]; 
-        }
-        function prevProject(num) { 
-          return p[($.inArray(num, p) - 1 + p.length) % p.length];
-        }
-*/
-
     $('#teamStanding_tbl').dataTable().fnAddData(DataArray);
     $('#teamStanding_tbl').dataTable().fnAdjustColumnSizing();
 }
 
 function getTeamLeagueStandingData() {
+    var DataArray = [];
+    var position;
+    var next;
     $.ajax({
         headers: { 'X-Auth-Token': 'e4a0c71e6e9f4981b9706379992f468a' },
         url: 'http://api.football-data.org/v1/competitions/426/leagueTable',
@@ -131,52 +106,58 @@ function getTeamLeagueStandingData() {
                              Use Flot.js 
 -----------------------------------------------------------------------------------------
 */
-function renderPieChartStatsData(result) {
-    var DataArray = [];
-    $.each(result.standing, function () {
-        var name = "Manchester United FC";
-        if (this.teamName == name) {
-            DataArray.push([this.wins,
-                        this.losses,
-                        this.draws
-            ]);
-        }
 
-    });
-}
 
 function getPieChartStats() {
+    /*
+         -> #47A508 = green (wins)
+         -> #ff6a00 = orange (losses)
+         -> #ffd800 = yellow (draws)
+    */
     var DataArray = [];
-    $.each(result.standing, function () {
-        var name = "Manchester United FC";
-        if (this.teamName == name) {
-            DataArray.push([this.wins,
-                        this.losses,
-                        this.draws
-            ]);
-        }
 
-    });
     $.ajax({
         headers: { 'X-Auth-Token': 'e4a0c71e6e9f4981b9706379992f468a' },
         url: 'http://api.football-data.org/v1/competitions/426/leagueTable',
         dataType: 'json',
-        type: 'POST',
-        data: {json: JSON.stringify(DataArray)},
-    }).success(function (response) {
-        $.plot($('#placeHolder'), DataArray, {
-            series: {
-                pie: {
-                    show: true
-                }
-            },
-            legend: {
-                labelBoxBorderColor: "none"
+        cache: false, //add this
+        async: false,
+        type: 'GET',
+    }).done(function (result) {
+        $.each(result.standing, function () {
+            var name = "Manchester United FC";
+            if (this.teamName == name) {
+                DataArray.push(this.wins, this.losses, this.draws);
             }
         });
+         
+        var ctx = document.getElementById("myChart").getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labelFontColor: "red",
+                labels: [
+                        "Wins",
+                        "Losses",
+                        "Draws"
+                ],
+                labelColor: 'white',
+                datasets: [
+                    {
+                        data: DataArray,
+                        backgroundColor: [
+                            "#47A508",
+                            "#ff6a00",
+                            "#ffd800"
+                        ],
+                    }]
+            },
+            options: { responsive: true },
+            animateScale: true
+        });
     });
+    
 }
-
 
 
 

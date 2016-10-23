@@ -111,7 +111,7 @@
         </div>
 
         <div class="col-md-3">
-            <a href="Teams/Premier_League_Teams/ManUnited.aspx" target="_blank" onclick="return windowpop(this.href, 600, 600)">
+            <a href="Teams/Premier_League_Teams/ManUnited.aspx" target="_blank">
                 <img src="Content/TeamImages/EPL/ManU.jpg" width="100" height="100" title="Click to see Manchester United players." />
             </a>
             <br />

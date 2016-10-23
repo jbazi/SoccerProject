@@ -5,6 +5,10 @@
     min-height: 900px;
 }
 
+.defaultFontColor{
+    color:white !important;
+}
+
 .banner {
     background: url('Banner_Images/banner.jpg') no-repeat 0px 0px;
     background-size: cover;
@@ -259,6 +263,5 @@ tr:hover {
 }
 
 footer{
-    margin-bottom: 50px;
-    
+    margin-bottom: 50px; 
 }

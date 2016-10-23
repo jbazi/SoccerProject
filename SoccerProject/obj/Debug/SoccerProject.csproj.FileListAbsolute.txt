@@ -13,3 +13,5 @@ C:\My_2016_Portfolio\SoccerProject\SoccerProject\bin\RestSharp.xml
 C:\My_2016_Portfolio\SoccerProject\SoccerProject\obj\Debug\SoccerProject.dll
 C:\My_2016_Portfolio\SoccerProject\SoccerProject\obj\Debug\SoccerProject.pdb
 C:\My_2016_Portfolio\SoccerProject\SoccerProject\obj\Debug\SoccerProject.csprojResolveAssemblyReference.cache
+C:\My_2016_Portfolio\SoccerProject\SoccerProject\bin\Newtonsoft.Json.dll
+C:\My_2016_Portfolio\SoccerProject\SoccerProject\bin\Newtonsoft.Json.xml

@@ -9,7 +9,7 @@
 
      <div class="container">
   <div class="jumbotron">
-    <h1>Ligue One</h1>
+    <h1><span><img id="trophy" src="../Content/trophies/ligueOneTrophy.jpg" /></span>Ligue One</h1>
     <p>France 2016 - 2017 Season</p>
   </div>
         </div>

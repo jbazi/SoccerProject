@@ -19,58 +19,51 @@ namespace SoccerProject.UserAuthentication
 
         protected void cmdSubmit_Click(object sender, EventArgs e)
         {
-            string FIRST_NAME = txtFirstName.Text;
-            string LAST_NAME = txtLastName.Text;
-            string COUNTRY = txtCountry.Text;
-            string USERNAME = txtUserName.Text;
-            string EMAIL = txtEmailAddress.Text;
-            string PASSWORDHASHED = txtPassword.Text;
+
+            int UserId = 0;
+            string constr = ConfigurationManager.ConnectionStrings["SasaScoresConn"].ConnectionString;
+            using (SqlConnection con = new SqlConnection(constr))
+            {
+                using (SqlCommand cmd = new SqlCommand("Insert_User"))
+                {
+                    using (SqlDataAdapter sda = new SqlDataAdapter())
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@Username", txtUserName.Text.Trim());
+                        cmd.Parameters.AddWithValue("@Password", txtPassword.Text.Trim());
+                        cmd.Parameters.AddWithValue("@Email", txtEmailAddress.Text.Trim());
+                        cmd.Connection = con;
+                        con.Open();
+                        UserId = Convert.ToInt32(cmd.ExecuteScalar());
+                        con.Close();
+                    }
+                }
+                string message = string.Empty;
+                switch (UserId)
+                {
+                    case -1:
+                        message = "Username already exists.\\nPlease choose a different username.";
+                        break;
+                    case -2:
+                        message = "Supplied email address has already been used.";
+                        break;
+                    default:
+                        message = "Registration successful.\\nUser Id: " + UserId.ToString();
+                        break;
+                }
+                ClientScript.RegisterStartupScript(GetType(), "alert", "alert('" + message + "');", true);
+            }
+
 
             
 
-            //add connection string
-            SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["SoccerAppSqlConn"].ConnectionString);
-
-            //create query to store insert data into RegisterUser table
-            string insertIntoRegisterUser = @"INSERT INTO RegisterUser
-                                          (  [FIRST_NAME]
-                                             ,[LAST_NAME]
-                                             ,[COUNTRY]
-                                             ,[USERNAME]
-                                             ,[EMAIL]
-                                             ,[PASSWORDHASHED]
-                                          )
-                                          VALUES
-                                          (
-                                              @FIRST_NAME
-                                             ,@LAST_NAME
-                                             ,@COUNTRY
-                                             ,@USERNAME
-                                             ,@EMAIL
-                                             ,@PASSWORDHASHED
-                                          )
-                                          Select @@IDENTITY";
-
-            //Connect and save data to the database
-            SqlCommand command = new SqlCommand(insertIntoRegisterUser);
-            command.CommandType = CommandType.Text;
-            command.Connection = conn;
-            conn.Open();
-            command.Parameters.AddWithValue("@FIRST_NAME", FIRST_NAME);
-            command.Parameters.AddWithValue("@LAST_NAME", LAST_NAME);
-            command.Parameters.AddWithValue("@COUNTRY", COUNTRY);
-            command.Parameters.AddWithValue("@USERNAME", USERNAME);
-            command.Parameters.AddWithValue("@EMAIL", EMAIL);
-            command.Parameters.AddWithValue("@PASSWORDHASHED", PASSWORDHASHED);
-            int UserID = Convert.ToInt32(command.ExecuteScalar());
-            conn.Close();
-
             //Populate the session parameter
-            Session["UserID"] = UserID;
+            Session["UserID"] = UserId;
 
             //Redirect to apply loan page
-            Session["WelcomeMessage"] = string.Concat("Welcome ", FIRST_NAME, LAST_NAME, ". You have now been registered.");
-            Response.Redirect("../Home.aspx");
+            Session["WelcomeMessage"] = string.Concat("Welcome ", txtUserName.Text.Trim(), " ", txtEmailAddress.Text.Trim(), ". You have now been registered.");
+            Response.Redirect("../UserAuthentication/RegisterUser.aspx");
+            //Response.Redirect("../Home.aspx");
         }
     }
 }

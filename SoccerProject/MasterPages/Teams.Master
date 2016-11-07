@@ -8,15 +8,6 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <script src="../../Scripts/chart.bundle.js"></script>
-    <script src="https://code.highcharts.com/highcharts.js"></script>
-    <script src="https://code.highcharts.com/modules/data.js"></script>
-    <script src="https://code.highcharts.com/modules/exporting.js"></script>
-
-    <!-- Additional files for the Highslide popup effect -->
-    <script src="https://www.highcharts.com/samples/static/highslide-full.min.js"></script>
-    <script src="https://www.highcharts.com/samples/static/highslide.config.js" charset="utf-8"></script>
-    <link rel="stylesheet" type="text/css" href="https://www.highcharts.com/samples/static/highslide.css" />
-
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
     <link href="../Content/DataTables/css/jquery.dataTables.min.css" rel="stylesheet" />
@@ -24,6 +15,7 @@
     <link href="../Content/main.css" rel="stylesheet" />
     <link href="../Content/myUITheme.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee+Shade" />
+    <script src="../Scripts/feedEk.js"></script>
     <script>
         function windowpop(url, width, height) {
             var leftPosition, topPosition;
@@ -57,24 +49,24 @@
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="../Home.aspx"><span class="glyphicon glyphicon-home"></span></a></li>
-                        <li><a href="../Seasons.aspx">Championships</a></li>
+                        <li class="active"><a href="../../Home.aspx"><span class="glyphicon glyphicon-home"></span></a></li>
+                        <li><a href="../../Seasons.aspx">Championships</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">League Tables <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="../Leagues/PremierLeague.aspx">Premier League</a></></li>
-                                <li><a href="../Leagues/LaLiga.aspx">La Liga</a></li>
-                                <li><a href="../Leagues/Bundesliga.aspx">BundesLiga</a></li>
-                                <li><a href="../Leagues/LigueOne.aspx">Ligue One</a></li>
+                                <li><a href="../../Leagues/PremierLeague.aspx">Premier League</a></></li>
+                                <li><a href="../../Leagues/LaLiga.aspx">La Liga</a></li>
+                                <li><a href="../../Leagues/Bundesliga.aspx">BundesLiga</a></li>
+                                <li><a href="../../Leagues/LigueOne.aspx">Ligue One</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Teams <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="../PremierLeagueHome.aspx">Premier League Teams</a></></li>
-                                <li><a href="../LaLigaHome.aspx">La Liga Teams</a></></li>
-                                <li><a href="../BundesligaHome.aspx">BundesLiga Teams</a></li>
-                                <li><a href="../LigueOneHome.aspx">Ligue One Teams</a></li>
+                                <li><a href="../../PremierLeagueHome.aspx">Premier League Teams</a></></li>
+                                <li><a href="../../LaLigaHome.aspx">La Liga Teams</a></></li>
+                                <li><a href="../../BundesligaHome.aspx">BundesLiga Teams</a></li>
+                                <li><a href="../../LigueOneHome.aspx">Ligue One Teams</a></li>
                             </ul>
                         </li>
                         <li><a href="../AboutMe.aspx">About</a></li>
@@ -84,21 +76,104 @@
                 </div>
             </div>
         </nav>
+
+
         <form id="form1" runat="server">
             <div>
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
+                        <div class="container">
+  <div class="dropdown" style="float:right;">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Another Team
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="../../Teams/Premier_League_Teams/Arsenal.aspx">Arsenal FC</a></li>
+      <li><a href="../../Teams/Premier_League_Teams/Bournemouth.aspx">Bournemouth FC</a></li>
+      <li><a href="../../Teams/Premier_League_Teams/Burnley.aspx">Burnely FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/Chelsea.aspx">Chelsea FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/CrystalPalace.aspx">Crystal Palace FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/Everton.aspx">Everton FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/HullCity.aspx">Hull City FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/LeicesterCity.aspx">Leicester FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/Liverpool.aspx">Liverpool FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/ManCity.aspx">Man City FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/ManUnited.aspx">Man United FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/Middlesbrough.aspx">Middlesbrough FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/Southampton.aspx">Southampton FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/Stoke_City.aspx">Stoke City FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/SwanseaCity.aspx">Swansea City FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/Tottenham.aspx">Tottenham FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/Watford.aspx">Watford FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/WestBrom.aspx">WestBrom FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/WestHam.aspx">WestHam FC</a></li>
+    </ul>
+  </div>
+</div>
             </div>
         </form>
+
+        <div id="playerInfoContainer_tbl" class="col-md-4">
+                <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
+            <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
+            <table  class="table-responsive" style="color: white !important; font-weight: bold;" >
+                <td>
+                    <img id="playerPicture" src="" /></td>
+                <td>
+                    
+                    <table id="playerInfo_tbl"  class="table-responsive">
+                       
+                            <tr id="name">
+
+                                <td id="playerName">
+                                    <label for="name">Name: </label>
+                                    </td>
+                            </tr>
+                            <tr id="nationality">
+                                <td id="playerNationality">
+                                    <label for="nationality">Nationality: </label>
+                                    </td>
+                            </tr>
+                            <tr id="position">
+                                <td id="playerPosition">
+                                    <label for="position">Position: </label>
+                                    </td>
+                            </tr>
+                            <tr id="jerseyNumber">
+                                <td id="playerJerseyNumber">
+                                    <label for="jerseyNumber">Jersey Number: </label>
+                                    </td>
+                            </tr>
+                            <tr id="signedUntil">
+                                <td id="playerSignedUntil">
+                                    <label for="signedUntil">Signed Until: </label>
+                                    </td>
+                            </tr>
+                        
+                    </table>
+                </td>
+                <tr>
+                    <select id="selectPlayer">
+                        <option value="Choose A Player">Choose A Player</option>
+                    </select>
+                    <button class="btn-success" onclick="renderLoadedPlayers()">Go</button>
+                </tr>
+
+
+            </table>
+                </div>
+                    </div>
+        </div>
+
+        <!--
         <div class="col-md-6">
-            <div style="overflow-x: auto; color: white !important; font-weight: bold">
+            <div style="overflow-x: auto; color: white !important; font-weight: bold; opacity:0.7;">
                 <table id='myTable' class="table table-hover">
                     <thead>
                         <tr>
                             <th>Name</th>
+                            <th>Nationality</th>
                             <th>Position</th>
                             <th>Jersey Number</th>
-                            <th>Nationality</th>
                             <th>Signed Until</th>
                         </tr>
                     </thead>
@@ -112,9 +187,13 @@
                 </table>
             </div>
         </div>
-        <div class="col-md-6">
+        -->
+        
+        
+        <div class="col-md-4">
             <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
-                <table id="teamStanding_tbl" style="color: white !important; font-weight: bold; ">
+                <table id="teamStanding_tbl" class="table-responsive" style="color: white !important; font-weight: bold; opacity:0.8;">
+                    <caption><h4>Lastest Team Standing</h4></caption>
                     <thead>
                         <tr>
                             <th>Position</th>
@@ -135,17 +214,68 @@
             <button type="button" id="fullLeague_btn" class="btn btn-success"  style="margin-top: 5px;">Show Full League Standings</button>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-4">
+                <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
             <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
-        <iframe id="manU_Feed" class="embed-responsive-item"  style="color:white !important; pointer-events:auto; width:400px; height:400px; border:none;"></iframe>
+                <table id="teamFixtures" class="table-responsive" style="color: white !important; font-weight: bold; opacity:0.8;">
+                     <caption><h4>Lastest Team Results</h4></caption>
+                    <thead>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan='2'>
+                                <button class="btn btn-lg btn-warning"><span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span>Loading...</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+                    </div>
+        </div>
+        
+        
+        <div class="col-md-6">
+                <img id="managedBy" src=""/>
+                <h4> Manager: <span id="managersName"></span> </h4>
+                </div>
+        
+
+        <div class="col-md-6" style="margin-left: auto ;margin-right: auto ;">
+        <div class="col-md-6">
+            <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
+                <h3 id="latestNews"></h3>
+        <div id="teamRssFeed" class="embed-responsive-item"  style="color:white !important; pointer-events:auto;  height:400px; border:none;"></div>
                 </div>
             
             </div>
-        <div class="col-md-3">
+
+            
+        <div class="col-md-6">
             <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
+                <h3 id="teamNews" style="color:aquamarine;">Current Form</h3>
         <canvas id="myChart" width="50" height="50"></canvas>
                 </div>
             </div>
+
+
+            
+            <div class="col-md-6">
+            <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
+               
+        <canvas id="myLine" width="50" height="50"></canvas>
+                </div>
+            </div>
+            
+        
+    </div>
+        
         <footer>
             <div class="row">
                 <div class="col-lg-12">
@@ -154,6 +284,5 @@
             </div>
             <!-- /.row -->
         </footer>
-    </div>
 </body>
 </html>

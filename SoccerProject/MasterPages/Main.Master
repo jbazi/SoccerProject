@@ -17,6 +17,7 @@
     <script>
         $(window).on('load', function () {
             $(".loader").fadeOut("slow");
+            $(".leagueContent").slideDown("slow");
         })
     </script>
 </head>
@@ -70,24 +71,82 @@
             </asp:ContentPlaceHolder>
         </div>
     </form>
-        <div style="overflow-x:auto; margin-top:100px; margin-right:100px;margin-left:100px; color:white;">
-    <table id='myTable' class="table table-hover">
-        <thead>
-            <tr>
-                <th>Championship</th>
-                <th>Number Of Teams</th>
-                <th>Number Of Games</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td colspan='2'>
-                    <button class="btn btn-lg btn-warning"><span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span>Loading...</button>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+
+        <div class="countryFlags col-md-3">
+            <img id="englad" src="../Content/flags/england.jpg"/>
+            <div id="england" visible="false" class="leagueContent" style="background-color:red;">
+                <div>
+                    <label for="ENGnumOfTeams">Number Of Games: </label>
+                    <span id="ENGnumOfTeams">
+
+                    </span>
+                </div>
+                <div>
+                    <label for="ENGnumOfGames">Number Of Teams: </label>
+                    <span id="ENGnumOfGames">
+
+                    </span>
+                </div>
+                
             </div>
+        </div>
+
+        <div class="countryFlags col-md-3">
+            <img src="../Content/flags/france.jpg" />
+            <div id="france" class="leagueContent" style="background-color:red;">
+                <div>
+                    <label for="FRnumOfTeams">Number Of Games: </label>
+                    <span id="FRnumOfTeams">
+
+                    </span>
+                </div>
+                <div>
+                    <label for="FRnumOfGames">Number Of Teams: </label>
+                    <span id="FRnumOfGames">
+
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="countryFlags col-md-3">
+            <img src="../Content/flags/germany.jpg" />
+            <div id="germany" class="leagueContent" style="background-color:red;">
+                <div>
+                    <label for="GMYnumOfTeams">Number Of Games: </label>
+                    <span id="GMYnumOfTeams">
+
+                    </span>
+                </div>
+                <div>
+                    <label for="GMYnumOfGames">Number Of Teams: </label>
+                    <span id="GMYnumOfGames">
+
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="countryFlags col-md-3">
+            <img src="../Content/flags/spain.jpg" />
+            <div id="spain" class="leagueContent"  style="background-color:red;">
+                <div>
+                    <label for="SPNnumOfTeams">Number Of Games: </label>
+                    <span id="SPNnumOfTeams">
+
+                    </span>
+                </div>
+                <div>
+                    <label for="SPNnumOfGames">Number Of Teams: </label>
+                    <span id="SPNnumOfGames">
+
+                    </span>
+                </div>
+                
+            </div>
+        </div>
     
         </div>
 </body>

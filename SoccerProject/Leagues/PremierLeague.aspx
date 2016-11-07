@@ -9,7 +9,7 @@
     <div class="container">
         <div class="jumbotron">
 
-            <h1>Premier League</h1>
+            <h1><span><img id="trophy" src="../Content/trophies/eplTrophy.jpg" /></span>Premier League</h1>
             <p>England 2016 - 2017 Season</p>
         </div>
     </div>

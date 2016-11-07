@@ -1,12 +1,10 @@
 ﻿$(document).ready(function () {
     $("#myTable").dataTable({
-        'bProcessing': true,
-        'bAutoWidth': true,
-        'iDisplayLength': 20,
-        'bJQueryUI': true,
+        "bInfo" : false,
+        'bFilter': false,
+        "bPaginate": false,
+        "bSort": false,
         "aaData": [],
-        "oLanguage": { "sEmptyTable": "No teams were found with the API provided" },
-        "sDom": '<"H"lf<"clear-right"p>>rt<"F"ip>',
     });
 
     getData();

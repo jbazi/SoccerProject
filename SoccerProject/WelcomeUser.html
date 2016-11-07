@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+    <link href="Content/main.css" rel="stylesheet" />
+	<meta charset="utf-8" />
+    <style type="text/css">
+        #makeMeScrollable {
+            width: 100%;
+            height: 330px;
+            position: relative;
+        }
+
+            /* Replace the last selector for the type of element you have in
+           your scroller. If you have div's use #makeMeScrollable div.scrollableArea div,
+           if you have links use #makeMeScrollable div.scrollableArea a and so on. */
+            #makeMeScrollable div.scrollableArea img {
+                position: relative;
+                float: left;
+                margin: 0;
+                padding: 0;
+                /* If you don't want the images in the scroller to be selectable, try the following
+               block of code. It's just a nice feature that prevent the images from
+               accidentally becoming selected/inverted when the user interacts with the scroller. */
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -o-user-select: none;
+                user-select: none;
+            }
+    </style>
+</head>
+<body>
+    <div id="home" class="banner">
+        <div class="loader"></div>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+
+                    <a id="brandName" class="navbar-brand" href="../Home.aspx">Sasa Scores</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="../Home.aspx"><span class="glyphicon glyphicon-home"></span> </a></li>
+                        <li><a href="../Seasons.aspx">Championships</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">League Tables <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="../Leagues/PremierLeague.aspx">Premier League</a></></li>
+                                <li><a href="../Leagues/LaLiga.aspx">La Liga</a></li>
+                                <li><a href="../Leagues/Bundesliga.aspx">BundesLiga</a></li>
+                                <li><a href="../Leagues/LigueOne.aspx">Ligue One</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Teams <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="../PremierLeagueHome.aspx">Premier League Teams</a></></li>
+                                <li><a href="../LaLigaHome.aspx">La Liga Teams</a></></li>
+                                <li><a href="../BundesligaHome.aspx">BundesLiga Teams</a></li>
+                                <li><a href="../LigueOneHome.aspx">Ligue One Teams</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../AboutMe.aspx">About</a></li>
+                        <li id="UserSignInOut"><a href="../UserAuthentication/RegisterUser.aspx">Sign In </a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <div id="makeMeScrollable">
+            <img src="Content/epl.jpg" alt="Demo image" id="field" />
+            <img src="Content/bundesliga.jpg" alt="Demo image" id="gnome" />
+            <img src="Content/laliga.jpg" alt="Demo image" id="pencils" />
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+        <script src="Scripts/Scroll/jquery-ui-1.10.3.custom.min.js"></script>
+        <script src="Scripts/Scroll/jquery.kinetic.min.js"></script>
+        <script src="Scripts/Scroll/jquery.mousewheel.min.js"></script>
+        <script src="Scripts/Scroll/jquery.smoothdivscroll-1.3-min.js"></script>
+        <link href="Content/main.css" rel="stylesheet" />
+        
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; shemas_world 2016</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+    </div>
+</body>
+</html>

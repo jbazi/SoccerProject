@@ -7,76 +7,49 @@
     <div class="container">
         <div class="jumbotron">
             <h1>Register As A Fan</h1>
-            <p>Do It!!!</p>
-
-            <p>C'mon</p>
+            <asp:Label ID="lblMessage" runat="server" ForeColor="Red" Visible="false"></asp:Label>
         </div>
     </div>
 
     <table id="registerTable">
         <tr class="success">
-            <td>
-                First Name<asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server"
-                    ErrorMessage="*" ControlToValidate="txtFirstName"  ForeColor="Red" />
-            </td>
-            <td>
-                <asp:TextBox ID="txtFirstName"  class="txtBox" runat="server" required="required" placeholder="Your First Name"></asp:TextBox>
-            </td>
-        </tr>
-        <tr class="danger">
-            <td>
-                Last Name<asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server"
-                    ErrorMessage="*" ControlToValidate="txtLastName" ForeColor="Red" />
-            </td>
-            <td>
-                <asp:TextBox ID="txtLastName" class="txtBox" runat="server" required="required" placeholder="Your Last Name"></asp:TextBox>
-            </td>
-        </tr>
-        <tr class="success">
-            <td>
-                Country<asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server"
-                    ErrorMessage="*" ControlToValidate="txtCountry"  ForeColor="Red" />
-            </td>
-            <td>
-                <asp:TextBox ID="txtCountry"  class="txtBox" runat="server" required="required" placeholder="Your Country"></asp:TextBox>
-            </td>
-        </tr>
         <tr class="info">
-            <td>
-                User Name   <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server"
+            <td class="glyphicon glyphicon-user">
+                Username   <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server"
                     ErrorMessage="*" ControlToValidate="txtUserName" ForeColor="Red"/>
             </td>
-            <td>
+            <td >
                 <asp:TextBox ID="txtUserName" class="txtBox" runat="server" required="required" placeholder=" Your User Name"></asp:TextBox>
               
             </td>
         </tr>
         <tr class="warning">
-            <td>
-                Email address  <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server"
-                    ErrorMessage="*" ControlToValidate="txtEmailAddress" ForeColor="Red" />
+            <td class =" glyphicon glyphicon-envelope">
+                Email  <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server"
+                    ErrorMessage="*" ControlToValidate="txtEmailAddress" ForeColor="Red"  />
             </td>
             <td>
                 <asp:TextBox ID="txtEmailAddress" class="txtBox"  runat="server" required="required" placeholder="me@email.com"></asp:TextBox> 
             </td>
         </tr>
-        <tr class="success">
-            <td>
-                Confirm email address   <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server"
-                    ErrorMessage="*" ControlToValidate="txtCofirmEmail" ForeColor="Red" />
-            </td>
-            <td>
-                <asp:TextBox ID="txtCofirmEmail"  class="txtBox" runat="server" required="required" placeholder="me@email.com"></asp:TextBox>
-               
-            </td>
-        </tr>
+        
         <tr class="danger">
-            <td>
+            <td class="glyphicon glyphicon-lock">
                 Password   <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server"
                     ErrorMessage="*" ControlToValidate="txtPassword" ForeColor="Red" />
             </td>
             <td>
-                <asp:TextBox ID="txtPassword"  class="txtBox" runat="server" required="required" placeholder="****"></asp:TextBox>
+                <asp:TextBox ID="txtPassword"  TextMode="Password" class="txtBox" runat="server" required="required" placeholder="****"></asp:TextBox>
+               
+            </td>
+        </tr>
+        <tr class="success">
+            <td>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server"
+                    ErrorMessage="*" ControlToValidate="txtConfirmPassword" ForeColor="Red" />
+            </td>
+            <td>
+                <asp:TextBox ID="txtConfirmPassword"  TextMode="Password" class="txtBox" runat="server" required="required" placeholder="Confirm Password"></asp:TextBox>
                
             </td>
         </tr>

@@ -18,6 +18,7 @@
     </script>
 </head>
 <body>
+    <div id="home" class="banner">
     <div class="loader"></div>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -53,8 +54,8 @@
                             <li><a href="../Leagues/LigueOne.aspx">Ligue One Teams</a></li>
                         </ul>
                     </li>
-                    <li><a href="../AboutMe.aspx">About</a></li>
-                    <li id="UserSignInOut"> <a href="../UserAuthentication/RegisterUser.aspx"> Sign In </a></li>
+                    <li><a href="../AboutMe.aspx" >About</a></li>
+                    <li id="UserSignInOut"> <a href="../UserAuthentication/RegisterUser.aspx" class="glyphicon glyphicon-user"> Login </a></li>
                 </ul>
 
             </div>

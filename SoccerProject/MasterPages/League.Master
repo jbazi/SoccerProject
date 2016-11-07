@@ -71,7 +71,7 @@
         </asp:ContentPlaceHolder>
     </div>
     </form>
-    <div style="overflow-x:auto; margin-right:50px;margin-left:50px; margin-bottom:50px; color:white !important; font-weight:bold">
+    <div style="overflow-x:auto; margin-right:50px;margin-left:50px; margin-bottom:50px; color:white !important; font-weight:bold; opacity:0.8">
       <table id='myTable' class="table table-hover">
     <thead>
         <tr>

@@ -23,7 +23,8 @@ table.dataTable {
     }
 
     table.dataTable tbody tr {
-        background-color: #48a037;
+        background-color: #09924f;
+        /*48a037 09924f 1bb56e*/
     }
 
         table.dataTable tbody tr.selected {
@@ -430,6 +431,7 @@ table.dataTable thead th.ui-state-default, table.dataTable tfoot th.ui-state-def
 
     table.dataTable thead th.ui-state-default:first-child, table.dataTable tfoot th.ui-state-default:first-child {
         border-left-width: 1px;
+
     }
 
 .dataTables_wrapper .dataTables_paginate .fg-button {
@@ -461,10 +463,13 @@ table.dataTable thead th.ui-state-default, table.dataTable tfoot th.ui-state-def
 
 .dataTables_wrapper .ui-widget-header {
     font-weight: normal;
+        background-color:#aebcd6 !important;
+
 }
 
 .dataTables_wrapper .ui-toolbar {
     padding: 8px;
+
 }
 
 .dataTables_wrapper.no-footer .dataTables_scrollBody {

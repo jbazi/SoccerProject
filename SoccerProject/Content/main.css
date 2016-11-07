@@ -5,8 +5,8 @@
     min-height: 900px;
 }
 
-.defaultFontColor{
-    color:white !important;
+.defaultFontColor {
+    color: white !important;
 }
 
 .banner {
@@ -61,7 +61,7 @@
 
 #brandName {
     font-family: 'Bungee Shade', cursive !important;
-    color:white !important;
+    color: white !important;
     text-align: center !important;
 }
 
@@ -191,19 +191,18 @@ img > title {
     color: darkseagreen;
 }
 
-#teamsID{
-    margin-left:80px;
-    
+#teamsID {
+    margin-left: 80px;
 }
 
-#teamsID p {
-    display: none;
-}
+    #teamsID p {
+        display: none;
+    }
 
-#teamsID:hover p {
-    visibility: visible;
-    opacity: 1;
-}
+    #teamsID:hover p {
+        visibility: visible;
+        opacity: 1;
+    }
 
 #teamsID {
     /**/ padding: 0px 50px 50px 50px;
@@ -226,18 +225,18 @@ img > title {
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background: url('ajax-loader.gif') 50% 50% no-repeat;
-    background-color: #fff;
+    background: url('mainLoader.gif') 50% 50% no-repeat;
+    background-color: #47A508;
 }
 
 #registerTable {
     border: 3px;
     border-style: outset;
     border-color: #ff6a00;
-    width: 50%;
     margin: 1em auto;
-    padding: 10px 15px;
     font-size: 14px;
+    color: white;
+    background-image: url('../UserAuthentication/login.jpg');
 }
 
 .txtBox {
@@ -262,6 +261,425 @@ tr:hover {
     background-color: yellowgreen !important;
 }
 
-footer{
-    margin-bottom: 50px; 
+footer {
+    margin-bottom: 50px;
+}
+
+h4 {
+    color: #ffd800;
+    font-weight: bolder;
+}
+
+/* smartphones, iPhone, portrait 480x320 phones */
+@media (min-width:320px) {
+}
+
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+@media (min-width:481px) {
+}
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px) {
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:961px) {
+}
+
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {
+}
+
+/* hi-res laptops and desktops */
+@media (min-width:1281px) {
+}
+
+
+
+label {
+    color: #1227cf;
+    font-weight: bold;
+}
+
+figcaption {
+    color: #ffd800;
+    font-weight: bolder;
+}
+
+#playerPicture, #managedBy, #trophy {
+    border-radius: 10%;
+}
+
+.countryFlags > img {
+    border-radius: 50%;
+}
+
+#latestNews{
+    color:aquamarine;
+}
+
+.feedEkList {
+    width: 450px;
+    list-style: none outside none;
+    background-color: #FFFFFF;
+    border: 1px solid #D3CAD7;
+    padding: 4px 6px;
+    color: #3E3E3E;
+}
+
+    .feedEkList li {
+        border-bottom: 1px solid #D3CAD7;
+        padding: 5px;
+    }
+
+        .feedEkList li:last-child {
+            border-bottom: none;
+        }
+
+.itemTitle a {
+    font-weight: bold;
+    color: #4EBAFF !important;
+    text-decoration: none;
+}
+
+    .itemTitle a:hover {
+        text-decoration: underline;
+    }
+
+.itemDate {
+    font-size: 11px;
+    color: #AAAAAA;
+}
+
+.rssDiv {
+    float: left;
+    padding-right: 35px;
+}
+
+#teamRssFeed > ul {
+    width: 400px !important;
+}
+
+#playerInfo_tbl {
+    width: 100%;
+    margin-left: 5px;
+    background-color: chocolate;
+}
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+}
+
+
+
+#makeMeScrollable {
+    width: 100%;
+    height: 330px;
+    position: relative;
+}
+
+    /* Replace the last selector for the type of element you have in
+		   your scroller. If you have div's use #makeMeScrollable div.scrollableArea div,
+		   if you have links use #makeMeScrollable div.scrollableArea a and so on. */
+    #makeMeScrollable div.scrollableArea img {
+        position: relative;
+        float: left;
+        margin: 0;
+        padding: 0;
+        /* If you don't want the images in the scroller to be selectable, try the following
+			   block of code. It's just a nice feature that prevent the images from
+			   accidentally becoming selected/inverted when the user interacts with the scroller. */
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+    }
+
+
+
+.login {
+    position: absolute;
+    left: 50%;
+    margin: -10rem 0 0 -10rem;
+    width: 20rem;
+    height: 20rem;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    opacity: 0.8;
+}
+
+    .login:hover > .login-header, .login.focused > .login-header {
+        width: 2rem;
+    }
+
+        .login:hover > .login-header > .text, .login.focused > .login-header > .text {
+            font-size: 1rem;
+            transform: rotate(-90deg);
+        }
+
+    .login.loading > .login-header {
+        width: 20rem;
+    }
+
+        .login.loading > .login-header > .text {
+            display: none;
+        }
+
+        .login.loading > .login-header > .loader {
+            display: block;
+        }
+
+.login-header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 20rem;
+    height: 20rem;
+    background: orange;
+    transition: width 0.5s ease-in-out;
+}
+
+    .login-header > .text {
+        display: block;
+        width: 100%;
+        height: 100%;
+        font-size: 5rem;
+        text-align: center;
+        line-height: 20rem;
+        color: #fff;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .login-header > .loader {
+        display: none;
+        position: absolute;
+        left: 5rem;
+        top: 5rem;
+        width: 10rem;
+        height: 10rem;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        animation: loading 2s linear infinite;
+    }
+
+        .login-header > .loader:after {
+            content: "";
+            position: absolute;
+            left: 4.5rem;
+            top: -0.5rem;
+            width: 1rem;
+            height: 1rem;
+            background: #fff;
+            border-radius: 50%;
+            border-right: 2px solid orange;
+        }
+
+        .login-header > .loader:before {
+            content: "";
+            position: absolute;
+            left: 4rem;
+            top: -0.5rem;
+            width: 0;
+            height: 0;
+            border-right: 1rem solid #fff;
+            border-top: 0.5rem solid transparent;
+            border-bottom: 0.5rem solid transparent;
+        }
+
+@keyframes loading {
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.login-form {
+    margin: 0 0 0 2rem;
+    padding: 0.5rem;
+}
+
+.login-input {
+    display: block;
+    width: 100%;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    box-shadow: none;
+    border-color: #ccc;
+    border-width: 0 0 2px 0;
+}
+
+    .login-input + .login-input {
+        margin: 10px 0 0;
+    }
+
+    .login-input:focus {
+        outline: none;
+        border-bottom-color: orange;
+    }
+
+.login-btn {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    background: orange;
+    border-radius: 50%;
+    font-size: 0;
+    border: 0.6rem solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+    .login-btn:after {
+        content: "";
+        position: absolute;
+        left: 1rem;
+        top: 0.8rem;
+        width: 0;
+        height: 0;
+        border-left: 2.4rem solid #fff;
+        border-top: 1.2rem solid transparent;
+        border-bottom: 1.2rem solid transparent;
+        transition: border 0.3s ease-in-out 0s;
+    }
+
+    .login-btn:hover, .login-btn:focus, .login-btn:active {
+        background: #fff;
+        border-color: orange;
+        outline: none;
+    }
+
+        .login-btn:hover:after, .login-btn:focus:after, .login-btn:active:after {
+            border-left-color: orange;
+        }
+/* You can alter this CSS in order to give Smooth Div Scroll your own look'n'feel */
+
+/* Invisible left hotspot */
+div.scrollingHotSpotLeft {
+    /* The hotspots have a minimum width of 100 pixels and if there is room the will grow
+    and occupy 15% of the scrollable area (30% combined). Adjust it to your own taste. */
+    min-width: 75px;
+    width: 10%;
+    height: 100%;
+    /* There is a big background image and it's used to solve some problems I experienced
+    in Internet Explorer 6. */
+    background-image: url(../images/big_transparent.gif);
+    background-repeat: repeat;
+    background-position: center center;
+    position: absolute;
+    z-index: 200;
+    left: 0;
+    /*  The first url is for Firefox and other browsers, the second is for Internet Explorer */
+    cursor: url(../images/cursors/cursor_arrow_left.png), url(../images/cursors/cursor_arrow_left.cur),w-resize;
+}
+
+/* Visible left hotspot */
+div.scrollingHotSpotLeftVisible {
+    background-image: url(../images/arrow_left.gif);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    opacity: 0.35; /* Standard CSS3 opacity setting */
+    -moz-opacity: 0.35; /* Opacity for really old versions of Mozilla Firefox (0.9 or older) */
+    filter: alpha(opacity = 35); /* Opacity for Internet Explorer. */
+    zoom: 1; /* Trigger "hasLayout" in Internet Explorer 6 or older versions */
+}
+
+/* Invisible right hotspot */
+div.scrollingHotSpotRight {
+    min-width: 75px;
+    width: 10%;
+    height: 100%;
+    background-image: url(../images/big_transparent.gif);
+    background-repeat: repeat;
+    background-position: center center;
+    position: absolute;
+    z-index: 200;
+    right: 0;
+    cursor: url(../images/cursors/cursor_arrow_right.png), url(../images/cursors/cursor_arrow_right.cur),e-resize;
+}
+
+/* Visible right hotspot */
+div.scrollingHotSpotRightVisible {
+    background-image: url(../images/arrow_right.gif);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    opacity: 0.35;
+    filter: alpha(opacity = 35);
+    -moz-opacity: 0.35;
+    zoom: 1;
+}
+
+/* The scroll wrapper is always the same width and height as the containing element (div).
+   Overflow is hidden because you don't want to show all of the scrollable area.
+*/
+div.scrollWrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+div.scrollableArea {
+    position: relative;
+    width: auto;
+    height: 100%;
 }

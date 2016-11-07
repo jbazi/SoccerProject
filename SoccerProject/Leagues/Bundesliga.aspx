@@ -7,8 +7,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
       <div class="container">
+         
   <div class="jumbotron">
-    <h1>Bundesliga</h1>
+      <h1> <span><img id="trophy" src="../Content/trophies/bundesligaTrophy.jpg" /></span>Bundesliga</h1>
     <p>Germany 2016 - 2017 Season</p>
   </div>
         </div>

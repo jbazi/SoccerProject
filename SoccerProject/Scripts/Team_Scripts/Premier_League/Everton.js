@@ -1,4 +1,10 @@
 ﻿$(document).ready(function () {
+    $('.dropdown-submenu a.test').on("click", function (e) {
+        $(this).next('ul').toggle();
+        e.stopPropagation();
+        e.preventDefault();
+    });
+
     $('#teamRssFeed').FeedEk({
         FeedUrl: 'http://www.bbc.com/sport/football/teams/everton/rss.xml',
     });
@@ -244,6 +250,10 @@ function renderTeamLeagueStandingData(result) {
 
     $('#teamStanding_tbl').dataTable().fnAddData(DataArray);
     $('#teamStanding_tbl').dataTable().fnAdjustColumnSizing();
+    $('#teamStanding_tbl tr td').each(function () {
+        if ($(this).text() === 'Everton FC')
+            $(this).parent().css('background-color', '#E86118', '!important');
+    });
 }
 
 function getTeamLeagueStandingData() {

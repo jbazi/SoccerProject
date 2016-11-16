@@ -365,6 +365,10 @@ figcaption {
     margin-left: 5px;
     background-color: chocolate;
 }
+
+#managedBy{
+    margin-top: 15px;
+}
 /* ----------- iPhone 4 and 4S ----------- */
 
 /* Portrait and Landscape */
@@ -490,7 +494,7 @@ figcaption {
     z-index: 1;
     width: 20rem;
     height: 20rem;
-    background: orange;
+    background: #3E3E3E;
     transition: width 0.5s ease-in-out;
 }
 
@@ -501,7 +505,7 @@ figcaption {
         font-size: 5rem;
         text-align: center;
         line-height: 20rem;
-        color: #fff;
+        color: #ff6a00;
         transition: all 0.5s ease-in-out;
     }
 

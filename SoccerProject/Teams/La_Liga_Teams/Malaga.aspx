@@ -6,8 +6,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
         <div class="jumbotron">
-            <h1>Málaga CF Players</h1>
-            <p>2016 - 2017 Season Squad</p>
+            <h1><img src="../../Content/TeamImages/LaLiga/malaga.jpg" width="100" height="100" />Málaga CF</h1>
         </div>
     </div>
 </asp:Content>

@@ -1,4 +1,10 @@
 ﻿$(document).ready(function () {
+    $('.dropdown-submenu a.test').on("click", function (e) {
+        $(this).next('ul').toggle();
+        e.stopPropagation();
+        e.preventDefault();
+    });
+
     $('#teamRssFeed').FeedEk({
         FeedUrl: 'http://www.bbc.com/sport/football/teams/crystal-palace/rss.xml',
     });
@@ -12,6 +18,7 @@
     });
 
     $("#teamStanding_tbl").dataTable({
+        "bInfo": false,
         'bFilter': false,
         "bPaginate": false,
         "bSort": false,
@@ -19,6 +26,7 @@
     });
 
     $("#teamFixtures").dataTable({
+        "bInfo": false,
         'bFilter': false,
         "bPaginate": false,
         "bSort": false,
@@ -88,8 +96,6 @@ function renderLoadedPlayers(userSelection) {
     $('#playerPosition').html("<td><label>Position: </label>    " + position + "</td>");
     $('#jerseyNumber').html("<td><label>Jersey Number: </label>    " + jerseyNumber + "</td>");
     $('#signedUntil').html("<td><label>Signed Until: </label>    " + contractDate + "</td>");
-    //"<a id='laLigaAnchor' style='color:white;' href='../LaLigaHome.aspx' target=_blank + title='Navigate to La Liga Home'>" + this.caption + "</a>"
-    //$('#playerInfo_tbl').dataTable().fnAdjustColumnSizing();
 
 }
 
@@ -241,6 +247,10 @@ function renderTeamLeagueStandingData(result) {
 
     $('#teamStanding_tbl').dataTable().fnAddData(DataArray);
     $('#teamStanding_tbl').dataTable().fnAdjustColumnSizing();
+    $('#teamStanding_tbl tr td').each(function () {
+        if ($(this).text() === 'Crystal Palace FC')
+            $(this).parent().css('background-color', '#E86118', '!important');
+    });
 }
 
 function getTeamLeagueStandingData() {

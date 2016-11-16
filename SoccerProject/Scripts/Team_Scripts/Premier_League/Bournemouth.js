@@ -1,4 +1,10 @@
 ﻿$(document).ready(function () {
+    $('.dropdown-submenu a.test').on("click", function (e) {
+        $(this).next('ul').toggle();
+        e.stopPropagation();
+        e.preventDefault();
+    });
+
     $('#teamRssFeed').FeedEk({
         FeedUrl: 'http://www.bbc.com/sport/football/teams/afc-bournemouth/rss.xml',
     });
@@ -20,6 +26,7 @@
     });
 
     $("#teamFixtures").dataTable({
+        "bInfo": false,
         'bFilter': false,
         "bPaginate": false,
         "bSort": false,
@@ -242,6 +249,10 @@ function renderTeamLeagueStandingData(result) {
 
     $('#teamStanding_tbl').dataTable().fnAddData(DataArray);
     $('#teamStanding_tbl').dataTable().fnAdjustColumnSizing();
+    $('#teamStanding_tbl tr td').each(function () {
+        if ($(this).text() === 'AFC Bournemouth')
+            $(this).parent().css('background-color', '#E86118', '!important');
+    });
 }
 
 function getTeamLeagueStandingData() {

@@ -1,6 +1,0 @@
-﻿.feedEkList{width:450px; list-style:none outside none;background-color:#ff0000; border:1px solid #D3CAD7; padding:4px 6px; color:#FFFFFF;}
-.feedEkList li{border-bottom:1px solid #FFFFFF; padding:5px;}
-.feedEkList li:last-child{border-bottom:none;}
-.itemTitle a{font-weight:bold; color:#FFFFFF !important; text-decoration:none }
-.itemTitle a:hover{ text-decoration:underline }
-.itemDate{font-size:11px;color:#FFFFFF;} 

@@ -15,3 +15,14 @@ C:\My_2016_Portfolio\SoccerProject\SoccerProject\bin\RestSharp.xml
 C:\My_2016_Portfolio\SoccerProject\SoccerProject\obj\Debug\SoccerProject.csprojResolveAssemblyReference.cache
 C:\My_2016_Portfolio\SoccerProject\SoccerProject\obj\Debug\SoccerProject.dll
 C:\My_2016_Portfolio\SoccerProject\SoccerProject\obj\Debug\SoccerProject.pdb
+C:\Users\Shema\Documents\Visual Studio 2015\Projects\SasaScores\SoccerProject\bin\SoccerProject.dll.config
+C:\Users\Shema\Documents\Visual Studio 2015\Projects\SasaScores\SoccerProject\bin\SoccerProject.dll
+C:\Users\Shema\Documents\Visual Studio 2015\Projects\SasaScores\SoccerProject\bin\SoccerProject.pdb
+C:\Users\Shema\Documents\Visual Studio 2015\Projects\SasaScores\SoccerProject\bin\GetRssFeed.dll
+C:\Users\Shema\Documents\Visual Studio 2015\Projects\SasaScores\SoccerProject\bin\Newtonsoft.Json.dll
+C:\Users\Shema\Documents\Visual Studio 2015\Projects\SasaScores\SoccerProject\bin\RestSharp.dll
+C:\Users\Shema\Documents\Visual Studio 2015\Projects\SasaScores\SoccerProject\bin\Newtonsoft.Json.xml
+C:\Users\Shema\Documents\Visual Studio 2015\Projects\SasaScores\SoccerProject\bin\RestSharp.xml
+C:\Users\Shema\Documents\Visual Studio 2015\Projects\SasaScores\SoccerProject\obj\Debug\SoccerProject.csprojResolveAssemblyReference.cache
+C:\Users\Shema\Documents\Visual Studio 2015\Projects\SasaScores\SoccerProject\obj\Debug\SoccerProject.dll
+C:\Users\Shema\Documents\Visual Studio 2015\Projects\SasaScores\SoccerProject\obj\Debug\SoccerProject.pdb

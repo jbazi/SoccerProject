@@ -11,8 +11,17 @@
         </div>
     </div>
 
-    <table id="registerTable">
-        <tr class="success">
+       <div class="login col-lg-4" style="margin-top:15px; margin-left:10%; float:left !important;">
+  <header class="login-header"><span class="text">LOGIN</span><span class="loader"></span></header>
+  <form class="login-form">
+    <input type="text" placeholder="Username" class="login-input"/>
+    <input type="password" placeholder="Password" class="login-input"/>
+    <button type="submit" class="login-btn">login</button>
+  </form>
+</div>
+ 
+
+    <table id="registerTable" class="col-lg-4" style="margin-left:10%; opacity:0.8;">
         <tr class="info">
             <td class="glyphicon glyphicon-user">
                 Username   <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server"

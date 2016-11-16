@@ -82,12 +82,17 @@
             <div>
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
-                        <div class="container">
+
+                <div class="container">
+  
   <div class="dropdown" style="float:right;">
     <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Another Team
     <span class="caret"></span></button>
     <ul class="dropdown-menu">
-      <li><a href="../../Teams/Premier_League_Teams/Arsenal.aspx">Arsenal FC</a></li>
+      <li class="dropdown-submenu">
+        <a class="test" tabindex="-1" href="#">England <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li ><a href="../../Teams/Premier_League_Teams/Arsenal.aspx">Arsenal FC</a></li>
       <li><a href="../../Teams/Premier_League_Teams/Bournemouth.aspx">Bournemouth FC</a></li>
       <li><a href="../../Teams/Premier_League_Teams/Burnley.aspx">Burnely FC</a></li>
         <li><a href="../../Teams/Premier_League_Teams/Chelsea.aspx">Chelsea FC</a></li>
@@ -106,9 +111,50 @@
         <li><a href="../../Teams/Premier_League_Teams/Watford.aspx">Watford FC</a></li>
         <li><a href="../../Teams/Premier_League_Teams/WestBrom.aspx">WestBrom FC</a></li>
         <li><a href="../../Teams/Premier_League_Teams/WestHam.aspx">WestHam FC</a></li>
+
+        </ul>
+          <li class="dropdown-submenu">
+        <a class="test" tabindex="-1" href="#">Spain <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="../../Teams/La_Liga_Teams/Alaves.aspx">Deportivo Alavés</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/AtleticoBilbao.aspx">Athletic Bilbao</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/AtleticoDeMadrid.aspx">Atletico Madrid</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/Barcelona.aspx">FC Barcelona</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/CeltaVigo.aspx">RC Celta de Vigo</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/DeportivoLaCoruna.aspx">RC Deportivo La Coruna</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/Espanyol.aspx">RCD Espanyol</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/Granada.aspx">Granada CF</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/LasPalmas.aspx">Las Palmas</a></li>
+          <li><a href="../../LaLigaHome.aspx">CD Leganes</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/Malaga.aspx">Málaga CF</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/Osasuna.aspx">CA Osasuna</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/RealBetis.aspx">Real Betis</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/RealMadrid.aspx">Real Madrid</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/RealSociedad.aspx">Real Sociedad</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/SdEibar.aspx">SD Eibar</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/Sevilla.aspx">Sevilla FC</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/SportingGijon.aspx">Sporting Gijón</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/Valencia.aspx">Valencia CF</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/Villarreal.aspx">Villarreal CF</a></li>
+        </ul>
+              <li class="dropdown-submenu">
+        <a class="test" tabindex="-1" href="#">Germany <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+          <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+
+        </ul>
+      </li>
+              <li class="dropdown-submenu">
+        <a class="test" tabindex="-1" href="#">France <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+          <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+
+        </ul>
     </ul>
   </div>
-</div>
+</div>     
             </div>
         </form>
 
@@ -152,7 +198,7 @@
                     </table>
                 </td>
                 <tr>
-                    <select id="selectPlayer">
+                    <select id="selectPlayer" class="dropdown">
                         <option value="Choose A Player">Choose A Player</option>
                     </select>
                     <button class="btn-success" onclick="renderLoadedPlayers()">Go</button>

@@ -1,4 +1,10 @@
 ﻿$(document).ready(function () {
+    $('.dropdown-submenu a.test').on("click", function (e) {
+        $(this).next('ul').toggle();
+        e.stopPropagation();
+        e.preventDefault();
+    });
+
     $('#teamRssFeed').FeedEk({
         FeedUrl: 'http://www.bbc.com/sport/football/teams/hull-city/rss.xml',
     });
@@ -21,6 +27,7 @@
     });
 
     $("#teamFixtures").dataTable({
+        "bInfo": false,
         'bFilter': false,
         "bPaginate": false,
         "bSort": false,
@@ -62,7 +69,7 @@ function renderLoadedPlayers(userSelection) {
     var name, nationality, position, jerseyNumber, contractDate;
     $.ajax({
         headers: { 'X-Auth-Token': 'e4a0c71e6e9f4981b9706379992f468a' },
-        url: 'http://api.football-data.org/v1/teams/1044/players',
+        url: 'http://api.football-data.org/v1/teams/322/players',
         dataType: 'json',
         cache: false, //add this
         async: false,
@@ -144,7 +151,7 @@ function renderTeamPlayerData(result) {
 function getPlayerData() {
     $.ajax({
         headers: { 'X-Auth-Token': 'e4a0c71e6e9f4981b9706379992f468a' },
-        url: 'http://api.football-data.org/v1/teams/1044/players',
+        url: 'http://api.football-data.org/v1/teams/322/players',
         dataType: 'json',
         type: 'GET',
     }).done(function (response) {
@@ -180,7 +187,7 @@ function renderTeamFixtures(result) {
 function getTeamFixtures() {
     $.ajax({
         headers: { 'X-Auth-Token': 'e4a0c71e6e9f4981b9706379992f468a' },
-        url: 'http://api.football-data.org/v1/teams/57/fixtures',
+        url: 'http://api.football-data.org/v1/teams/322/fixtures',
         dataType: 'json',
         type: 'GET',
     }).done(function (response) {
@@ -193,7 +200,7 @@ function renderTeamLeagueStandingData(result) {
     var position, sum;
 
     $.each(result.standing, function (index) {
-        var name = "AFC Bournemouth";
+        var name = "Hull City FC";
         var firstPrev, secondPrev, firstNext, secondNext, link;
         if (this.teamName == name) {
             $(result).css('background-color', '#FFFF00');
@@ -244,6 +251,10 @@ function renderTeamLeagueStandingData(result) {
 
     $('#teamStanding_tbl').dataTable().fnAddData(DataArray);
     $('#teamStanding_tbl').dataTable().fnAdjustColumnSizing();
+    $('#teamStanding_tbl tr td').each(function () {
+        if ($(this).text() === 'Hull City FC')
+            $(this).parent().css('background-color', '#E86118', '!important');
+    });
 }
 
 function getTeamLeagueStandingData() {
@@ -285,7 +296,7 @@ function getPieChartStats() {
         type: 'GET',
     }).done(function (result) {
         $.each(result.standing, function (index) {
-            var name = "AFC Bournemouth";
+            var name = "Hull City FC";
             if (this.teamName == name) {
                 position = index + 1;
                 DataArray.push(this.wins, this.losses, this.draws);

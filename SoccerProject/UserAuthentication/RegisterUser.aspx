@@ -19,7 +19,7 @@
     <button type="submit" class="login-btn">login</button>
   </form>
 </div>
- 
+ <p></p>
 
     <table id="registerTable" class="col-lg-4" style="margin-left:10%; opacity:0.8;">
         <tr class="info">

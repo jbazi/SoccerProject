@@ -92,26 +92,47 @@
       <li class="dropdown-submenu">
         <a class="test" tabindex="-1" href="#">England <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li ><a href="../../Teams/Premier_League_Teams/Arsenal.aspx">Arsenal FC</a></li>
-      <li><a href="../../Teams/Premier_League_Teams/Bournemouth.aspx">Bournemouth FC</a></li>
-      <li><a href="../../Teams/Premier_League_Teams/Burnley.aspx">Burnely FC</a></li>
-        <li><a href="../../Teams/Premier_League_Teams/Chelsea.aspx">Chelsea FC</a></li>
-        <li><a href="../../Teams/Premier_League_Teams/CrystalPalace.aspx">Crystal Palace FC</a></li>
-        <li><a href="../../Teams/Premier_League_Teams/Everton.aspx">Everton FC</a></li>
-        <li><a href="../../Teams/Premier_League_Teams/HullCity.aspx">Hull City FC</a></li>
-        <li><a href="../../Teams/Premier_League_Teams/LeicesterCity.aspx">Leicester FC</a></li>
-        <li><a href="../../Teams/Premier_League_Teams/Liverpool.aspx">Liverpool FC</a></li>
-        <li><a href="../../Teams/Premier_League_Teams/ManCity.aspx">Man City FC</a></li>
-        <li><a href="../../Teams/Premier_League_Teams/ManUnited.aspx">Man United FC</a></li>
-        <li><a href="../../Teams/Premier_League_Teams/Middlesbrough.aspx">Middlesbrough FC</a></li>
-        <li><a href="../../Teams/Premier_League_Teams/Southampton.aspx">Southampton FC</a></li>
-        <li><a href="../../Teams/Premier_League_Teams/Stoke_City.aspx">Stoke City FC</a></li>
-        <li><a href="../../Teams/Premier_League_Teams/SwanseaCity.aspx">Swansea City FC</a></li>
-        <li><a href="../../Teams/Premier_League_Teams/Tottenham.aspx">Tottenham FC</a></li>
-        <li><a href="../../Teams/Premier_League_Teams/Watford.aspx">Watford FC</a></li>
-        <li><a href="../../Teams/Premier_League_Teams/WestBrom.aspx">WestBrom FC</a></li>
-        <li><a href="../../Teams/Premier_League_Teams/WestHam.aspx">WestHam FC</a></li>
-
+          <li><a href="../../Teams/Premier_League_Teams/Arsenal.aspx"> 
+          <img src="../../Content/TeamImages/EPL/Arsenal.jpg" width="25" height="25" />  Arsenal FC</a></li>
+      <li><a href="../../Teams/Premier_League_Teams/Bournemouth.aspx"> 
+          <img src="../../Content/TeamImages/EPL/Bournemouth.jpg" width="25" height="25" />  Bournemouth FC</a></li>
+      <li><a href="../../Teams/Premier_League_Teams/Burnley.aspx"> 
+          <img src="../../Content/TeamImages/EPL/Burnley.jpg" width="25" height="25" />  Burnely FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/Chelsea.aspx"> 
+            <img src="../../Content/TeamImages/EPL/chelsea.jpg" width="25" height="25" />  Chelsea FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/CrystalPalace.aspx"> 
+            <img src="../../Content/TeamImages/EPL/crystal_palace.jpg" width="25" height="25" />  Crystal Palace FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/Everton.aspx"> 
+            <img src="../../Content/TeamImages/EPL/Everton.jpg" width="25" height="25" />  Everton FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/HullCity.aspx"> 
+            <img src="../../Content/TeamImages/EPL/Hull_City.jpg" width="25" height="25" />  Hull City FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/LeicesterCity.aspx"> 
+            <img src="../../Content/TeamImages/EPL/Leicester.jpg" width="25" height="25" />  Leicester FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/Liverpool.aspx"> 
+            <img src="../../Content/TeamImages/EPL/liverpool.jpg" width="25" height="25" />  Liverpool FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/ManCity.aspx"> 
+            <img src="../../Content/TeamImages/EPL/mancity.jpg" width="25" height="25" />  Man City FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/ManUnited.aspx"> 
+            <img src="../../Content/TeamImages/EPL/ManU.jpg" width="25" height="25" />  Man United FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/Middlesbrough.aspx"> 
+            <img src="../../Content/TeamImages/EPL/Middlesbrough.jpg" width="25" height="25" />  Middlesbrough FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/Southampton.aspx"> 
+            <img src="../../Content/TeamImages/EPL/southampton.jpg" width="25" height="25" />  Southampton FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/Stoke_City.aspx"> 
+            <img src="../../Content/TeamImages/EPL/stokeCity.jpg" width="25" height="25" />  Stoke City FC</a></li>
+         <li><a href="../../Teams/Premier_League_Teams/Sunderland.aspx"> 
+            <img src="../../Content/TeamImages/EPL/sunderland.jpg" width="25" height="25" />  Sunderland FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/SwanseaCity.aspx"> 
+            <img src="../../Content/TeamImages/EPL/swanseaCity.jpg" width="25" height="25" />  Swansea City FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/Tottenham.aspx">
+            <img src="../../Content/TeamImages/EPL/Tottenham.jpg" width="25" height="25" /> Tottenham FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/Watford.aspx">
+            <img src="../../Content/TeamImages/EPL/watford.jpg" width="25" height="25" /> Watford FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/WestBrom.aspx"> 
+            <img src="../../Content/TeamImages/EPL/westBrom.jpg" width="25" height="25" /> WestBrom FC</a></li>
+        <li><a href="../../Teams/Premier_League_Teams/WestHam.aspx">
+                <img src="../../Content/TeamImages/EPL/westHam.jpg" width="25" height="25" />  WestHam FC
+            </a></li>
         </ul>
           <li class="dropdown-submenu">
         <a class="test" tabindex="-1" href="#">Spain <span class="caret"></span></a>
@@ -140,9 +161,24 @@
               <li class="dropdown-submenu">
         <a class="test" tabindex="-1" href="#">Germany <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
-          <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
-
+          <li><a href="../../Teams/Bundesliga_Teams/Bayer_Leverkusen.aspx">Bayer Leverkusen</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/Bayern_Munich.aspx">Bayern Munich</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/Bor_Monch.aspx">Bor. Mönchengladbach</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/Borussia_Dortmund.aspx">Borussia Dortmund</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/FC_Augsburg.aspx">FC Augsburg</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/FC_Ingolstadt.aspx">FC Ingolstadt 04</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/FC_Koln.aspx">1. FC Köln</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/FC_Mainz.aspx">1. FSV Mainz 05</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/FC_Schalke.aspx">FC Schalke 04</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/Frankfurt.aspx">Eintracht Frankfurt</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/Hertha.aspx">Hertha BSC</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/Hoffenheim.aspx">TSG 1899 Hoffenheim</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/Leipzig.aspx">Red Bull Leipzig</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/SC_Freiburg.aspx">SC Freiburg</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/SV_Darmstadt.aspx">SV Darmstadt 98</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/SV_Hamburger.aspx">Hamburger SV</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/Weder_Bremen.aspx">Werder Bremen</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/Wolfsburg.aspx">VfL Wolfsburg</a></li>
         </ul>
       </li>
               <li class="dropdown-submenu">
@@ -157,6 +193,77 @@
 </div>     
             </div>
         </form>
+
+        <div class="col-md-4">
+                <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
+            <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
+                <table id="teamFixtures" class="table-responsive" style="color: white !important; font-weight: bold; opacity:0.8;">
+                     <caption><h4>Lastest Team Results</h4></caption>
+                    <thead>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan='2'>
+                                <button class="btn btn-lg btn-warning"><span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span>Loading...</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+                    </div>
+        </div>
+
+        <div class="col-md-4">
+            <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
+                <table id="teamStanding_tbl" class="table-responsive" style="color: white !important; font-weight: bold; opacity:0.8;">
+                    <caption><h4>Lastest Team Standing</h4></caption>
+                    <thead>
+                        <tr>
+                            <th>Position</th>
+                            <th>Team</th>
+                            <th>PL</th>
+                            <th>Pts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan='2'>
+                                <button class="btn btn-lg btn-warning"><span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span>Loading...</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <button type="button" id="fullLeague_btn" class="btn btn-success"  style="margin-top: 5px;">Show Full League Standings</button>
+        </div>
+
+        <div class="col-md-4">
+                <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
+            <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
+                <table id="nextFiveGames" class="table-responsive" style="color: white !important; font-weight: bold; opacity:0.8;">
+                     <caption><h4>Next Five Games</h4></caption>
+                    <thead>
+                        <tr>
+                            <td></td> 
+                            <td></td>
+                            <td></td>  
+                            <td></td>  
+                        </tr>
+                    </thead>
+                    
+                </table>
+            </div>
+                    </div>
+        </div>
+        
+        <div class="col-lg-12"> 
 
         <div id="playerInfoContainer_tbl" class="col-md-4">
                 <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
@@ -209,88 +316,12 @@
                 </div>
                     </div>
         </div>
-
-        <!--
-        <div class="col-md-6">
-            <div style="overflow-x: auto; color: white !important; font-weight: bold; opacity:0.7;">
-                <table id='myTable' class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Nationality</th>
-                            <th>Position</th>
-                            <th>Jersey Number</th>
-                            <th>Signed Until</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td colspan='2'>
-                                <button class="btn btn-lg btn-warning"><span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span>Loading...</button>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        -->
         
-        
-        <div class="col-md-4">
-            <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
-                <table id="teamStanding_tbl" class="table-responsive" style="color: white !important; font-weight: bold; opacity:0.8;">
-                    <caption><h4>Lastest Team Standing</h4></caption>
-                    <thead>
-                        <tr>
-                            <th>Position</th>
-                            <th>Team</th>
-                            <th>PL</th>
-                            <th>Pts</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td colspan='2'>
-                                <button class="btn btn-lg btn-warning"><span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span>Loading...</button>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <button type="button" id="fullLeague_btn" class="btn btn-success"  style="margin-top: 5px;">Show Full League Standings</button>
-        </div>
-
-        <div class="col-md-4">
-                <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
-            <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
-                <table id="teamFixtures" class="table-responsive" style="color: white !important; font-weight: bold; opacity:0.8;">
-                     <caption><h4>Lastest Team Results</h4></caption>
-                    <thead>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td colspan='2'>
-                                <button class="btn btn-lg btn-warning"><span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span>Loading...</button>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-                    </div>
-        </div>
-        
-        
-        <div class="col-md-6">
+        <div class="col-md-4" style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
                 <img id="managedBy" src=""/>
                 <h4> Manager: <span id="managersName"></span> </h4>
                 </div>
+            </div>
         
 
         <div class="col-md-6" style="margin-left: auto ;margin-right: auto ;">

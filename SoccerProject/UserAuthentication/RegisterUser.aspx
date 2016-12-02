@@ -22,6 +22,7 @@
  <p></p>
 
     <table id="registerTable" class="col-lg-4" style="margin-left:10%; opacity:0.8;">
+        <caption>Sign Up</caption>
         <tr class="info">
             <td class="glyphicon glyphicon-user">
                 Username   <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server"

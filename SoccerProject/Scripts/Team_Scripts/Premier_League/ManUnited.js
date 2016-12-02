@@ -33,9 +33,16 @@
         "aaData": [],
     });
 
+    $("#nextFiveGames").dataTable({
+        "bInfo": false,
+        'bFilter': false,
+        "bPaginate": false,
+        "bSort": false,
+        "aaData": [],
+    });
+
     getPieChartStats();
     getTeamFixtures();
-    
     getPlayerData();
     getTeamLeagueStandingData();
     var userSelection = "Paul Pogba";
@@ -161,7 +168,9 @@ function getPlayerData() {
 */
 
 function renderTeamFixtures(result) {
-    var DataArray = [];
+    var prevResults = [];
+    var nextFixtures = [];
+    var days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"];
     var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
   "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"
     ];
@@ -169,13 +178,26 @@ function renderTeamFixtures(result) {
         var status = "FINISHED";
         if (this.status == status) {
             var rawDate = new Date(this.date);
-            var datePretty = monthNames[rawDate.getMonth()] + ", " + (rawDate.getDate() + 1) + " " + rawDate.getFullYear();
-            DataArray.push([this.homeTeamName, this.result.goalsHomeTeam, datePretty, this.result.goalsAwayTeam, this.awayTeamName]);
+            var datePretty = days[rawDate.getDay()] + " " + monthNames[rawDate.getMonth()] + " " + (rawDate.getDate() + 1) + ",  " + rawDate.getFullYear();
+            prevResults.push([this.homeTeamName, this.result.goalsHomeTeam, datePretty, this.result.goalsAwayTeam, this.awayTeamName]);
         } 
     });
-    var lastFour = DataArray.slice(-4);
+    var lastFour = prevResults.slice(-5);
     $('#teamFixtures').dataTable().fnAddData(lastFour);
     $('#teamFixtures').dataTable().fnAdjustColumnSizing();
+
+    $.each(result.fixtures, function () {
+        var status1 = "TIMED"; var status2 = "POSTPONED"; var status3 = "SCHEDULED";
+        var verses = "v";
+        if (this.status == status1 || this.status == status2 || this.status == status3 ) {
+            var rawDate = new Date(this.date);
+            var datePretty = days[rawDate.getDay()] + " " + monthNames[rawDate.getMonth()] + " " + (rawDate.getDate() + 1) + ",  " + rawDate.getFullYear();
+            nextFixtures.push([this.homeTeamName, verses, this.awayTeamName, datePretty]);
+        }
+    });
+    var lastfive = nextFixtures.slice(0, 5);
+    $('#nextFiveGames').dataTable().fnAddData(lastfive);
+    $('#nextFiveGames').dataTable().fnAdjustColumnSizing();
 }
 
 function getTeamFixtures() {
@@ -214,6 +236,7 @@ function renderTeamLeagueStandingData(result) {
                         secondPrev.points
                 ]);
             }
+
             DataArray.push([this.position,
                         this.teamName,
                         this.playedGames,

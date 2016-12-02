@@ -8,33 +8,25 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../Scripts/jssor.slider-21.1.6.mini.js"></script>
+    <script src="../Scripts/mySlider.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
     <link href="../Content/DataTables/css/jquery.dataTables.min.css" rel="stylesheet" />
     <link href="../Content/bootstrap.min.css" rel="stylesheet" />
     <link href="../Content/main.css" rel="stylesheet" />
+    <link href="../Content/unslider.css" rel="stylesheet" />
     <link href="../Content/myUITheme.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee+Shade" />
 
+    <!--
+        <script src="../Scripts/unslider.js"></script>
+    <script src="../Scripts/mySlider.js"></script>
+    <script src="../Scripts/jssor.slider-21.1.6.mini.js"></script> 
+        -->
 
-
-    <script>
-        function windowpop(url, width, height) {
-            var leftPosition, topPosition;
-            //Allow for borders.
-            leftPosition = (window.screen.width / 2) - ((width / 2) + 10);
-            //Allow for title and status bars.
-            topPosition = (window.screen.height / 2) - ((height / 2) + 50);
-            //Open the window.
-            window.open(url, "Window2", "status=no,height=" + height + ",width=" + width + ",resizable=yes,left=" + leftPosition + ",top=" + topPosition + ",screenX=" + leftPosition + ",screenY=" + topPosition + ",toolbar=no,menubar=no,scrollbars=no,location=no,directories=no");
-        }
-
-        $(document).ready(function () {
-            // None of the options are set
-            $(".loader").fadeOut("slow");
-        });
-    </script>
+    
 </head>
 <body>
     <div id="home" class="banner">
@@ -81,6 +73,8 @@
                 </asp:ContentPlaceHolder>
             </div>
         </form>
+        
+    <!-- #endregion Jssor Slider End -->
         <!--
          <div class="col-md-4" style="margin-top:100px;">
            <div class="login">

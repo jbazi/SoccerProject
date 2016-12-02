@@ -72,12 +72,12 @@
 
     </div>
     </form>
-    <div style="overflow-x:auto; margin-right:50px;margin-left:50px; margin-bottom:50px; color:white !important; font-weight:bold; opacity:0.8">
-      <table id='myTable' class="table table-hover">
+    <div style="overflow-x:auto; margin-right:80px;margin-left:80px; margin-bottom:50px; color:white !important; font-weight:bold; opacity:0.8">
+      <table id='myTable' class="table table-hover" width="75%">
     <thead>
         <tr>
             <th>Position</th>
-            <th>Team</th>
+            <th >Team</th>
             <th>PL</th>
             <th>W</th>
             <th>D</th>

@@ -195,6 +195,21 @@
     <Content Include="Content\flags\germany.jpg" />
     <Content Include="Content\flags\spain.jpg" />
     <Content Include="Content\mainLoader.gif" />
+    <Content Include="Content\sliderImages\02.jpg" />
+    <Content Include="Content\sliderImages\04.jpg" />
+    <Content Include="Content\sliderImages\arrow-left.png" />
+    <Content Include="Content\sliderImages\arrow-right.png" />
+    <Content Include="Content\sliderImages\arsenal.png" />
+    <Content Include="Content\sliderImages\bayern.png" />
+    <Content Include="Content\sliderImages\circle.png" />
+    <Content Include="Content\sliderImages\lMessi.png" />
+    <Content Include="Content\sliderImages\loading.gif" />
+    <Content Include="Content\sliderImages\manutd.png" />
+    <Content Include="Content\sliderImages\messi.png" />
+    <Content Include="Content\sliderImages\myLeague.PNG" />
+    <Content Include="Content\sliderImages\neymar.png" />
+    <Content Include="Content\sliderImages\realM.png" />
+    <Content Include="Content\sliderImages\ronaldo.png" />
     <Content Include="Content\themes\base\images\animated-overlay.gif" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
@@ -261,6 +276,12 @@
     <Content Include="Content\trophies\eplTrophy.jpg" />
     <Content Include="Content\trophies\laliga.jpg" />
     <Content Include="Content\trophies\ligueOneTrophy.jpg" />
+    <Content Include="Content\Banner_Images\stadium.jpg" />
+    <Content Include="Content\trophies\epl.png" />
+    <Content Include="Content\trophies\ligOne.png" />
+    <Content Include="Content\trophies\laLiga.png" />
+    <Content Include="Content\trophies\trophy4.png" />
+    <Content Include="Content\unslider.css" />
     <Content Include="images\Bailey.jpg" />
     <Content Include="images\DeGea.jpg" />
     <Content Include="images\Martial.jpg" />
@@ -270,6 +291,550 @@
     <Content Include="js\jquery.kinetic.min.js" />
     <Content Include="js\jquery.mousewheel.min.js" />
     <Content Include="js\jquery.smoothdivscroll-1.3-min.js" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\alaba.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\alonso.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\arjen.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\boateng.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\carlo.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\coman.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\costa.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\erdal.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\fabian.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\green.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\holger.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\hummels.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\javier.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\joshua.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\juan.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\lahm.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\marcio.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\muller.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\neuer.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\niklas.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\ribery.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\robert.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\sanches.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\sven.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\thiago.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\tom.jpg" />
+    <Content Include="Players\Bundesliga\Bayern_Munich\vidal.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\admir.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\benjamin.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\brandt.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\charles.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\costa.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\dragovic.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\hakan.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\hilbert.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\javier.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\joel.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\julian.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\kai.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\karim.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\kevin.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\lars.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\leno.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\lomb.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\lukas.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\pohjanpalo.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\ramazan.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\robbie.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\sam.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\smith.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\stefan.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\tah.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\tin.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\toprak.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\vladlen.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\volland.jpg" />
+    <Content Include="Players\Bundesliga\Bayer_Leverkusen\wendell.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\andre.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\bartra.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\bonmann.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\castro.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\dembele.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\dzenis.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\emre.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\erik.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\felix.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\ginter.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\gotze.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\julian.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\kagawa.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\lukasz.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\marcel.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\mikel.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\neven.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\nuri.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\park.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\pierre.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\pulisic.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\ramos.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\raphael.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\reus.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\rode.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\roman.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\romanW.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\sokratis.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\sven.jpg" />
+    <Content Include="Players\Bundesliga\Borussia_Dortmund\thomas.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\andreas.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\benes.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\christofer.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\dahoud.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\fabian.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\hahn.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\hazard.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\jannik.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\jonas.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\josip.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\julian.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\kramer.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\lars.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\mamadou.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\marvin.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\moritz.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\nico.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\nicoS.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\oscar.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\patrick.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\raffael.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\schubert.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\sippel.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\soto.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\sow.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\tobias.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\tony.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\traore.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\tsiy.jpg" />
+    <Content Include="Players\Bundesliga\bor_Monch\yann.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\aron.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\claudio.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\clemens.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\drobny.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\fallou.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\felix.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\fin.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\florian.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\garcia.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\gebre.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\izet.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\janek.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\johannes.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\justin.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\kainz.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\lorenzen.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\luca.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\lukas.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\max.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\maximilian.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\melvyn.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\michael.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\milos.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\niklas.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\nouri.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\philipp.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\robert.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\sambou.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\sane.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\serge.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\thanos.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\thy.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\ulisses.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\wolf.jpg" />
+    <Content Include="Players\Bundesliga\Bremen\zlatko.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\alex.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\anis.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\artem.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\aytac.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\can.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\colak.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\daniel.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\denys.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\dominik.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\fabian.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\felix.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\florian.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\gorka.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\hohn.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\igor.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\jan.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\jerome.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\laszlo.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\leon.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\liam.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\marcel.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\mario.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\meier.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\michael.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\peter.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\roman.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\sandro.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\sven.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\thur.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\victor.jpg" />
+    <Content Include="Players\Bundesliga\Darmstadt\wolff.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\alfred.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\arif.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\baier.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\daniel.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\dirk.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\gelios.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\halil.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\hitz.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\jan.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\janker.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\janM.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\jeffrey.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\ji.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\jonathan.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\kacar.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\kohr.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\konstantinos.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\koo.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\kurz.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\luthe.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\marco.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\markus.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\martin.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\marvin.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\max.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\maxR.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\paul.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\raphael.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\raul.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\silva.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\teigl.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\tim.jpg" />
+    <Content Include="Players\Bundesliga\FC_Augsburg\usami.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\almog.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\buntic.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\dario.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\florent.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\hansen.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\henke.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\jung.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\lukas.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\marcel.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\markus.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\mathew.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\matip.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\maurice.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\max.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\morales.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\moritz.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\nico.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\nyland.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\ortag.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\pascal.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\robert.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\roger.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\romain.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\sonny.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\stefan.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\tobias.jpg" />
+    <Content Include="Players\Bundesliga\FC_Ingolstadt\wahl.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\anthony.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\filip.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\frederik.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\hartel.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\hector.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\heintz.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\jesus.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\jojic.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\kessler.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\lehmann.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\lukas.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\marco.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\maroh.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\mavraj.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\pawel.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\peter.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\rausch.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\risse.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\rudnevs.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\salih.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\sehrou.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\simon.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\svenMuller.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\timoHorn.jpg" />
+    <Content Include="Players\Bundesliga\FC_Koln\yuya.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\andre.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\bell.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\besar.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\bussmann.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\christian.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\curci.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\daniel.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\danny.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\darius.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\emil.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\florian.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\frei.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\gerrit.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\giulio.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\hack.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\huth.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\jairo.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\jean.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\jhon.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\jonas.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\jose.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\karim.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\leon.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\levin.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\muto.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\niki.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\niko.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\pablo.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\parker.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\philipp.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\suat.jpg" />
+    <Content Include="Players\Bundesliga\FC_Mainz\yunus.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\aogo.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\baba.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\benedikt.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\benjamin.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\bernard.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\breel.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\clemens.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\donis.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\eric.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\fabian.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\franco.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\geis.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\giefer.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\joshua.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\klaas.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\leon.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\markus.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\matija.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\max.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\nabil.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\nubel.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\phil.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\ralf.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\ronaldo.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\sam.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\sascha.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\schopf.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\sead.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\thilo.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\timon.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\uchida.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\uilson.jpg" />
+    <Content Include="Players\Bundesliga\FC_Schalke\yevhen.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\anderson.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\ante.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\barkok.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\bastian.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\blum.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\bunjaki.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\david.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\fabian.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\flum.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\haris.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\heinz.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\hrgota.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\huszti.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\joel.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\leon.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\luke.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\makoto.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\marc.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\marco.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\meier.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\michael.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\mijat.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\niko.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\omar.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\shani.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\slobodan.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\taleb.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\timothy.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\vallejo.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\varela.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\yanni.jpg" />
+    <Content Include="Players\Bundesliga\Frankfurt\zorba.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\aleksandar.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\alexander.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\amir.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\caglar.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\charles.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\christian.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\falahen.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\florian.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\georg.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\grifo.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\havard.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\janik.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\jonas.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\julian.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\karim.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\lucas.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\lukas.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\manuel.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\marc.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\mats.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\meffert.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\mike.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\nicolas.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\nils.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\oliver.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\onur.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\pascal.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\patric.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\philipp.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\rafal.jpg" />
+    <Content Include="Players\Bundesliga\Freiburg\streich.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\alex.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\allan.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\dardal.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\duda.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\esswein.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\fabian.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\florian.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\genki.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\jens.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\john.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\julian.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\kalou.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\kraft.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\marvin.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\maximilian.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\niklas.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\nils.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\per.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\peter.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\rune.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\sami.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\sebastian.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\sinan.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\valentin.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\vedad.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\vladimir.jpg" />
+    <Content Include="Players\Bundesliga\Hertha\weiser.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\adam.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\amiri.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\andrej.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\baris.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\dennis.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\ermin.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\eugen.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\fabian.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\hubner.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\jeremy.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\jiloan.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\jin.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\julian.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\kerem.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\kevin.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\kobel.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\lukas.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\marco.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\mark.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\oliver.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\pavel.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\philipp.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\pirmin.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\rudy.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\sandro.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\steven.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\stolz.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\sule.jpg" />
+    <Content Include="Players\Bundesliga\Hoffenheim\vargas.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\benjamin.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\benno.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\davie.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\diego.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\dominik.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\emil.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\fabio.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\junior.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\kalmar.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\ken.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\kyriakos.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\lukas.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\marcel.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\marius.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\marvin.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\naby.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\oliver.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\peter.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\ralph.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\rani.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\sabitzer.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\stefan.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\terrence.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\timo.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\toure.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\vitaly.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\willi.jpg" />
+    <Content Include="Players\Bundesliga\Leipzig\yussuf.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\adler.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\albin.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\alen.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\ashton.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\bobby.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\christian.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\cleber.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\dennis.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\douglas.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\dren.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\emir.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\filip.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\finn.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\frank.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\gian.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\hirzel.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\hunt.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\jatta.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\johan.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\jung.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\lewis.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\markus.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\mats.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\matthias.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\michael.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\nabil.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\nicolai.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\sakai.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\seo.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\sogga.jpg" />
+    <Content Include="Players\Bundesliga\SV_Hamburger\tom.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\adelino.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\amara.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\anton.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\borja.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\bruma.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\bruno.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\carlos.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\christian.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\daniel.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\didavi.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\diego.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\gomez.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\horn.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\ismael.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\ismailA.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\jakub.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\joshua.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\josip.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\julian.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\jung.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\knoche.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\koen.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\luiz.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\marcel.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\max.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\maximilian.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\paul.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\phillip.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\ricardo.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\robin.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\vieirinha.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\woll.jpg" />
+    <Content Include="Players\Bundesliga\Wolfsburg\yannick.jpg" />
     <Content Include="Players\LaLiga\Alaves\alexis.jpg" />
     <Content Include="Players\LaLiga\Alaves\barreiro.jpg" />
     <Content Include="Players\LaLiga\Alaves\camarasa.jpg" />
@@ -1284,12 +1849,51 @@
     <Content Include="Scripts\feedEk.js" />
     <Content Include="Scripts\jquery-ui-1.10.3.js" />
     <Content Include="Scripts\jquery-ui-1.10.3.min.js" />
+    <Content Include="Scripts\jssor.slider-21.1.6.mini.js" />
     <Content Include="Scripts\modernizr-2.7.2.js" />
     <Content Include="Scripts\chart.bundle.js" />
     <Content Include="css\smoothDivScroll.css" />
+    <Content Include="Scripts\mySlider.js" />
+    <Content Include="Scripts\Team_Scripts\Bundesliga\bayern_munich.js" />
+    <Content Include="Scripts\Team_Scripts\Bundesliga\bayer_leverkusen.js" />
+    <Content Include="Scripts\Team_Scripts\Bundesliga\borussia_Dortmund.js" />
+    <Content Include="Scripts\Team_Scripts\Bundesliga\bor_Monch.js" />
+    <Content Include="Scripts\Team_Scripts\Bundesliga\bremen.js" />
+    <Content Include="Scripts\Team_Scripts\Bundesliga\darmstadt.js" />
+    <Content Include="Scripts\Team_Scripts\Bundesliga\fcAugsburg.js" />
+    <Content Include="Scripts\Team_Scripts\Bundesliga\fcIngolstadt.js" />
+    <Content Include="Scripts\Team_Scripts\Bundesliga\fcKoln.js" />
+    <Content Include="Scripts\Team_Scripts\Bundesliga\fcMainz.js" />
+    <Content Include="Scripts\Team_Scripts\Bundesliga\fcSchalke.js" />
+    <Content Include="Scripts\Team_Scripts\Bundesliga\frankfurt.js" />
+    <Content Include="Scripts\Team_Scripts\Bundesliga\freiburg.js" />
+    <Content Include="Scripts\Team_Scripts\Bundesliga\hertha.js" />
+    <Content Include="Scripts\Team_Scripts\Bundesliga\hoffenheim.js" />
+    <Content Include="Scripts\Team_Scripts\Bundesliga\leipzig.js" />
+    <Content Include="Scripts\Team_Scripts\Bundesliga\svHamburger.js" />
+    <Content Include="Scripts\Team_Scripts\Bundesliga\wolfsburg.js" />
     <Content Include="Scripts\Team_Scripts\LaLiga\leganes.js" />
     <Content Include="Scripts\Team_Scripts\LaLiga\osasuna.js" />
+    <Content Include="Scripts\unslider.js" />
     <Content Include="scroll.html" />
+    <Content Include="Teams\Bundesliga_Teams\Bayern_Munich.aspx" />
+    <Content Include="Teams\Bundesliga_Teams\Bayer_Leverkusen.aspx" />
+    <Content Include="Teams\Bundesliga_Teams\Borussia_Dortmund.aspx" />
+    <Content Include="Teams\Bundesliga_Teams\Bor_Monch.aspx" />
+    <Content Include="Teams\Bundesliga_Teams\FC_Augsburg.aspx" />
+    <Content Include="Teams\Bundesliga_Teams\FC_Ingolstadt.aspx" />
+    <Content Include="Teams\Bundesliga_Teams\FC_Koln.aspx" />
+    <Content Include="Teams\Bundesliga_Teams\FC_Mainz.aspx" />
+    <Content Include="Teams\Bundesliga_Teams\FC_Schalke.aspx" />
+    <Content Include="Teams\Bundesliga_Teams\Frankfurt.aspx" />
+    <Content Include="Teams\Bundesliga_Teams\Hertha.aspx" />
+    <Content Include="Teams\Bundesliga_Teams\Hoffenheim.aspx" />
+    <Content Include="Teams\Bundesliga_Teams\Leipzig.aspx" />
+    <Content Include="Teams\Bundesliga_Teams\SC_Freiburg.aspx" />
+    <Content Include="Teams\Bundesliga_Teams\SV_Darmstadt.aspx" />
+    <Content Include="Teams\Bundesliga_Teams\SV_Hamburger.aspx" />
+    <Content Include="Teams\Bundesliga_Teams\Weder_Bremen.aspx" />
+    <Content Include="Teams\Bundesliga_Teams\Wolfsburg.aspx" />
     <Content Include="Teams\La_Liga_Teams\Leganes.aspx" />
     <Content Include="Teams\La_Liga_Teams\Osasuna.aspx" />
     <Content Include="Content\laliga.jpg" />
@@ -1730,6 +2334,132 @@
       <DependentUpon>PremierLeagueHome.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Teams\Bundesliga_Teams\Bayern_Munich.aspx.cs">
+      <DependentUpon>Bayern_Munich.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\Bayern_Munich.aspx.designer.cs">
+      <DependentUpon>Bayern_Munich.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\Bayer_Leverkusen.aspx.cs">
+      <DependentUpon>Bayer_Leverkusen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\Bayer_Leverkusen.aspx.designer.cs">
+      <DependentUpon>Bayer_Leverkusen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\Borussia_Dortmund.aspx.cs">
+      <DependentUpon>Borussia_Dortmund.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\Borussia_Dortmund.aspx.designer.cs">
+      <DependentUpon>Borussia_Dortmund.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\Bor_Monch.aspx.cs">
+      <DependentUpon>Bor_Monch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\Bor_Monch.aspx.designer.cs">
+      <DependentUpon>Bor_Monch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\FC_Augsburg.aspx.cs">
+      <DependentUpon>FC_Augsburg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\FC_Augsburg.aspx.designer.cs">
+      <DependentUpon>FC_Augsburg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\FC_Ingolstadt.aspx.cs">
+      <DependentUpon>FC_Ingolstadt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\FC_Ingolstadt.aspx.designer.cs">
+      <DependentUpon>FC_Ingolstadt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\FC_Koln.aspx.cs">
+      <DependentUpon>FC_Koln.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\FC_Koln.aspx.designer.cs">
+      <DependentUpon>FC_Koln.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\FC_Mainz.aspx.cs">
+      <DependentUpon>FC_Mainz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\FC_Mainz.aspx.designer.cs">
+      <DependentUpon>FC_Mainz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\FC_Schalke.aspx.cs">
+      <DependentUpon>FC_Schalke.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\FC_Schalke.aspx.designer.cs">
+      <DependentUpon>FC_Schalke.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\Frankfurt.aspx.cs">
+      <DependentUpon>Frankfurt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\Frankfurt.aspx.designer.cs">
+      <DependentUpon>Frankfurt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\Hertha.aspx.cs">
+      <DependentUpon>Hertha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\Hertha.aspx.designer.cs">
+      <DependentUpon>Hertha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\Hoffenheim.aspx.cs">
+      <DependentUpon>Hoffenheim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\Hoffenheim.aspx.designer.cs">
+      <DependentUpon>Hoffenheim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\Leipzig.aspx.cs">
+      <DependentUpon>Leipzig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\Leipzig.aspx.designer.cs">
+      <DependentUpon>Leipzig.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\SC_Freiburg.aspx.cs">
+      <DependentUpon>SC_Freiburg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\SC_Freiburg.aspx.designer.cs">
+      <DependentUpon>SC_Freiburg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\SV_Darmstadt.aspx.cs">
+      <DependentUpon>SV_Darmstadt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\SV_Darmstadt.aspx.designer.cs">
+      <DependentUpon>SV_Darmstadt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\SV_Hamburger.aspx.cs">
+      <DependentUpon>SV_Hamburger.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\SV_Hamburger.aspx.designer.cs">
+      <DependentUpon>SV_Hamburger.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\Weder_Bremen.aspx.cs">
+      <DependentUpon>Weder_Bremen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\Weder_Bremen.aspx.designer.cs">
+      <DependentUpon>Weder_Bremen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\Wolfsburg.aspx.cs">
+      <DependentUpon>Wolfsburg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\Bundesliga_Teams\Wolfsburg.aspx.designer.cs">
+      <DependentUpon>Wolfsburg.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Teams\La_Liga_Teams\Leganes.aspx.cs">
       <DependentUpon>Leganes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2053,11 +2783,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Players\Bundesliga\" />
     <Folder Include="Players\LigueOne\" />
-    <Folder Include="Scripts\Team_Scripts\Bundesliga\" />
     <Folder Include="Scripts\Team_Scripts\Ligue_One\" />
-    <Folder Include="Teams\Bundesliga_Teams\" />
     <Folder Include="Teams\LigueOne_Teams\" />
   </ItemGroup>
   <PropertyGroup>

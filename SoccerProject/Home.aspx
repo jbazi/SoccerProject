@@ -4,8 +4,10 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:Label ID="lblMessage" runat="server" ForeColor="Red" Visible="false"></asp:Label>
-    
-     <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 980px; height: 380px; overflow: hidden; visibility: hidden;">
+    <div class="banner-info">
+                    <h3> Welcome to </h3> <h1 data-animate="fadeInDown">Sasa Scores </h1>
+            </div>
+     <div id="jssor_1" style="position: relative; margin: 0 auto; top: 10px; margin-bottom: 20px; left: 0px; width: 980px; height: 380px; overflow: hidden; visibility: hidden;">
         <!-- Loading Screen -->
         <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
             <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
@@ -20,8 +22,8 @@
                     <img data-u="caption" data-t="2" style="position: absolute; top: 88px; left: 420px; width: 114px; height: 144px;" src="Content/sliderImages/arsenal.png" />
                 </div>
                 <div style="position: absolute; top: 107px; left: 460px; width: 460px; height: 210px;">
-                    <img data-u="caption" data-t="0" style="position: absolute; top: -300px; left: 89px; width: 210px; height: 178px;" src="Content/sliderImages/lMessi.png" />
-                    <img data-u="caption" data-t="1" style="position: absolute; top: 55px; left: -280px; width: 180px; height: 144px;" src="Content/sliderImages/ronaldo.png" />
+                    <img data-u="caption" data-t="0" style="position: absolute; top: -300px; left: 89px; width: 240px; height: 178px;" src="Content/sliderImages/ronaldo.png" />
+                    <img data-u="caption" data-t="1" style="position: absolute; top: 55px; left: -240px; width: 180px; height: 144px;" src="Content/sliderImages/lMessi.png" />
                     <img data-u="caption" data-t="2" style="position: absolute; top: 88px; left: 420px; width: 180px; height: 144px;" src="Content/sliderImages/neymar.png" />
                 </div>
                 <p> Welcome to </p> <h1 data-animate="fadeInDown">Sasa Scores </h1>
@@ -38,7 +40,6 @@
 
                     </div>
                     <div data-u="caption" data-t="13" data-to="0% 50%" style="position: absolute; top: 0px; left: 535px; width: 230px; height: 72px; background-color: #eb9434; font-size: 36px; color: #ffffff; line-height: 72px; text-align: center;">Competitions
-
                     </div>
                     <div data-u="caption" data-t="14" style="position: absolute; top: 360px; left: 238px; width: 577px; height: 30px; font-size: 24px; color: #ffffff; line-height: 30px; text-align: center;">Get All Your latest Team Scores and Standings at SasaScores</div>
                 </div>
@@ -65,13 +66,8 @@
         <span data-u="arrowright" class="jssora22r" style="top:0px;right:10px;width:40px;height:58px;" data-autocenter="2"></span>
     </div>
     <div>
-
-        <div class="banner-info">
-                    <h3> Welcome to </h3> <h1 data-animate="fadeInDown">Sasa Scores </h1>
-            </div>
-
-
-        <div class="row">
+        
+        <div class="row" style="margin-left: 30px; margin-right:15px;">
             <div id="epl" class="col-sm-3 col-xs-6">
                 <a href="PremierLeagueHome.aspx">
                     <img class="img-responsive portfolio-item" src="Content/epl.jpg" width="200" height="200" title=" English League (Premier League)" />

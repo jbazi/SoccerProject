@@ -194,6 +194,7 @@
     <Content Include="Content\flags\france.jpg" />
     <Content Include="Content\flags\germany.jpg" />
     <Content Include="Content\flags\spain.jpg" />
+    <Content Include="Content\ligue12.png" />
     <Content Include="Content\mainLoader.gif" />
     <Content Include="Content\sliderImages\02.jpg" />
     <Content Include="Content\sliderImages\04.jpg" />
@@ -1302,6 +1303,540 @@
     <Content Include="Players\LaLiga\Villareal\soldado.jpg" />
     <Content Include="Players\LaLiga\Villareal\trigueros.jpg" />
     <Content Include="Players\LaLiga\Villareal\victor.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\andreu.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\billy.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\bourillon.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\capelle.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\diallo.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\dore.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\famara.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\letellier.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\manceau.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\mangani.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\martinez.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\mehdi.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\michel.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\moulin.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\ndoye.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\nwakaeme.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\pavlovic.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\pepe.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\petric.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\saihi.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\santamaria.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\serin.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\sunu.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\tait.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\thomas.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\toko.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\traore.jpg" />
+    <Content Include="Players\LigueOne\Angers_Sco\wissa.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\abdou.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\adam.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\belay.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\cedric.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\diego.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\igor.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\isaac.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\jeremy.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\jerome.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\jocelyn.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\kamano.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\laborde.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\malcom.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\mauro.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\maxime.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\menez.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\milan.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\nicolas.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\pablo.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\paul.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\plasil.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\rolan.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\sabaly.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\sertic.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\theo.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\toure.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\vada.jpg" />
+    <Content Include="Players\LigueOne\Bordeaux\younes.jpg" />
+    <Content Include="Players\LigueOne\Dijon\adam.jpg" />
+    <Content Include="Players\LigueOne\Dijon\anthony.jpg" />
+    <Content Include="Players\LigueOne\Dijon\arnold.jpg" />
+    <Content Include="Players\LigueOne\Dijon\bela.jpg" />
+    <Content Include="Players\LigueOne\Dijon\bernard.jpg" />
+    <Content Include="Players\LigueOne\Dijon\bobby.jpg" />
+    <Content Include="Players\LigueOne\Dijon\cedric.jpg" />
+    <Content Include="Players\LigueOne\Dijon\dylan.jpg" />
+    <Content Include="Players\LigueOne\Dijon\florent.jpg" />
+    <Content Include="Players\LigueOne\Dijon\fouad.jpg" />
+    <Content Include="Players\LigueOne\Dijon\frederic.jpg" />
+    <Content Include="Players\LigueOne\Dijon\johan.jpg" />
+    <Content Include="Players\LigueOne\Dijon\jordan.jpg" />
+    <Content Include="Players\LigueOne\Dijon\julio.jpg" />
+    <Content Include="Players\LigueOne\Dijon\leroy.jpg" />
+    <Content Include="Players\LigueOne\Dijon\lois.jpg" />
+    <Content Include="Players\LigueOne\Dijon\marie.jpg" />
+    <Content Include="Players\LigueOne\Dijon\marvin.jpg" />
+    <Content Include="Players\LigueOne\Dijon\mehdi.jpg" />
+    <Content Include="Players\LigueOne\Dijon\oliver.jpg" />
+    <Content Include="Players\LigueOne\Dijon\pierre.jpg" />
+    <Content Include="Players\LigueOne\Dijon\reynet.jpg" />
+    <Content Include="Players\LigueOne\Dijon\romain.jpg" />
+    <Content Include="Players\LigueOne\Dijon\sarra.jpg" />
+    <Content Include="Players\LigueOne\Dijon\valentin.jpg" />
+    <Content Include="Players\LigueOne\Dijon\vincent.jpg" />
+    <Content Include="Players\LigueOne\Dijon\yohann.jpg" />
+    <Content Include="Players\LigueOne\Dijon\yunis.jpg" />
+    <Content Include="Players\LigueOne\Etienne\alexander.jpg" />
+    <Content Include="Players\LigueOne\Etienne\anthony.jpg" />
+    <Content Include="Players\LigueOne\Etienne\arnaud.jpg" />
+    <Content Include="Players\LigueOne\Etienne\beric.jpg" />
+    <Content Include="Players\LigueOne\Etienne\cheik.jpg" />
+    <Content Include="Players\LigueOne\Etienne\clement.jpg" />
+    <Content Include="Players\LigueOne\Etienne\corgnet.jpg" />
+    <Content Include="Players\LigueOne\Etienne\dabo.jpg" />
+    <Content Include="Players\LigueOne\Etienne\fabien.jpg" />
+    <Content Include="Players\LigueOne\Etienne\galtier.jpg" />
+    <Content Include="Players\LigueOne\Etienne\henri.jpg" />
+    <Content Include="Players\LigueOne\Etienne\jessy.jpg" />
+    <Content Include="Players\LigueOne\Etienne\jordan.jpg" />
+    <Content Include="Players\LigueOne\Etienne\kevin.jpg" />
+    <Content Include="Players\LigueOne\Etienne\leo.jpg" />
+    <Content Include="Players\LigueOne\Etienne\loic.jpg" />
+    <Content Include="Players\LigueOne\Etienne\malcuit.jpg" />
+    <Content Include="Players\LigueOne\Etienne\monnet.jpg" />
+    <Content Include="Players\LigueOne\Etienne\nolan.jpg" />
+    <Content Include="Players\LigueOne\Etienne\ole.jpg" />
+    <Content Include="Players\LigueOne\Etienne\pajot.jpg" />
+    <Content Include="Players\LigueOne\Etienne\pogba.jpg" />
+    <Content Include="Players\LigueOne\Etienne\romain.jpg" />
+    <Content Include="Players\LigueOne\Etienne\ruffier.jpg" />
+    <Content Include="Players\LigueOne\Etienne\tannane.jpg" />
+    <Content Include="Players\LigueOne\Etienne\yves.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\antoine.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\blas.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\brou.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\diallo.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\didot.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\dorian.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\ikoko.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\jeremy.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\jimmy.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\jonathan.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\karl.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\kerbrat.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\livolant.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\lucas.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\marcal.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\marcus.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\martinet.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\mendy.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\nicolas.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\nill.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\reynald.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\salin.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\sankoh.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\sloan.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\theo.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\thibault.jpg" />
+    <Content Include="Players\LigueOne\Guingamp\yannis.jpg" />
+    <Content Include="Players\LigueOne\Lille\adama.jpg" />
+    <Content Include="Players\LigueOne\Lille\basa.jpg" />
+    <Content Include="Players\LigueOne\Lille\benzia.jpg" />
+    <Content Include="Players\LigueOne\Lille\beria.jpg" />
+    <Content Include="Players\LigueOne\Lille\butez.jpg" />
+    <Content Include="Players\LigueOne\Lille\carlens.jpg" />
+    <Content Include="Players\LigueOne\Lille\civelli.jpg" />
+    <Content Include="Players\LigueOne\Lille\collot.jpg" />
+    <Content Include="Players\LigueOne\Lille\corchia.jpg" />
+    <Content Include="Players\LigueOne\Lille\eder.jpg" />
+    <Content Include="Players\LigueOne\Lille\enyeama.jpg" />
+    <Content Include="Players\LigueOne\Lille\eric.jpg" />
+    <Content Include="Players\LigueOne\Lille\ibrahim.jpg" />
+    <Content Include="Players\LigueOne\Lille\julian.jpg" />
+    <Content Include="Players\LigueOne\Lille\junior.jpg" />
+    <Content Include="Players\LigueOne\Lille\kone.jpg" />
+    <Content Include="Players\LigueOne\Lille\mike.jpg" />
+    <Content Include="Players\LigueOne\Lille\morgan.jpg" />
+    <Content Include="Players\LigueOne\Lille\mounir.jpg" />
+    <Content Include="Players\LigueOne\Lille\naim.jpg" />
+    <Content Include="Players\LigueOne\Lille\nicolas.jpg" />
+    <Content Include="Players\LigueOne\Lille\rio.jpg" />
+    <Content Include="Players\LigueOne\Lille\rony.jpg" />
+    <Content Include="Players\LigueOne\Lille\ryan.jpg" />
+    <Content Include="Players\LigueOne\Lille\sankhare.jpg" />
+    <Content Include="Players\LigueOne\Lille\sunzu.jpg" />
+    <Content Include="Players\LigueOne\Lorient\alexis.jpg" />
+    <Content Include="Players\LigueOne\Lorient\arnold.jpg" />
+    <Content Include="Players\LigueOne\Lorient\bellugou.jpg" />
+    <Content Include="Players\LigueOne\Lorient\benjamin.jpg" />
+    <Content Include="Players\LigueOne\Lorient\bradley.jpg" />
+    <Content Include="Players\LigueOne\Lorient\cabot.jpg" />
+    <Content Include="Players\LigueOne\Lorient\cafu.jpg" />
+    <Content Include="Players\LigueOne\Lorient\casoni.jpg" />
+    <Content Include="Players\LigueOne\Lorient\ciani.jpg" />
+    <Content Include="Players\LigueOne\Lorient\conte.jpg" />
+    <Content Include="Players\LigueOne\Lorient\faiz.jpg" />
+    <Content Include="Players\LigueOne\Lorient\fofana.jpg" />
+    <Content Include="Players\LigueOne\Lorient\goff.jpg" />
+    <Content Include="Players\LigueOne\Lorient\issam.jpg" />
+    <Content Include="Players\LigueOne\Lorient\jeannot.jpg" />
+    <Content Include="Players\LigueOne\Lorient\jeremie.jpg" />
+    <Content Include="Players\LigueOne\Lorient\lamonge.jpg" />
+    <Content Include="Players\LigueOne\Lorient\lecomte.jpg" />
+    <Content Include="Players\LigueOne\Lorient\mara.jpg" />
+    <Content Include="Players\LigueOne\Lorient\matteo.jpg" />
+    <Content Include="Players\LigueOne\Lorient\maxime.jpg" />
+    <Content Include="Players\LigueOne\Lorient\moreira.jpg" />
+    <Content Include="Players\LigueOne\Lorient\pape.jpg" />
+    <Content Include="Players\LigueOne\Lorient\paul.jpg" />
+    <Content Include="Players\LigueOne\Lorient\romain.jpg" />
+    <Content Include="Players\LigueOne\Lorient\rose.jpg" />
+    <Content Include="Players\LigueOne\Lorient\sylvain.jpg" />
+    <Content Include="Players\LigueOne\Lorient\toure.jpg" />
+    <Content Include="Players\LigueOne\Lorient\walid.jpg" />
+    <Content Include="Players\LigueOne\Lorient\waris.jpg" />
+    <Content Include="Players\LigueOne\Lorient\wesley.jpg" />
+    <Content Include="Players\LigueOne\Lyon\aldo.jpg" />
+    <Content Include="Players\LigueOne\Lyon\alexandre.jpg" />
+    <Content Include="Players\LigueOne\Lyon\aouar.jpg" />
+    <Content Include="Players\LigueOne\Lyon\bruno.jpg" />
+    <Content Include="Players\LigueOne\Lyon\cornet.jpg" />
+    <Content Include="Players\LigueOne\Lyon\emanuel.jpg" />
+    <Content Include="Players\LigueOne\Lyon\ferri.jpg" />
+    <Content Include="Players\LigueOne\Lyon\fofana.jpg" />
+    <Content Include="Players\LigueOne\Lyon\grenier.jpg" />
+    <Content Include="Players\LigueOne\Lyon\jallet.jpg" />
+    <Content Include="Players\LigueOne\Lyon\jean.jpg" />
+    <Content Include="Players\LigueOne\Lyon\kemen.jpg" />
+    <Content Include="Players\LigueOne\Lyon\lopes.jpg" />
+    <Content Include="Players\LigueOne\Lyon\lucas.jpg" />
+    <Content Include="Players\LigueOne\Lyon\mapou.jpg" />
+    <Content Include="Players\LigueOne\Lyon\mathieu.jpg" />
+    <Content Include="Players\LigueOne\Lyon\maxime.jpg" />
+    <Content Include="Players\LigueOne\Lyon\morel.jpg" />
+    <Content Include="Players\LigueOne\Lyon\mouctar.jpg" />
+    <Content Include="Players\LigueOne\Lyon\nabil.jpg" />
+    <Content Include="Players\LigueOne\Lyon\nicolas.jpg" />
+    <Content Include="Players\LigueOne\Lyon\perrin.jpg" />
+    <Content Include="Players\LigueOne\Lyon\rachid.jpg" />
+    <Content Include="Players\LigueOne\Lyon\rafael.jpg" />
+    <Content Include="Players\LigueOne\Lyon\rybus.jpg" />
+    <Content Include="Players\LigueOne\Lyon\sergi.jpg" />
+    <Content Include="Players\LigueOne\Lyon\tolisso.jpg" />
+    <Content Include="Players\LigueOne\Lyon\tousart.jpg" />
+    <Content Include="Players\LigueOne\Lyon\valbuena.jpg" />
+    <Content Include="Players\LigueOne\Marseille\abou.jpg" />
+    <Content Include="Players\LigueOne\Marseille\andre.jpg" />
+    <Content Include="Players\LigueOne\Marseille\antoine.jpg" />
+    <Content Include="Players\LigueOne\Marseille\bill.jpg" />
+    <Content Include="Players\LigueOne\Marseille\brice.jpg" />
+    <Content Include="Players\LigueOne\Marseille\florian.jpg" />
+    <Content Include="Players\LigueOne\Marseille\gael.jpg" />
+    <Content Include="Players\LigueOne\Marseille\gomis.jpg" />
+    <Content Include="Players\LigueOne\Marseille\henri.jpg" />
+    <Content Include="Players\LigueOne\Marseille\iseka.jpg" />
+    <Content Include="Players\LigueOne\Marseille\porsan.jpg" />
+    <Content Include="Players\LigueOne\Marseille\rabillard.jpg" />
+    <Content Include="Players\LigueOne\Marseille\rolando.jpg" />
+    <Content Include="Players\LigueOne\Marseille\karim.jpg" />
+    <Content Include="Players\LigueOne\Marseille\lassana.jpg" />
+    <Content Include="Players\LigueOne\Marseille\doria.jpg" />
+    <Content Include="Players\LigueOne\Marseille\machach.jpg" />
+    <Content Include="Players\LigueOne\Marseille\maxime.jpg" />
+    <Content Include="Players\LigueOne\Marseille\njie.jpg" />
+    <Content Include="Players\LigueOne\Marseille\pele.jpg" />
+    <Content Include="Players\LigueOne\Marseille\remy.jpg" />
+    <Content Include="Players\LigueOne\Marseille\rod.jpg" />
+    <Content Include="Players\LigueOne\Marseille\romain.jpg" />
+    <Content Include="Players\LigueOne\Marseille\rudi.jpg" />
+    <Content Include="Players\LigueOne\Marseille\saif.jpg" />
+    <Content Include="Players\LigueOne\Marseille\sakai.jpg" />
+    <Content Include="Players\LigueOne\Marseille\samad.jpg" />
+    <Content Include="Players\LigueOne\Marseille\sane.jpg" />
+    <Content Include="Players\LigueOne\Marseille\sarr.jpg" />
+    <Content Include="Players\LigueOne\Marseille\thauvin.jpg" />
+    <Content Include="Players\LigueOne\Marseille\tomas.jpg" />
+    <Content Include="Players\LigueOne\Marseille\william.jpg" />
+    <Content Include="Players\LigueOne\Metz\alexis.jpg" />
+    <Content Include="Players\LigueOne\Metz\benoit.jpg" />
+    <Content Include="Players\LigueOne\Metz\cheick.jpg" />
+    <Content Include="Players\LigueOne\Metz\chris.jpg" />
+    <Content Include="Players\LigueOne\Metz\cohade.jpg" />
+    <Content Include="Players\LigueOne\Metz\david.jpg" />
+    <Content Include="Players\LigueOne\Metz\eiji.jpg" />
+    <Content Include="Players\LigueOne\Metz\erdinc.jpg" />
+    <Content Include="Players\LigueOne\Metz\franck.jpg" />
+    <Content Include="Players\LigueOne\Metz\georges.jpg" />
+    <Content Include="Players\LigueOne\Metz\guido.jpg" />
+    <Content Include="Players\LigueOne\Metz\habib.jpg" />
+    <Content Include="Players\LigueOne\Metz\hein.jpg" />
+    <Content Include="Players\LigueOne\Metz\ivan.jpg" />
+    <Content Include="Players\LigueOne\Metz\jonathan.jpg" />
+    <Content Include="Players\LigueOne\Metz\kevin.jpg" />
+    <Content Include="Players\LigueOne\Metz\milan.jpg" />
+    <Content Include="Players\LigueOne\Metz\mollet.jpg" />
+    <Content Include="Players\LigueOne\Metz\opa.jpg" />
+    <Content Include="Players\LigueOne\Metz\philippe.jpg" />
+    <Content Include="Players\LigueOne\Metz\sarr.jpg" />
+    <Content Include="Players\LigueOne\Metz\simon.jpg" />
+    <Content Include="Players\LigueOne\Metz\thill.jpg" />
+    <Content Include="Players\LigueOne\Metz\thomas.jpg" />
+    <Content Include="Players\LigueOne\Metz\udol.jpg" />
+    <Content Include="Players\LigueOne\Metz\vahid.jpg" />
+    <Content Include="Players\LigueOne\Metz\vion.jpg" />
+    <Content Include="Players\LigueOne\Metz\yann.jpg" />
+    <Content Include="Players\LigueOne\Monaco\adama.jpg" />
+    <Content Include="Players\LigueOne\Monaco\bakayoko.jpg" />
+    <Content Include="Players\LigueOne\Monaco\diallo.jpg" />
+    <Content Include="Players\LigueOne\Monaco\fabinho.jpg" />
+    <Content Include="Players\LigueOne\Monaco\falcao.jpg" />
+    <Content Include="Players\LigueOne\Monaco\gabriel.jpg" />
+    <Content Include="Players\LigueOne\Monaco\germain.jpg" />
+    <Content Include="Players\LigueOne\Monaco\glik.jpg" />
+    <Content Include="Players\LigueOne\Monaco\guido.jpg" />
+    <Content Include="Players\LigueOne\Monaco\jean.jpg" />
+    <Content Include="Players\LigueOne\Monaco\jemerson.jpg" />
+    <Content Include="Players\LigueOne\Monaco\joao.jpg" />
+    <Content Include="Players\LigueOne\Monaco\kevin.jpg" />
+    <Content Include="Players\LigueOne\Monaco\lemar.jpg" />
+    <Content Include="Players\LigueOne\Monaco\leonardo.jpg" />
+    <Content Include="Players\LigueOne\Monaco\loic.jpg" />
+    <Content Include="Players\LigueOne\Monaco\mbappe.jpg" />
+    <Content Include="Players\LigueOne\Monaco\mendy.jpg" />
+    <Content Include="Players\LigueOne\Monaco\morgan.jpg" />
+    <Content Include="Players\LigueOne\Monaco\nabil.jpg" />
+    <Content Include="Players\LigueOne\Monaco\pierre.jpg" />
+    <Content Include="Players\LigueOne\Monaco\raggi.jpg" />
+    <Content Include="Players\LigueOne\Monaco\sidibe.jpg" />
+    <Content Include="Players\LigueOne\Monaco\silva.jpg" />
+    <Content Include="Players\LigueOne\Monaco\subasic.jpg" />
+    <Content Include="Players\LigueOne\Monaco\sy.jpg" />
+    <Content Include="Players\LigueOne\Monaco\toure.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\borre.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\camara.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\cedric.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\congre.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\ellyes.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\fito.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\geoffrey.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\hantz.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\hilton.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\jerome.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\joris.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\killian.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\laurent.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\ligali.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\mathieu.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\morgan.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\ndiaye.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\ninga.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\paul.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\remy.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\ruf.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\ryad.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\stephane.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\steve.jpg" />
+    <Content Include="Players\LigueOne\Montpellier\sylla.jpg" />
+    <Content Include="Players\LigueOne\Nancy\ait.jpg" />
+    <Content Include="Players\LigueOne\Nancy\alou.jpg" />
+    <Content Include="Players\LigueOne\Nancy\benoit.jpg" />
+    <Content Include="Players\LigueOne\Nancy\clement.jpg" />
+    <Content Include="Players\LigueOne\Nancy\dale.jpg" />
+    <Content Include="Players\LigueOne\Nancy\dia.jpg" />
+    <Content Include="Players\LigueOne\Nancy\dialo.jpg" />
+    <Content Include="Players\LigueOne\Nancy\erick.jpg" />
+    <Content Include="Players\LigueOne\Nancy\faitout.jpg" />
+    <Content Include="Players\LigueOne\Nancy\guy.jpg" />
+    <Content Include="Players\LigueOne\Nancy\hadji.jpg" />
+    <Content Include="Players\LigueOne\Nancy\joffrey.jpg" />
+    <Content Include="Players\LigueOne\Nancy\julien.jpg" />
+    <Content Include="Players\LigueOne\Nancy\karim.jpg" />
+    <Content Include="Players\LigueOne\Nancy\koura.jpg" />
+    <Content Include="Players\LigueOne\Nancy\mabella.jpg" />
+    <Content Include="Players\LigueOne\Nancy\mandanne.jpg" />
+    <Content Include="Players\LigueOne\Nancy\marchetti.jpg" />
+    <Content Include="Players\LigueOne\Nancy\menay.jpg" />
+    <Content Include="Players\LigueOne\Nancy\michael.jpg" />
+    <Content Include="Players\LigueOne\Nancy\modou.jpg" />
+    <Content Include="Players\LigueOne\Nancy\pablo.jpg" />
+    <Content Include="Players\LigueOne\Nancy\puyo.jpg" />
+    <Content Include="Players\LigueOne\Nancy\robic.jpg" />
+    <Content Include="Players\LigueOne\Nancy\serge.jpg" />
+    <Content Include="Players\LigueOne\Nancy\sergey.jpg" />
+    <Content Include="Players\LigueOne\Nancy\tobias.jpg" />
+    <Content Include="Players\LigueOne\Nancy\vincent.jpg" />
+    <Content Include="Players\LigueOne\Nantes\adrien.jpg" />
+    <Content Include="Players\LigueOne\Nantes\alexandre.jpg" />
+    <Content Include="Players\LigueOne\Nantes\alexis.jpg" />
+    <Content Include="Players\LigueOne\Nantes\anthony.jpg" />
+    <Content Include="Players\LigueOne\Nantes\braat.jpg" />
+    <Content Include="Players\LigueOne\Nantes\diego.jpg" />
+    <Content Include="Players\LigueOne\Nantes\dupe.jpg" />
+    <Content Include="Players\LigueOne\Nantes\enock.jpg" />
+    <Content Include="Players\LigueOne\Nantes\fernando.jpg" />
+    <Content Include="Players\LigueOne\Nantes\gillet.jpg" />
+    <Content Include="Players\LigueOne\Nantes\harit.jpg" />
+    <Content Include="Players\LigueOne\Nantes\jules.jpg" />
+    <Content Include="Players\LigueOne\Nantes\kacaniklic.jpg" />
+    <Content Include="Players\LigueOne\Nantes\koffi.jpg" />
+    <Content Include="Players\LigueOne\Nantes\leo.jpg" />
+    <Content Include="Players\LigueOne\Nantes\lima.jpg" />
+    <Content Include="Players\LigueOne\Nantes\mariusz.jpg" />
+    <Content Include="Players\LigueOne\Nantes\nicolaj.jpg" />
+    <Content Include="Players\LigueOne\Nantes\oswaldo.jpg" />
+    <Content Include="Players\LigueOne\Nantes\remy.jpg" />
+    <Content Include="Players\LigueOne\Nantes\sala.jpg" />
+    <Content Include="Players\LigueOne\Nantes\sergio.jpg" />
+    <Content Include="Players\LigueOne\Nantes\toure.jpg" />
+    <Content Include="Players\LigueOne\Nantes\valentin.jpg" />
+    <Content Include="Players\LigueOne\Nantes\wilfred.jpg" />
+    <Content Include="Players\LigueOne\Nantes\yacine.jpg" />
+    <Content Include="Players\LigueOne\Nice\albert.jpg" />
+    <Content Include="Players\LigueOne\Nice\alexy.jpg" />
+    <Content Include="Players\LigueOne\Nice\arnaud.jpg" />
+    <Content Include="Players\LigueOne\Nice\bihan.jpg" />
+    <Content Include="Players\LigueOne\Nice\bodmer.jpg" />
+    <Content Include="Players\LigueOne\Nice\bryan.jpg" />
+    <Content Include="Players\LigueOne\Nice\dalbert.jpg" />
+    <Content Include="Players\LigueOne\Nice\dante.jpg" />
+    <Content Include="Players\LigueOne\Nice\donis.jpg" />
+    <Content Include="Players\LigueOne\Nice\favre.jpg" />
+    <Content Include="Players\LigueOne\Nice\julien.jpg" />
+    <Content Include="Players\LigueOne\Nice\lloris.jpg" />
+    <Content Include="Players\LigueOne\Nice\lusamba.jpg" />
+    <Content Include="Players\LigueOne\Nice\mario.jpg" />
+    <Content Include="Players\LigueOne\Nice\maxime.jpg" />
+    <Content Include="Players\LigueOne\Nice\mouez.jpg" />
+    <Content Include="Players\LigueOne\Nice\olivier.jpg" />
+    <Content Include="Players\LigueOne\Nice\patrick.jpg" />
+    <Content Include="Players\LigueOne\Nice\paul.jpg" />
+    <Content Include="Players\LigueOne\Nice\plea.jpg" />
+    <Content Include="Players\LigueOne\Nice\remi.jpg" />
+    <Content Include="Players\LigueOne\Nice\ricardo.jpg" />
+    <Content Include="Players\LigueOne\Nice\sarr.jpg" />
+    <Content Include="Players\LigueOne\Nice\seri.jpg" />
+    <Content Include="Players\LigueOne\Nice\Simon.jpg" />
+    <Content Include="Players\LigueOne\Nice\valentin.jpg" />
+    <Content Include="Players\LigueOne\Nice\vincent.jpg" />
+    <Content Include="Players\LigueOne\Nice\walter.jpg" />
+    <Content Include="Players\LigueOne\Nice\wylan.jpg" />
+    <Content Include="Players\LigueOne\Nice\yoan.jpg" />
+    <Content Include="Players\LigueOne\Nice\younes.jpg" />
+    <Content Include="Players\LigueOne\PSG\adrien.jpg" />
+    <Content Include="Players\LigueOne\PSG\alec.jpg" />
+    <Content Include="Players\LigueOne\PSG\areola.jpg" />
+    <Content Include="Players\LigueOne\PSG\blaise.jpg" />
+    <Content Include="Players\LigueOne\PSG\cavani.jpg" />
+    <Content Include="Players\LigueOne\PSG\grzegorz.jpg" />
+    <Content Include="Players\LigueOne\PSG\hatem.jpg" />
+    <Content Include="Players\LigueOne\PSG\hervin.jpg" />
+    <Content Include="Players\LigueOne\PSG\ikone.jpg" />
+    <Content Include="Players\LigueOne\PSG\jean.jpg" />
+    <Content Include="Players\LigueOne\PSG\jese.jpg" />
+    <Content Include="Players\LigueOne\PSG\layvin.jpg" />
+    <Content Include="Players\LigueOne\PSG\lorenzo.jpg" />
+    <Content Include="Players\LigueOne\PSG\lucas.jpg" />
+    <Content Include="Players\LigueOne\PSG\marco.jpg" />
+    <Content Include="Players\LigueOne\PSG\maria.jpg" />
+    <Content Include="Players\LigueOne\PSG\marqui.jpg" />
+    <Content Include="Players\LigueOne\PSG\maxwell.jpg" />
+    <Content Include="Players\LigueOne\PSG\motta.jpg" />
+    <Content Include="Players\LigueOne\PSG\nkunku.jpg" />
+    <Content Include="Players\LigueOne\PSG\pastore.jpg" />
+    <Content Include="Players\LigueOne\PSG\presnel.jpg" />
+    <Content Include="Players\LigueOne\PSG\remy.jpg" />
+    <Content Include="Players\LigueOne\PSG\serge.jpg" />
+    <Content Include="Players\LigueOne\PSG\silva.jpg" />
+    <Content Include="Players\LigueOne\PSG\thomas.jpg" />
+    <Content Include="Players\LigueOne\PSG\trapp.jpg" />
+    <Content Include="Players\LigueOne\PSG\unai.jpg" />
+    <Content Include="Players\LigueOne\Rennais\adama.jpg" />
+    <Content Include="Players\LigueOne\Rennais\adrien.jpg" />
+    <Content Include="Players\LigueOne\Rennais\afonso.jpg" />
+    <Content Include="Players\LigueOne\Rennais\andre.jpg" />
+    <Content Include="Players\LigueOne\Rennais\anthony.jpg" />
+    <Content Include="Players\LigueOne\Rennais\armand.jpg" />
+    <Content Include="Players\LigueOne\Rennais\baal.jpg" />
+    <Content Include="Players\LigueOne\Rennais\bruls.jpg" />
+    <Content Include="Players\LigueOne\Rennais\christian.jpg" />
+    <Content Include="Players\LigueOne\Rennais\clement.jpg" />
+    <Content Include="Players\LigueOne\Rennais\costil.jpg" />
+    <Content Include="Players\LigueOne\Rennais\danze.jpg" />
+    <Content Include="Players\LigueOne\Rennais\dimitri.jpg" />
+    <Content Include="Players\LigueOne\Rennais\edvinas.jpg" />
+    <Content Include="Players\LigueOne\Rennais\ermir.jpg" />
+    <Content Include="Players\LigueOne\Rennais\gelson.jpg" />
+    <Content Include="Players\LigueOne\Rennais\habib.jpg" />
+    <Content Include="Players\LigueOne\Rennais\henrique.jpg" />
+    <Content Include="Players\LigueOne\Rennais\joris.jpg" />
+    <Content Include="Players\LigueOne\Rennais\kamil.jpg" />
+    <Content Include="Players\LigueOne\Rennais\kermit.jpg" />
+    <Content Include="Players\LigueOne\Rennais\mehdi.jpg" />
+    <Content Include="Players\LigueOne\Rennais\mexer.jpg" />
+    <Content Include="Players\LigueOne\Rennais\paul.jpg" />
+    <Content Include="Players\LigueOne\Rennais\pedro.jpg" />
+    <Content Include="Players\LigueOne\Rennais\ramy.jpg" />
+    <Content Include="Players\LigueOne\Rennais\sanjin.jpg" />
+    <Content Include="Players\LigueOne\Rennais\sio.jpg" />
+    <Content Include="Players\LigueOne\Rennais\wesley.jpg" />
+    <Content Include="Players\LigueOne\Rennais\yoann.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\abdel.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\allan.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\axel.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\ciccolini.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\danic.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\djiku.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\enzo.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\farid.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\florian.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\geoffrey.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\gilles.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\jerson.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\julien.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\keita.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\lassana.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\leca.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\lenny.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\mathieu.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\mehdi.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\paul.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\pierre.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\raspentino.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\sadio.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\sebastien.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\thievy.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\thomas.jpg" />
+    <Content Include="Players\LigueOne\Sc_Bastia\yannick.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\adeoti.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\chaker.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\dabo.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\herve.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\imorou.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\ismael.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\ivan.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\jean.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\jeff.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\jonathan.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\jordan.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\julien.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\leborgne.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\louis.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\matthieu.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\nicolas.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\pape.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\patrice.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\paul.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\remy.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\romain.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\ronny.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\silva.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\steed.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\syam.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\valentin.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\vincent.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\yahia.jpg" />
+    <Content Include="Players\LigueOne\SM_Caen\yann.jpg" />
     <Content Include="Players\PremierLeague\Arsenal\akpom.jpg" />
     <Content Include="Players\PremierLeague\Arsenal\alexis.jpg" />
     <Content Include="Players\PremierLeague\Arsenal\bellerin.jpg" />
@@ -1874,6 +2409,25 @@
     <Content Include="Scripts\Team_Scripts\Bundesliga\wolfsburg.js" />
     <Content Include="Scripts\Team_Scripts\LaLiga\leganes.js" />
     <Content Include="Scripts\Team_Scripts\LaLiga\osasuna.js" />
+    <Content Include="Scripts\Team_Scripts\Ligue_One\angers_sco.js" />
+    <Content Include="Scripts\Team_Scripts\Ligue_One\bordeaux.js" />
+    <Content Include="Scripts\Team_Scripts\Ligue_One\caen.js" />
+    <Content Include="Scripts\Team_Scripts\Ligue_One\dijon.js" />
+    <Content Include="Scripts\Team_Scripts\Ligue_One\etienne.js" />
+    <Content Include="Scripts\Team_Scripts\Ligue_One\guingamp.js" />
+    <Content Include="Scripts\Team_Scripts\Ligue_One\lille.js" />
+    <Content Include="Scripts\Team_Scripts\Ligue_One\lorient.js" />
+    <Content Include="Scripts\Team_Scripts\Ligue_One\lyon.js" />
+    <Content Include="Scripts\Team_Scripts\Ligue_One\marseille.js" />
+    <Content Include="Scripts\Team_Scripts\Ligue_One\metz.js" />
+    <Content Include="Scripts\Team_Scripts\Ligue_One\monaco.js" />
+    <Content Include="Scripts\Team_Scripts\Ligue_One\montpellier.js" />
+    <Content Include="Scripts\Team_Scripts\Ligue_One\nancy.js" />
+    <Content Include="Scripts\Team_Scripts\Ligue_One\nantes.js" />
+    <Content Include="Scripts\Team_Scripts\Ligue_One\nice.js" />
+    <Content Include="Scripts\Team_Scripts\Ligue_One\psg.js" />
+    <Content Include="Scripts\Team_Scripts\Ligue_One\rennais.js" />
+    <Content Include="Scripts\Team_Scripts\Ligue_One\sc_bastia.js" />
     <Content Include="Scripts\unslider.js" />
     <Content Include="scroll.html" />
     <Content Include="Teams\Bundesliga_Teams\Bayern_Munich.aspx" />
@@ -1987,6 +2541,24 @@
     <Content Include="Leagues\LigueOne.aspx" />
     <Content Include="Leagues\PremierLeague.aspx" />
     <Content Include="LigueOneHome.aspx" />
+    <Content Include="Teams\LigueOne_Teams\AngersSCO.aspx" />
+    <Content Include="Teams\LigueOne_Teams\AS_Nancy.aspx" />
+    <Content Include="Teams\LigueOne_Teams\Bordeaux.aspx" />
+    <Content Include="Teams\LigueOne_Teams\Dijon.aspx" />
+    <Content Include="Teams\LigueOne_Teams\Guingamp.aspx" />
+    <Content Include="Teams\LigueOne_Teams\Lille.aspx" />
+    <Content Include="Teams\LigueOne_Teams\LorientFC.aspx" />
+    <Content Include="Teams\LigueOne_Teams\LyonFC.aspx" />
+    <Content Include="Teams\LigueOne_Teams\Marseille.aspx" />
+    <Content Include="Teams\LigueOne_Teams\MetzFC.aspx" />
+    <Content Include="Teams\LigueOne_Teams\MonacoFC.aspx" />
+    <Content Include="Teams\LigueOne_Teams\Montpellier.aspx" />
+    <Content Include="Teams\LigueOne_Teams\NantesFC.aspx" />
+    <Content Include="Teams\LigueOne_Teams\NiceOGC.aspx" />
+    <Content Include="Teams\LigueOne_Teams\PSG.aspx" />
+    <Content Include="Teams\LigueOne_Teams\Rennais.aspx" />
+    <Content Include="Teams\LigueOne_Teams\Sc_Bastia.aspx" />
+    <Content Include="Teams\LigueOne_Teams\SM_Caen.aspx" />
     <Content Include="Teams\manU_RssFeed.html" />
     <Content Include="MasterPages\Main.Master" />
     <Content Include="MasterPages\League.Master" />
@@ -2474,6 +3046,132 @@
     <Compile Include="Teams\La_Liga_Teams\Osasuna.aspx.designer.cs">
       <DependentUpon>Osasuna.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Teams\LigueOne_Teams\AngersSCO.aspx.cs">
+      <DependentUpon>AngersSCO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\AngersSCO.aspx.designer.cs">
+      <DependentUpon>AngersSCO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\AS_Nancy.aspx.cs">
+      <DependentUpon>AS_Nancy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\AS_Nancy.aspx.designer.cs">
+      <DependentUpon>AS_Nancy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\Bordeaux.aspx.cs">
+      <DependentUpon>Bordeaux.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\Bordeaux.aspx.designer.cs">
+      <DependentUpon>Bordeaux.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\Dijon.aspx.cs">
+      <DependentUpon>Dijon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\Dijon.aspx.designer.cs">
+      <DependentUpon>Dijon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\Guingamp.aspx.cs">
+      <DependentUpon>Guingamp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\Guingamp.aspx.designer.cs">
+      <DependentUpon>Guingamp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\Lille.aspx.cs">
+      <DependentUpon>Lille.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\Lille.aspx.designer.cs">
+      <DependentUpon>Lille.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\LorientFC.aspx.cs">
+      <DependentUpon>LorientFC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\LorientFC.aspx.designer.cs">
+      <DependentUpon>LorientFC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\LyonFC.aspx.cs">
+      <DependentUpon>LyonFC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\LyonFC.aspx.designer.cs">
+      <DependentUpon>LyonFC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\Marseille.aspx.cs">
+      <DependentUpon>Marseille.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\Marseille.aspx.designer.cs">
+      <DependentUpon>Marseille.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\MetzFC.aspx.cs">
+      <DependentUpon>MetzFC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\MetzFC.aspx.designer.cs">
+      <DependentUpon>MetzFC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\MonacoFC.aspx.cs">
+      <DependentUpon>MonacoFC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\MonacoFC.aspx.designer.cs">
+      <DependentUpon>MonacoFC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\Montpellier.aspx.cs">
+      <DependentUpon>Montpellier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\Montpellier.aspx.designer.cs">
+      <DependentUpon>Montpellier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\NantesFC.aspx.cs">
+      <DependentUpon>NantesFC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\NantesFC.aspx.designer.cs">
+      <DependentUpon>NantesFC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\NiceOGC.aspx.cs">
+      <DependentUpon>NiceOGC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\NiceOGC.aspx.designer.cs">
+      <DependentUpon>NiceOGC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\PSG.aspx.cs">
+      <DependentUpon>PSG.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\PSG.aspx.designer.cs">
+      <DependentUpon>PSG.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\Rennais.aspx.cs">
+      <DependentUpon>Rennais.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\Rennais.aspx.designer.cs">
+      <DependentUpon>Rennais.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\Sc_Bastia.aspx.cs">
+      <DependentUpon>Sc_Bastia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\Sc_Bastia.aspx.designer.cs">
+      <DependentUpon>Sc_Bastia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\SM_Caen.aspx.cs">
+      <DependentUpon>SM_Caen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\SM_Caen.aspx.designer.cs">
+      <DependentUpon>SM_Caen.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Teams\rssFeed.aspx.cs">
       <DependentUpon>rssFeed.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2782,11 +3480,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Players\LigueOne\" />
-    <Folder Include="Scripts\Team_Scripts\Ligue_One\" />
-    <Folder Include="Teams\LigueOne_Teams\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

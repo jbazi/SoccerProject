@@ -44,12 +44,13 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a id="brandName" class="navbar-brand" href="../Home.aspx">Sasa Scores</a>
+                    <a id="brandName" class="navbar-brand" href="../../Home.aspx">Sasa Scores</a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="../../Home.aspx"><span class="glyphicon glyphicon-home"></span></a></li>
+                        
                         <li><a href="../../Seasons.aspx">Championships</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">League Tables <span class="caret"></span></a>

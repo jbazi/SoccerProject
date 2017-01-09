@@ -374,7 +374,9 @@ figcaption {
 #playerInfo_tbl {
     width: 100%;
     margin-left: 5px;
-    background-color: chocolate;
+    opacity:0.8;
+    background-color:lightseagreen;
+    /*background-color: chocolate;*/
 }
 
 #managedBy{

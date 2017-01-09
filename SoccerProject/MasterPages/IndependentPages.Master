@@ -20,12 +20,6 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee+Shade" />
 
-    <!--
-        <script src="../Scripts/unslider.js"></script>
-    <script src="../Scripts/mySlider.js"></script>
-    <script src="../Scripts/jssor.slider-21.1.6.mini.js"></script> 
-        -->
-
     
 </head>
 <body>
@@ -34,30 +28,35 @@
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <a id="brandName" class="navbar-brand" href="../Home.aspx">Sasa Scores</a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="../Home.aspx"><span class="glyphicon glyphicon-home"></span> </a></li>
-                        <li><a href="../Seasons.aspx">Championships</a></li>
+                        <li class="active"><a href="../../Home.aspx"><span class="glyphicon glyphicon-home"></span></a></li>
+                        <li><a href="../../Seasons.aspx">Championships</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">League Tables <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="../Leagues/PremierLeague.aspx">Premier League</a></></li>
-                                <li><a href="../Leagues/LaLiga.aspx">La Liga</a></li>
-                                <li><a href="../Leagues/Bundesliga.aspx">BundesLiga</a></li>
-                                <li><a href="../Leagues/LigueOne.aspx">Ligue One</a></li>
+                                <li><a href="../../Leagues/PremierLeague.aspx">Premier League</a></></li>
+                                <li><a href="../../Leagues/LaLiga.aspx">La Liga</a></li>
+                                <li><a href="../../Leagues/Bundesliga.aspx">BundesLiga</a></li>
+                                <li><a href="../../Leagues/LigueOne.aspx">Ligue One</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Teams <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="../PremierLeagueHome.aspx">Premier League Teams</a></></li>
-                                <li><a href="../LaLigaHome.aspx">La Liga Teams</a></></li>
-                                <li><a href="../BundesligaHome.aspx">BundesLiga Teams</a></li>
-                            <li><a href="../LigueOneHome.aspx">Ligue One Teams</a></li>
+                                <li><a href="../../PremierLeagueHome.aspx">Premier League Teams</a></></li>
+                                <li><a href="../../LaLigaHome.aspx">La Liga Teams</a></></li>
+                                <li><a href="../../BundesligaHome.aspx">BundesLiga Teams</a></li>
+                                <li><a href="../../LigueOneHome.aspx">Ligue One Teams</a></li>
                             </ul>
                         </li>
                         <li><a href="../AboutMe.aspx">About</a></li>

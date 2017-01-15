@@ -11,7 +11,7 @@
     $("#latestNews").html("Latest Team News");
     
     $('#teamNews').text('Current Arsenal Form');
-    $("#myTable").dataTable({
+    $("#leagueTable").dataTable({
         'iDisplayLength': 5,
         'bJQueryUI': true,
         "aaData": [],
@@ -27,7 +27,7 @@
         "aaData": [],
     });
 
-    $("#teamFixtures").dataTable({
+    $("#teamPrevResults").dataTable({
         "bInfo": false,
         'bFilter': false,
         "bPaginate": false,
@@ -152,8 +152,8 @@ function renderTeamPlayerData(result) {
         ]);
     });
 
-    $('#myTable').dataTable().fnAddData(DataArray);
-    $('#myTable').dataTable().fnAdjustColumnSizing();
+    $('#leagueTable').dataTable().fnAddData(DataArray);
+    $('#leagueTable').dataTable().fnAdjustColumnSizing();
 }
 
 function getPlayerData() {
@@ -190,8 +190,8 @@ function renderTeamFixtures(result) {
         }
     });
     var lastFour = prevResults.slice(-4);
-    $('#teamFixtures').dataTable().fnAddData(lastFour);
-    $('#teamFixtures').dataTable().fnAdjustColumnSizing();
+    $('#teamPrevResults').dataTable().fnAddData(lastFour);
+    $('#teamPrevResults').dataTable().fnAdjustColumnSizing();
 
     $.each(result.fixtures, function () {
         var status1 = "TIMED"; var status2 = "POSTPONED"; var status3 = "SCHEDULED";

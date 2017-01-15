@@ -1837,6 +1837,34 @@
     <Content Include="Players\LigueOne\SM_Caen\vincent.jpg" />
     <Content Include="Players\LigueOne\SM_Caen\yahia.jpg" />
     <Content Include="Players\LigueOne\SM_Caen\yann.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\alban.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\alexis.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\clement.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\dupraz.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\dusan.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\edouard.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\francois.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\ibrahim.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\issa.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\issiaga.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\jean.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\jessy.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\jimmy.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\jullien.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\kelvin.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\marc.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\martin.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\mathieu.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\mauro.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\ola.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\oscar.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\pantxi.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\pavle.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\steeve.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\tongo.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\somalia.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\yann.jpg" />
+    <Content Include="Players\LigueOne\Toulouse\yrondu.jpg" />
     <Content Include="Players\PremierLeague\Arsenal\akpom.jpg" />
     <Content Include="Players\PremierLeague\Arsenal\alexis.jpg" />
     <Content Include="Players\PremierLeague\Arsenal\bellerin.jpg" />
@@ -2385,6 +2413,7 @@
     <Content Include="Scripts\jquery-ui-1.10.3.js" />
     <Content Include="Scripts\jquery-ui-1.10.3.min.js" />
     <Content Include="Scripts\jssor.slider-21.1.6.mini.js" />
+    <Content Include="Scripts\Master_Scripts\teams.js" />
     <Content Include="Scripts\modernizr-2.7.2.js" />
     <Content Include="Scripts\chart.bundle.js" />
     <Content Include="css\smoothDivScroll.css" />
@@ -2413,7 +2442,7 @@
     <Content Include="Scripts\Team_Scripts\Ligue_One\bordeaux.js" />
     <Content Include="Scripts\Team_Scripts\Ligue_One\caen.js" />
     <Content Include="Scripts\Team_Scripts\Ligue_One\dijon.js" />
-    <Content Include="Scripts\Team_Scripts\Ligue_One\etienne.js" />
+    <Content Include="Scripts\Team_Scripts\Ligue_One\saint_etienne.js" />
     <Content Include="Scripts\Team_Scripts\Ligue_One\guingamp.js" />
     <Content Include="Scripts\Team_Scripts\Ligue_One\lille.js" />
     <Content Include="Scripts\Team_Scripts\Ligue_One\lorient.js" />
@@ -2428,6 +2457,7 @@
     <Content Include="Scripts\Team_Scripts\Ligue_One\psg.js" />
     <Content Include="Scripts\Team_Scripts\Ligue_One\rennais.js" />
     <Content Include="Scripts\Team_Scripts\Ligue_One\sc_bastia.js" />
+    <Content Include="Scripts\Team_Scripts\Ligue_One\toulouse.js" />
     <Content Include="Scripts\unslider.js" />
     <Content Include="scroll.html" />
     <Content Include="Teams\Bundesliga_Teams\Bayern_Munich.aspx" />
@@ -2557,8 +2587,10 @@
     <Content Include="Teams\LigueOne_Teams\NiceOGC.aspx" />
     <Content Include="Teams\LigueOne_Teams\PSG.aspx" />
     <Content Include="Teams\LigueOne_Teams\Rennais.aspx" />
+    <Content Include="Teams\LigueOne_Teams\Saint_Etienne.aspx" />
     <Content Include="Teams\LigueOne_Teams\Sc_Bastia.aspx" />
     <Content Include="Teams\LigueOne_Teams\SM_Caen.aspx" />
+    <Content Include="Teams\LigueOne_Teams\Toulouse.aspx" />
     <Content Include="Teams\manU_RssFeed.html" />
     <Content Include="MasterPages\Main.Master" />
     <Content Include="MasterPages\League.Master" />
@@ -3158,6 +3190,13 @@
     <Compile Include="Teams\LigueOne_Teams\Rennais.aspx.designer.cs">
       <DependentUpon>Rennais.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Teams\LigueOne_Teams\Saint_Etienne.aspx.cs">
+      <DependentUpon>Saint_Etienne.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\Saint_Etienne.aspx.designer.cs">
+      <DependentUpon>Saint_Etienne.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Teams\LigueOne_Teams\Sc_Bastia.aspx.cs">
       <DependentUpon>Sc_Bastia.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -3171,6 +3210,13 @@
     </Compile>
     <Compile Include="Teams\LigueOne_Teams\SM_Caen.aspx.designer.cs">
       <DependentUpon>SM_Caen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\Toulouse.aspx.cs">
+      <DependentUpon>Toulouse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teams\LigueOne_Teams\Toulouse.aspx.designer.cs">
+      <DependentUpon>Toulouse.aspx</DependentUpon>
     </Compile>
     <Compile Include="Teams\rssFeed.aspx.cs">
       <DependentUpon>rssFeed.aspx</DependentUpon>

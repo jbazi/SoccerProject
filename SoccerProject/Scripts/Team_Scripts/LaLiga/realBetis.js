@@ -1,5 +1,5 @@
 ﻿$(document).ready(function () {
-    $("#myTable").dataTable({
+    $("#leagueTable").dataTable({
         'bProcessing': true,
         'bAutoWidth': true,
         'iDisplayLength': 20,
@@ -40,7 +40,7 @@ function renderData(result) {
         ]);
     });
 
-    $('#myTable').dataTable().fnAddData(DataArray);
-    $('#myTable').dataTable().fnAdjustColumnSizing();
+    $('#leagueTable').dataTable().fnAddData(DataArray);
+    $('#leagueTable').dataTable().fnAdjustColumnSizing();
 }
 

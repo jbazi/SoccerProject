@@ -11,7 +11,7 @@
     $("#latestNews").html("Ligue One News");
 
     $('#teamNews').text('Current Form');
-    $("#myTable").dataTable({
+    $("#leagueTable").dataTable({
         'iDisplayLength': 5,
         'bJQueryUI': true,
         "aaData": [],
@@ -27,7 +27,7 @@
         "aaData": [],
     });
 
-    $("#teamFixtures").dataTable({
+    $("#teamPrevResults").dataTable({
         "bInfo": false,
         'bFilter': false,
         "bPaginate": false,
@@ -51,8 +51,8 @@
     var userSelection = "Mesut Özil";
     renderLoadedPlayers(userSelection);
     $('#playerInfo_tbl').hide();
-    $("#managedBy").attr("src", "../../Players/LigueOne/PSG/unai.jpg");
-    $("#managersName").html("Emery Unai");
+    $("#managedBy").attr("src", "../../Players/LigueOne/Toulouse/dupraz.jpg");
+    $("#managersName").html("Dupraz Pascal");
     $("#fullLeague_btn").on('click', function () {
         window.location = "../../Leagues/LigueOne.aspx";
     });
@@ -77,7 +77,7 @@ function renderLoadedPlayers(userSelection) {
     var name, nationality, position, jerseyNumber, contractDate;
     $.ajax({
         headers: { 'X-Auth-Token': 'e4a0c71e6e9f4981b9706379992f468a' },
-        url: 'http://api.football-data.org/v1/teams/524/players',
+        url: 'http://api.football-data.org/v1/teams/511/players',
         dataType: 'json',
         cache: false, //add this
         async: false,
@@ -150,14 +150,14 @@ function renderTeamPlayerData(result) {
         ]);
     });
 
-    $('#myTable').dataTable().fnAddData(DataArray);
-    $('#myTable').dataTable().fnAdjustColumnSizing();
+    $('#leagueTable').dataTable().fnAddData(DataArray);
+    $('#leagueTable').dataTable().fnAdjustColumnSizing();
 }
 
 function getPlayerData() {
     $.ajax({
         headers: { 'X-Auth-Token': 'e4a0c71e6e9f4981b9706379992f468a' },
-        url: 'http://api.football-data.org/v1/teams/524/players',
+        url: 'http://api.football-data.org/v1/teams/511/players',
         dataType: 'json',
         type: 'GET',
     }).done(function (response) {
@@ -188,8 +188,8 @@ function renderTeamFixtures(result) {
         }
     });
     var lastFour = prevResults.slice(-4);
-    $('#teamFixtures').dataTable().fnAddData(lastFour);
-    $('#teamFixtures').dataTable().fnAdjustColumnSizing();
+    $('#teamPrevResults').dataTable().fnAddData(lastFour);
+    $('#teamPrevResults').dataTable().fnAdjustColumnSizing();
 
     $.each(result.fixtures, function () {
         var status1 = "TIMED"; var status2 = "POSTPONED"; var status3 = "SCHEDULED";
@@ -208,7 +208,7 @@ function renderTeamFixtures(result) {
 function getTeamFixtures() {
     $.ajax({
         headers: { 'X-Auth-Token': 'e4a0c71e6e9f4981b9706379992f468a' },
-        url: 'http://api.football-data.org/v1/teams/524/fixtures',
+        url: 'http://api.football-data.org/v1/teams/511/fixtures',
         dataType: 'json',
         type: 'GET',
     }).done(function (response) {
@@ -221,7 +221,7 @@ function renderTeamLeagueStandingData(result) {
     var position, sum;
 
     $.each(result.standing, function (index) {
-        var name = "Paris Saint-Germain";
+        var name = "Toulouse FC";
         var firstPrev, secondPrev, firstNext, secondNext, link;
         if (this.teamName == name) {
             $(result).css('background-color', '#FFFF00');
@@ -273,7 +273,7 @@ function renderTeamLeagueStandingData(result) {
     $('#teamStanding_tbl').dataTable().fnAddData(DataArray);
     $('#teamStanding_tbl').dataTable().fnAdjustColumnSizing();
     $('#teamStanding_tbl tr td').each(function () {
-        if ($(this).text() === 'Paris Saint-Germain')
+        if ($(this).text() === 'Toulouse FC')
             $(this).parent().css('background-color', '#E86118', '!important');
     });
 }
@@ -317,7 +317,7 @@ function getPieChartStats() {
         type: 'GET',
     }).done(function (result) {
         $.each(result.standing, function (index) {
-            var name = "Paris Saint-Germain";
+            var name = "Toulouse FC";
             if (this.teamName == name) {
                 position = index + 1;
                 DataArray.push(this.wins, this.losses, this.draws);
@@ -356,55 +356,55 @@ function getPieChartStats() {
 function playerLoad(playerName) {
     var select = document.getElementById("selectPlayer");
     switch (playerName) {
-        case 'Choose A Player': $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/cavani.jpg");
+        case 'Choose A Player': $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/martin.jpg");
             break;
-        case 'Jordan Veretout': $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/jordan.jpg");
+        case 'Christopher Jullien': $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/jullien.jpg");
             break;
-        case 'Bryan Dabo': $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/dabo.jpg");
+        case 'Jimmy Durmaz': $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/jimmy.jpg");
             break;
-        case 'Henri Saivet': $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/henri.jpg");
+        case 'Marc Vidal': $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/marc.jpg");
             break;
-        case 'Nolan Roux': $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/nolan.jpg");
+        case 'Steeve Yago': $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/steeve.jpg");
             break;
-        case 'Stéphane Ruffier': $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/ruffier.jpg");
+        case 'Dusan Veskovac': $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/dusan.jpg");
             break;
-        case 'Jessy Moulin': $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/jessy.jpg");
+        case 'Issiaga Sylla': $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/issiaga.jpg");
             break;
-        case 'Loïc Perrin': $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/loic.jpg");
+        case 'François Moubandje': $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/francois.jpg");
             break;
-        case 'Florentin Pogba': $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/pogba.jpg");
+        case 'Jean-Daniel Akpa Akpro': $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/jean.jpg");
             break;
-        case 'Kévin Théophile-Catherine': $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/kevin.jpg");
+        case 'Pavle Ninkov': $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/pavle.jpg");
             break;
-        case 'Fabien Lemoine': $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/fabien.jpg");
+        case 'Tongo Doumbia': $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/tongo.jpg");
             break;
-        case 'Jérémy Clément': $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/clement.jpg");
+        case 'Pantxi Sirieix': $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/pantxi.jpg");
             break;
-        case 'Benjamin Corgnet': $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/corgnet.jpg");
+        case 'Óscar Trejo': $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/oscar.jpg");
             break;
-        case 'Romain Hamouma': $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/romain.jpg");
+        case 'Martin Braithwaite': $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/martin.jpg");
             break;
-        case 'Kévin Monnet-Paquet': $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/monnet.jpg");
+        case 'Yrondu Musavu-King': $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/yrondu.jpg");
             break;
-        case "Cheikh M'Bengue": $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/cheikh.jpg");
+        case "Mauro Goicoechea": $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/mauro.jpg");
             break;
-        case 'Vincent Pajot': $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/pajot.jpg");
+        case 'Jessy Pi': $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/jessy.jpg");
             break;
-        case 'Anthony Maisonnial': $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/anthony.jpg");
+        case 'Somália': $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/somalia.jpg");
             break;
-        case 'Pierre-Yves Polomat': $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/yves.jpg");
+        case 'Yann Bodiger': $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/yann.jpg");
             break;
-        case 'Kévin Malcuit': $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/kevin.jpg");
+        case 'Alexis Blin': $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/alexis.jpg");
             break;
-        case 'Robert Beric': $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/beric.jpg");
+        case 'Alban Lafont': $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/alban.jpg");
             break;
-        case 'Ole Selnaes': $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/ole.jpg");
+        case 'Issa Diop': $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/issa.jpg");
             break;
-        case 'Oussama Tannane': $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/tannane.jpg");
+        case 'Ibrahim Sangaré': $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/ibrahim.jpg");
             break;
-        case "Alexander Söderlund": $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/alexander.jpg");
+        case "Ola Toivonen": $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/ola.jpg");
             break;
-        case 'Léo Lacroix': $("#playerPicture").attr("src", "../../Players/LigueOne/PSG/leo.jpg");
+        case 'Odsonne Edouard': $("#playerPicture").attr("src", "../../Players/LigueOne/Toulouse/edouard.jpg");
             break;
         default: $('#selectPlayer').val();
             break;

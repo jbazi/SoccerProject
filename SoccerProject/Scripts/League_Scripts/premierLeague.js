@@ -1,5 +1,5 @@
 ﻿$(document).ready(function () {
-    $("#myTable").dataTable({
+    $("#leagueTable").dataTable({
         "bInfo" : false,
         'bFilter': false,
         "bPaginate": false,
@@ -37,7 +37,7 @@ function renderData(result) {
         ]);
     });
 
-    $('#myTable').dataTable().fnAddData(DataArray);
-    $('#myTable').dataTable().fnAdjustColumnSizing();
+    $('#leagueTable').dataTable().fnAddData(DataArray);
+    $('#leagueTable').dataTable().fnAdjustColumnSizing();
 }
 

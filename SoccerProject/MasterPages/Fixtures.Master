@@ -80,7 +80,7 @@
     </div>
     </form>
     <div style="overflow-x: auto;">
-        <table id='myTable' class="table table-hover">
+        <table id='leagueTable' class="table table-hover">
             <thead>
                 <tr>
                     <th></th>

@@ -86,7 +86,7 @@
 
                 <div class="container">
   
-  <div class="dropdown" style="float:right;">
+  <div class="dropdown teamsDropdown" >
     <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Another Team
     <span class="caret"></span></button>
     <ul class="dropdown-menu">
@@ -138,56 +138,131 @@
           <li class="dropdown-submenu">
         <a class="test" tabindex="-1" href="#">Spain <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="../../Teams/La_Liga_Teams/Alaves.aspx">Deportivo Alavés</a></li>
-          <li><a href="../../Teams/La_Liga_Teams/AtleticoBilbao.aspx">Athletic Bilbao</a></li>
-          <li><a href="../../Teams/La_Liga_Teams/AtleticoDeMadrid.aspx">Atletico Madrid</a></li>
-          <li><a href="../../Teams/La_Liga_Teams/Barcelona.aspx">FC Barcelona</a></li>
-          <li><a href="../../Teams/La_Liga_Teams/CeltaVigo.aspx">RC Celta de Vigo</a></li>
-          <li><a href="../../Teams/La_Liga_Teams/DeportivoLaCoruna.aspx">RC Deportivo La Coruna</a></li>
-          <li><a href="../../Teams/La_Liga_Teams/Espanyol.aspx">RCD Espanyol</a></li>
-          <li><a href="../../Teams/La_Liga_Teams/Granada.aspx">Granada CF</a></li>
-          <li><a href="../../Teams/La_Liga_Teams/LasPalmas.aspx">Las Palmas</a></li>
-          <li><a href="../../LaLigaHome.aspx">CD Leganes</a></li>
-          <li><a href="../../Teams/La_Liga_Teams/Malaga.aspx">Málaga CF</a></li>
-          <li><a href="../../Teams/La_Liga_Teams/Osasuna.aspx">CA Osasuna</a></li>
-          <li><a href="../../Teams/La_Liga_Teams/RealBetis.aspx">Real Betis</a></li>
-          <li><a href="../../Teams/La_Liga_Teams/RealMadrid.aspx">Real Madrid</a></li>
-          <li><a href="../../Teams/La_Liga_Teams/RealSociedad.aspx">Real Sociedad</a></li>
-          <li><a href="../../Teams/La_Liga_Teams/SdEibar.aspx">SD Eibar</a></li>
-          <li><a href="../../Teams/La_Liga_Teams/Sevilla.aspx">Sevilla FC</a></li>
-          <li><a href="../../Teams/La_Liga_Teams/SportingGijon.aspx">Sporting Gijón</a></li>
-          <li><a href="../../Teams/La_Liga_Teams/Valencia.aspx">Valencia CF</a></li>
-          <li><a href="../../Teams/La_Liga_Teams/Villarreal.aspx">Villarreal CF</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/Alaves.aspx">
+              <img src="../../Content/TeamImages/LaLiga/Alaves.jpg" width="25" height="25" /> Deportivo Alavés</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/AtleticoBilbao.aspx">
+              <img src="../../Content/TeamImages/LaLiga/atleticoBilbao.jpg" width="25" height="25" /> Athletic Bilbao</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/AtleticoDeMadrid.aspx">
+              <img src="../../Content/TeamImages/LaLiga/atleticoMadrid.jpg" width="25" height="25" /> Atletico Madrid</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/Barcelona.aspx">
+              <img src="../../Content/TeamImages/LaLiga/barcelona.jpg" width="25" height="25" /> FC Barcelona</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/CeltaVigo.aspx">
+              <img src="../../Content/TeamImages/LaLiga/celtaVigo.jpg" width="25" height="25" /> RC Celta de Vigo</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/DeportivoLaCoruna.aspx">
+              <img src="../../Content/TeamImages/LaLiga/deportivoLaCoruna.jpg" width="25" height="25" /> RC Deportivo La Coruna</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/Espanyol.aspx">
+              <img src="../../Content/TeamImages/LaLiga/espanyol.jpg" width="25" height="25" /> RCD Espanyol</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/Granada.aspx">
+              <img src="../../Content/TeamImages/LaLiga/grananda.jpg" width="25" height="25" /> Granada CF</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/LasPalmas.aspx">
+              <img src="../../Content/TeamImages/LaLiga/lasPalmas.jpg" width="25" height="25" /> Las Palmas</a></li>
+          <li><a href="../../LaLigaHome.aspx">
+              <img src="../../Content/TeamImages/LaLiga/leganes.jpg" width="25" height="25" /> CD Leganes</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/Malaga.aspx">
+              <img src="../../Content/TeamImages/LaLiga/malaga.jpg" width="25" height="25" /> Málaga CF</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/Osasuna.aspx">
+              <img src="../../Content/TeamImages/LaLiga/osasuna.jpg" width="25" height="25" /> CA Osasuna</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/RealBetis.aspx">
+              <img src="../../Content/TeamImages/LaLiga/realBetis.jpg" width="25" height="25" /> Real Betis</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/RealMadrid.aspx">
+              <img src="../../Content/TeamImages/LaLiga/realMadrid.jpg" width="25" height="25" /> Real Madrid</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/RealSociedad.aspx">
+              <img src="../../Content/TeamImages/LaLiga/realSociedad.jpg" width="25" height="25" /> Real Sociedad</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/SdEibar.aspx">
+              <img src="../../Content/TeamImages/LaLiga/eibar.jpg" width="25" height="25" /> SD Eibar</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/Sevilla.aspx">
+              <img src="../../Content/TeamImages/LaLiga/sevilla.jpg" width="25" height="25" /> Sevilla FC</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/SportingGijon.aspx">
+              <img src="../../Content/TeamImages/LaLiga/sportingGijon.jpg" width="25" height="25" /> Sporting Gijón</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/Valencia.aspx">
+              <img src="../../Content/TeamImages/LaLiga/valencia.jpg" width="25" height="25" /> Valencia CF</a></li>
+          <li><a href="../../Teams/La_Liga_Teams/Villarreal.aspx">
+              <img src="../../Content/TeamImages/LaLiga/villareal.jpg" width="25" height="25" /> Villarreal CF</a></li>
         </ul>
               <li class="dropdown-submenu">
         <a class="test" tabindex="-1" href="#">Germany <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="../../Teams/Bundesliga_Teams/Bayer_Leverkusen.aspx">Bayer Leverkusen</a></li>
-                <li><a href="../../Teams/Bundesliga_Teams/Bayern_Munich.aspx">Bayern Munich</a></li>
-                <li><a href="../../Teams/Bundesliga_Teams/Bor_Monch.aspx">Bor. Mönchengladbach</a></li>
-                <li><a href="../../Teams/Bundesliga_Teams/Borussia_Dortmund.aspx">Borussia Dortmund</a></li>
-                <li><a href="../../Teams/Bundesliga_Teams/FC_Augsburg.aspx">FC Augsburg</a></li>
-                <li><a href="../../Teams/Bundesliga_Teams/FC_Ingolstadt.aspx">FC Ingolstadt 04</a></li>
-                <li><a href="../../Teams/Bundesliga_Teams/FC_Koln.aspx">1. FC Köln</a></li>
-                <li><a href="../../Teams/Bundesliga_Teams/FC_Mainz.aspx">1. FSV Mainz 05</a></li>
-                <li><a href="../../Teams/Bundesliga_Teams/FC_Schalke.aspx">FC Schalke 04</a></li>
-                <li><a href="../../Teams/Bundesliga_Teams/Frankfurt.aspx">Eintracht Frankfurt</a></li>
-                <li><a href="../../Teams/Bundesliga_Teams/Hertha.aspx">Hertha BSC</a></li>
-                <li><a href="../../Teams/Bundesliga_Teams/Hoffenheim.aspx">TSG 1899 Hoffenheim</a></li>
-                <li><a href="../../Teams/Bundesliga_Teams/Leipzig.aspx">Red Bull Leipzig</a></li>
-                <li><a href="../../Teams/Bundesliga_Teams/SC_Freiburg.aspx">SC Freiburg</a></li>
-                <li><a href="../../Teams/Bundesliga_Teams/SV_Darmstadt.aspx">SV Darmstadt 98</a></li>
-                <li><a href="../../Teams/Bundesliga_Teams/SV_Hamburger.aspx">Hamburger SV</a></li>
-                <li><a href="../../Teams/Bundesliga_Teams/Weder_Bremen.aspx">Werder Bremen</a></li>
-                <li><a href="../../Teams/Bundesliga_Teams/Wolfsburg.aspx">VfL Wolfsburg</a></li>
+          <li><a href="../../Teams/Bundesliga_Teams/Bayer_Leverkusen.aspx">
+              <img src="../../Content/TeamImages/Bundesliga/bayerLeverkusen.jpg" width="25" height="25" /> Bayer Leverkusen</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/Bayern_Munich.aspx">
+                    <img src="../../Content/TeamImages/Bundesliga/bayernMunichFC.jpg" width="25" height="25" /> Bayern Munich</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/Bor_Monch.aspx">
+                    <img src="../../Content/TeamImages/Bundesliga/borussiaMonchengladbach.jpg" width="25" height="25" /> Bor. Mönchengladbach</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/Borussia_Dortmund.aspx">
+                    <img src="../../Content/TeamImages/Bundesliga/borussiaDortmund.jpg" width="25" height="25" /> Borussia Dortmund</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/FC_Augsburg.aspx">
+                    <img src="../../Content/TeamImages/Bundesliga/augsburgFC.jpg" width="25" height="25" /> FC Augsburg</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/FC_Ingolstadt.aspx">
+                    <img src="../../Content/TeamImages/Bundesliga/FC_Ingolstadt04.jpg" width="25" height="25" /> FC Ingolstadt 04</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/FC_Koln.aspx">
+                    <img src="../../Content/TeamImages/Bundesliga/cologneFC.jpg" width="25" height="25" /> 1. FC Köln</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/FC_Mainz.aspx">
+                    <img src="../../Content/TeamImages/Bundesliga/mainzFC.jpg" width="25" height="25" /> 1. FSV Mainz 05</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/FC_Schalke.aspx">
+                    <img src="../../Content/TeamImages/Bundesliga/FC_Schalke.jpg" width="25" height="25" /> FC Schalke 04</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/Frankfurt.aspx">
+                    <img src="../../Content/TeamImages/Bundesliga/eintrachtFrankfurt.jpg" width="25" height="25" /> Eintracht Frankfurt</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/Hertha.aspx">
+                    <img src="../../Content/TeamImages/Bundesliga/herthBerlin.jpg" width="25" height="25" /> Hertha BSC</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/Hoffenheim.aspx">
+                    <img src="../../Content/TeamImages/Bundesliga/hoffenheim.jpg" width="25" height="25" /> TSG 1899 Hoffenheim</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/Leipzig.aspx">
+                    <img src="../../Content/TeamImages/Bundesliga/rbLeipzigFC.jpg" width="25" height="25" /> Red Bull Leipzig</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/SC_Freiburg.aspx">
+                    <img src="../../Content/TeamImages/Bundesliga/scFreiburg.jpg" width="25" height="25" /> SC Freiburg</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/SV_Darmstadt.aspx">
+                    <img src="../../Content/TeamImages/Bundesliga/svDarmstadt98.jpg" width="25" height="25" /> SV Darmstadt 98</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/SV_Hamburger.aspx">
+                    <img src="../../Content/TeamImages/Bundesliga/hamburgFC.jpg" width="25" height="25" /> Hamburger SV</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/Weder_Bremen.aspx">
+                    <img src="../../Content/TeamImages/Bundesliga/werderBremen.jpg" width="25" height="25" /> Werder Bremen</a></li>
+                <li><a href="../../Teams/Bundesliga_Teams/Wolfsburg.aspx">
+                    <img src="../../Content/TeamImages/Bundesliga/wolfsburgFC.jpg" width="25" height="25" /> VfL Wolfsburg</a></li>
         </ul>
       </li>
               <li class="dropdown-submenu">
         <a class="test" tabindex="-1" href="#">France <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
-          <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
-
+          <li><a href="../../Teams/LigueOne_Teams/AngersSCO.aspx">
+              <img src="../../Content/TeamImages/LigueOne/angersFC.jpg" width="25" height="25" /> Angers SCO</a></li>
+                <li><a href="../../Teams/LigueOne_Teams/AS_Nancy.aspx">
+                    <img src="../../Content/TeamImages/LigueOne/nancyFC.jpg" width="25" height="25" /> AS Nancy</a></li>
+                <li><a href="../../Teams/LigueOne_Teams/Bordeaux.aspx">
+                    <img src="../../Content/TeamImages/LigueOne/bordeauxFC.jpg" width="25" height="25" /> FC Girondins de Bordeaux</a></li>
+                <li><a href="../../Teams/LigueOne_Teams/Dijon.aspx">
+                    <img src="../../Content/TeamImages/LigueOne/dijonFC.jpg" width="25" height="25" /> Dijon FCO</a></li>
+                <li><a href="../../Teams/LigueOne_Teams/Guingamp.aspx">
+                    <img src="../../Content/TeamImages/LigueOne/guingampFC.jpg" width="25" height="25" /> EA Guingamp</a></li>
+                <li><a href="../../Teams/LigueOne_Teams/Lille.aspx">
+                    <img src="../../Content/TeamImages/LigueOne/lilleFC.jpg" width="25" height="25" /> OSC Lille</a></li>
+                <li><a href="../../Teams/LigueOne_Teams/Lorient.aspx">
+                    <img src="../../Content/TeamImages/LigueOne/lorientFC.jpg" width="25" height="25" /> FC Lorient</a></li>
+                <li><a href="../../Teams/LigueOne_Teams/LyonFC.aspx">
+                    <img src="../../Content/TeamImages/LigueOne/olympiqueLyonFC.jpg" width="25" height="25" /> Olympique Lyonnais</a></li>
+                <li><a href="../../Teams/LigueOne_Teams/Marseille.aspx">
+                    <img src="../../Content/TeamImages/LigueOne/olympiqueMarseilleFC.jpg" width="25" height="25" /> Olympique de Marseille</a></li>
+                <li><a href="../../Teams/LigueOne_Teams/MetzFC.aspx">
+                    <img src="../../Content/TeamImages/LigueOne/metzFC.jpg" width="25" height="25" /> FC Metz</a></li>
+                <li><a href="../../Teams/LigueOne_Teams/MonacoFC.aspx">
+                    <img src="../../Content/TeamImages/LigueOne/monacoFC.jpg" width="25" height="25" /> AS Monaco FC</a></li>
+                <li><a href="../../Teams/LigueOne_Teams/Montpellier.aspx">
+                    <img src="../../Content/TeamImages/LigueOne/montpellierFC.jpg" width="25" height="25" /> Montpellier Hérault SC</a></li>
+                <li><a href="../../Teams/LigueOne_Teams/NantesFC.aspx">
+                    <img src="../../Content/TeamImages/LigueOne/nantesFC.jpg" width="25" height="25" /> FC Nantes</a></li>
+                <li><a href="../../Teams/LigueOne_Teams/NiceOGC.aspx">
+                    <img src="../../Content/TeamImages/LigueOne/niceFC.jpg" width="25" height="25" /> OGC Nice</a></li>
+                <li><a href="../../Teams/LigueOne_Teams/PSG.aspx">
+                    <img src="../../Content/TeamImages/LigueOne/PSG_FC.jpg" width="25" height="25" /> Paris Saint-Germain</a></li>
+                <li><a href="../../Teams/LigueOne_Teams/Rennais.aspx">
+                    <img src="../../Content/TeamImages/LigueOne/Rennes.jpg" width="25" height="25" /> Stade Rennais FC</a></li>
+                <li><a href="../../Teams/LigueOne_Teams/Saint_Etienne.aspx">
+                    <img src="../../Content/TeamImages/LigueOne/st_EtienneFC.jpg" width="25" height="25" /> AS Saint-Étienne</a></li>
+                <li><a href="../../Teams/LigueOne_Teams/Sc_Bastia.aspx">
+                    <img src="../../Content/TeamImages/LigueOne/bastiaFC.jpg" width="25" height="25" /> SC Bastia</a></li>
+                <li><a href="../../Teams/LigueOne_Teams/SM_Caen.aspx">
+                    <img src="../../Content/TeamImages/LigueOne/caenFC.jpg" width="25" height="25" /> SM Caen</a></li>
+                <li><a href="../../Teams/LigueOne_Teams/Toulouse.aspx">
+                    <img src="../../Content/TeamImages/LigueOne/toulouseFC.jpg" width="25" height="25" /> Toulouse FC</a></li>
         </ul>
     </ul>
   </div>
@@ -195,10 +270,10 @@
             </div>
         </form>
 
-        <div class="col-md-4">
-                <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
-            <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
-                <table id="teamFixtures" class="table-responsive" style="color: white !important; font-weight: bold; opacity:0.8;">
+        <div class="teamPrevResultsContainer col-md-4">
+                <div>
+            <div>
+                <table id="teamPrevResults" class="table-responsive" ">
                      <caption><h4>Lastest Team Results</h4></caption>
                     <thead>
                         <tr>
@@ -221,9 +296,9 @@
                     </div>
         </div>
 
-        <div class="col-md-4">
-            <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
-                <table id="teamStanding_tbl" class="table-responsive" style="color: white !important; font-weight: bold; opacity:0.8;">
+        <div class="teamStandingContainer col-md-4">
+            <div>
+                <table id="teamStanding_tbl" class="table-responsive" >
                     <caption><h4>Lastest Team Standing</h4></caption>
                     <thead>
                         <tr>
@@ -242,13 +317,13 @@
                     </tbody>
                 </table>
             </div>
-            <button type="button" id="fullLeague_btn" class="btn btn-success"  style="margin-top: 5px;">Show Full League Standings</button>
+            <button type="button" id="fullLeague_btn" class="btn btn-success">Show Full League Standings</button>
         </div>
 
-        <div class="col-md-4">
-                <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
-            <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
-                <table id="nextFiveGames" class="table-responsive" style="color: white !important; font-weight: bold; opacity:0.8;">
+        <div class="teamFixturesContainer col-md-4">
+                <div>
+            <div>
+                <table id="nextFiveGames" class="table-responsive">
                      <caption><h4>Next Five Games</h4></caption>
                     <thead>
                         <tr>
@@ -267,9 +342,9 @@
         <div class="col-lg-12"> 
 
         <div id="playerInfoContainer_tbl" class="col-md-4">
-                <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
-            <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
-            <table  class="table-responsive" style="color: white !important; font-weight: bold;" >
+                <div>
+            <div>
+            <table class="playerData table-responsive"  >
                 <td>
                     <img id="playerPicture" src="" /></td>
                 <td>
@@ -318,38 +393,30 @@
                     </div>
         </div>
         
-        <div class="col-md-4" style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
+        <div class="managerContainer col-md-4">
                 <img id="managedBy" src=""/>
                 <h4> Manager: <span id="managersName"></span> </h4>
                 </div>
             </div>
         
 
-        <div class="col-md-6" style="margin-left: auto ;margin-right: auto ;">
-        <div class="col-md-6">
-            <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
+        <div class="newsFeedContainer col-md-6">
+        <div class="rss_childDiv col-md-6">
+            <div>
                 <h3 id="latestNews"></h3>
-        <div id="teamRssFeed" class="embed-responsive-item"  style="color:white !important; pointer-events:auto;  height:400px; border:none;"></div>
+        <div id="teamRssFeed" class="embed-responsive-item"></div>
                 </div>
             
             </div>
 
             
-        <div class="col-md-6">
-            <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
-                <h3 id="teamNews" style="color:aquamarine;">Current Form</h3>
+        <div class="pieChartContainer col-md-6">
+            <div>
+                <h3 id="teamNews">Current Form</h3>
         <canvas id="myChart" width="50" height="50"></canvas>
                 </div>
             </div>
 
-
-            
-            <div class="col-md-6">
-            <div style="overflow-x: auto; margin-top:15px; margin-bottom:15px;">
-               
-        <canvas id="myLine" width="50" height="50"></canvas>
-                </div>
-            </div>
             
         
     </div>

@@ -14,8 +14,7 @@
        <div class="login col-lg-4" style="margin-top:15px; margin-left:10%; float:left !important;">
   <header class="login-header"><span class="text">LOGIN</span><span class="loader"></span></header>
   <form class="login-form">
-    <input type="text" placeholder="Username" class="login-input"/>
-      <input type="email" placeholder="email" class="login-input" />
+    <input type="text" placeholder="Username/Email" class="login-input"/>
     <input type="password" placeholder="Password" class="login-input"/>
     <button type="submit" class="login-btn">login</button>
   </form>

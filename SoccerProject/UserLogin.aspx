@@ -16,7 +16,7 @@
        <div class="login" style="margin-top:15px;">
   <header class="login-header"><span class="text">LOGIN</span><span class="loader"></span></header>
   <form class="login-form">
-    <input type="text" placeholder="Username" class="login-input"/>
+    <input type="text" placeholder="Username/Email" class="login-input"/>
     <input type="password" placeholder="Password" class="login-input"/>
     <button type="submit" class="login-btn">login</button>
   </form>

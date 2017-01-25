@@ -85,6 +85,83 @@
         text-align: center !important;
     }
 
+    .box {
+
+display: flex;
+ flex-flow: row  ;
+flex-direction: row ;
+flex-wrap: wrap ;
+justify-content:space-around ;
+align-content: center ;
+align-items:center ;
+}
+
+    .left-box{
+        order: 1;
+        flex: 0 1 auto;
+        flex-grow: 0;
+        flex-shrink: 1;
+        align-self: auto;
+        min-width: 0;
+        min-height:inherit;
+    }
+
+    .middle-box{
+        order: 2;
+        flex: 0 1 auto;
+        flex-grow: 0;
+        flex-shrink: 1;
+        align-self: auto;
+        min-width: 0;
+        min-height:inherit;
+        font-family:'Times New Roman', Times, serif !important;
+    font-size:large;
+    color:aquamarine !important;
+    border: 1px solid green ;
+    padding:10px;
+    background-color:#676560;
+    opacity: 0.85;
+    }
+
+    .right-box{
+        order: 3;
+        flex: 0 1 auto;
+        flex-grow: 0;
+        flex-shrink: 1;
+        align-self: auto;
+        min-width: 0;
+        min-height:inherit;
+    }
+
+/*
+article {
+    font-family:'Times New Roman', Times, serif !important;
+    font-size:large;
+    color:aquamarine !important;
+    border: 1px solid green ;
+    margin: 0% 30% 0 30%;
+    padding: 30px;
+    background-color:#676560;
+    opacity: 0.7;
+}
+
+
+article {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 20px;
+}
+*/
+
+
+
+.abt_img1 {
+  opacity:0.7;
+}
+
 .glyphicon-refresh-animate {
     -animation: spin .7s infinite linear;
     -webkit-animation: spin2 .7s infinite linear;
@@ -324,6 +401,10 @@ pieChartContainer div,
     background-image: url('../UserAuthentication/login.jpg');
 }
 
+#registerTable td :focus{
+    background-color:white;
+}
+
 .txtBox {
     background-color: #2b3e50;
     opacity: 0.6;
@@ -549,9 +630,9 @@ figcaption {
     position: absolute;
     left: 50%;
     margin: -10rem 0 0 -10rem;
-    width: 20rem;
-    height: 20rem;
-    padding: 20px;
+    width: 35rem;
+    height: 25rem;
+    padding: 30px;
     background: #fff;
     border-radius: 5px;
     overflow: hidden;
@@ -584,14 +665,15 @@ figcaption {
     left: 0;
     top: 0;
     z-index: 1;
-    width: 20rem;
-    height: 20rem;
+    width: 35rem;
+    height: 35rem;
     background: #3E3E3E;
     transition: width 0.5s ease-in-out;
 }
 
     .login-header > .text {
         display: block;
+        margin-top:20px;
         width: 100%;
         height: 100%;
         font-size: 5rem;

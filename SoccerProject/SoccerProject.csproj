@@ -285,6 +285,8 @@
     <Content Include="Content\unslider.css" />
     <Content Include="images\Bailey.jpg" />
     <Content Include="images\DeGea.jpg" />
+    <Content Include="images\me.jpg" />
+    <Content Include="images\izzy_and_me.jpg" />
     <Content Include="images\Martial.jpg" />
     <Content Include="images\Pogba.jpg" />
     <Content Include="images\schweinsteiger.jpg" />
@@ -2677,7 +2679,6 @@
     <Content Include="Scripts\DataTables\responsive.jqueryui.min.js" />
     <Content Include="MasterPages\User.Master" />
     <Content Include="MasterPages\Fixtures.Master" />
-    <Content Include="UserLogin.aspx" />
     <Content Include="WelcomeUser.html" />
     <Content Include="MasterPages\MasterUserLogin.Master" />
     <None Include="Scripts\jquery-3.1.0.intellisense.js" />
@@ -2806,9 +2807,11 @@
     <Content Include="Teams\Premier_League_Teams\Watford.aspx" />
     <Content Include="Teams\Premier_League_Teams\WestBrom.aspx" />
     <Content Include="Teams\Premier_League_Teams\WestHam.aspx" />
-    <Content Include="UserAuthentication\login.jpg" />
-    <Content Include="UserAuthentication\RegisterUser.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Content\login.jpg" />
+    <Content Include="RegisterUser.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AboutMe.aspx.cs">
@@ -3498,19 +3501,12 @@
     <Compile Include="Teams\Premier_League_Teams\WestHam.aspx.designer.cs">
       <DependentUpon>WestHam.aspx</DependentUpon>
     </Compile>
-    <Compile Include="UserAuthentication\RegisterUser.aspx.cs">
+    <Compile Include="RegisterUser.aspx.cs">
       <DependentUpon>RegisterUser.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserAuthentication\RegisterUser.aspx.designer.cs">
+    <Compile Include="RegisterUser.aspx.designer.cs">
       <DependentUpon>RegisterUser.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="UserLogin.aspx.cs">
-      <DependentUpon>UserLogin.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="UserLogin.aspx.designer.cs">
-      <DependentUpon>UserLogin.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -3542,7 +3538,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>55563</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:8080/</IISUrl>
+          <IISUrl>http://localhost:55563/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

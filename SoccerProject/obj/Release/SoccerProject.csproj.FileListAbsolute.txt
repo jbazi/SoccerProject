@@ -1,0 +1,11 @@
+C:\Users\Shema\Documents\Visual Studio 2015\Projects\SasaScores\SoccerProject\bin\SoccerProject.dll.config
+C:\Users\Shema\Documents\Visual Studio 2015\Projects\SasaScores\SoccerProject\bin\SoccerProject.dll
+C:\Users\Shema\Documents\Visual Studio 2015\Projects\SasaScores\SoccerProject\bin\SoccerProject.pdb
+C:\Users\Shema\Documents\Visual Studio 2015\Projects\SasaScores\SoccerProject\bin\GetRssFeed.dll
+C:\Users\Shema\Documents\Visual Studio 2015\Projects\SasaScores\SoccerProject\bin\Newtonsoft.Json.dll
+C:\Users\Shema\Documents\Visual Studio 2015\Projects\SasaScores\SoccerProject\bin\RestSharp.dll
+C:\Users\Shema\Documents\Visual Studio 2015\Projects\SasaScores\SoccerProject\bin\Newtonsoft.Json.xml
+C:\Users\Shema\Documents\Visual Studio 2015\Projects\SasaScores\SoccerProject\bin\RestSharp.xml
+C:\Users\Shema\Documents\Visual Studio 2015\Projects\SasaScores\SoccerProject\obj\Release\SoccerProject.dll
+C:\Users\Shema\Documents\Visual Studio 2015\Projects\SasaScores\SoccerProject\obj\Release\SoccerProject.pdb
+C:\Users\Shema\Documents\Visual Studio 2015\Projects\SasaScores\SoccerProject\obj\Release\SoccerProject.csprojResolveAssemblyReference.cache

@@ -4,26 +4,40 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data;
+using System.Data.SqlClient;
+using System.Configuration;
+using System.Web.Security;
 
 namespace SoccerProject
 {
     public partial class Home : System.Web.UI.Page
     {
+        
         protected void Page_Load(object sender, EventArgs e)
         {
-            /*
-            if (Session["EntrepreneurID"] == null)
+
+            //if (!this.Page.User.Identity.IsAuthenticated)
+            //Response.Redirect("RegisterUser.aspx");
+            //FormsAuthentication.RedirectToLoginPage();
+
+            if (Session["WelcomeMessage"] != null)
             {
-                lblMessage.Visible = true;
-                lblMessage.Text = "You must login to the website or create an entrepreneur profile to in order to apply for a loan";
-                cmdSubmit.Enabled = false;
+                lblMessage.Text = Session["WelcomeMessage"].ToString();
             }
-            else
-            {
-                lblMessage.Visible = false;
-                cmdSubmit.Enabled = true;
-            }
-            */
+
+            //if (Session["UserId"] == null)
+            //{
+            //    lblMessage.Visible = true;
+            //    lblMessage.Text = "You must login to the website first";
+            //    //cmdSubmit.Enabled = false;
+            //}
+            //else
+            //{
+            //    lblMessage.Visible = false;
+            //    //cmdSubmit.Enabled = true;
+            //}
+            
         }
     }
 }

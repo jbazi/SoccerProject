@@ -64,7 +64,7 @@
                         </ul>
                     </li>
                     <li><a href="../AboutMe.aspx" >About</a></li>
-                    <li id="UserSignInOut"> <a href="../UserAuthentication/RegisterUser.aspx" class="glyphicon glyphicon-user"> Login </a></li>
+                    <li id="UserSignInOut"> <a href="../RegisterUser.aspx" class="glyphicon glyphicon-user"> Login </a></li>
                 </ul>
 
             </div>
